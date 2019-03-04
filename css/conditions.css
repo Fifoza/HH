@@ -1,0 +1,19 @@
+body #main {
+  height: unset;
+}
+
+body #conditions {
+  height: 65rem;
+  background: #2a7573;
+  margin: 10rem;
+  border-radius: 15px;
+  padding: 5rem;
+  -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+  box-shadow: 5px 5px 15px 5px #0B173C;
+  border-radius: 15px;
+}
+
+body #conditions h3 {
+  text-align: center;
+}
+/*# sourceMappingURL=conditions.css.map */

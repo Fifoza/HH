@@ -1,0 +1,18 @@
+body {
+    #main{
+        height: unset;
+    }
+    #conditions{
+        height: 65rem;;
+        background: rgb(42, 117, 115);
+        margin: 10rem;
+        border-radius: 15px;
+        padding: 5rem;
+        -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+        box-shadow: 5px 5px 15px 5px #0B173C;
+        border-radius: 15px;
+        h3{
+            text-align: center;
+        }
+    }
+}

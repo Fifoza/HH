@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,IADA,CACA,OAAO,CAAA;EACH,aAAa,EAAE,CAAC;CACnB",
+    "sources": [
+        "universal.scss"
+    ],
+    "names": [],
+    "file": "universal.css"
+}
