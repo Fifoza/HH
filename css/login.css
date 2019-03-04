@@ -1,0 +1,14 @@
+body #main {
+  height: 50rem;
+}
+
+body #main #loginForm {
+  margin-top: 5rem;
+  -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+  box-shadow: 5px 5px 15px 5px #0B173C;
+  color: darkgrey;
+  border-radius: 15px;
+  max-width: unset;
+  width: 80%;
+}
+/*# sourceMappingURL=login.css.map */
