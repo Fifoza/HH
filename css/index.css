@@ -371,10 +371,29 @@ body #mailForm {
 }
 
 body #footer {
+  text-align: center;
   margin-top: 2rem;
-  padding: 5rem;
+  padding: 3rem;
   height: 16rem;
   background: #0B173C;
   color: white;
+}
+
+body #footer h3, body #footer p {
+  text-align: center;
+}
+
+body #footer ul {
+  list-style-type: none;
+}
+
+body #footer #thirthCol {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body #footer #thirthCol li {
+  margin-left: 2.5rem;
 }
 /*# sourceMappingURL=index.css.map */

@@ -7,6 +7,7 @@
 
 
 body {
+    
     font-family: 'Montserrat', sans-serif;
     color: white;
     width: 100%;
@@ -454,11 +455,24 @@ body {
     }
 
     #footer {
+        text-align: center;
         margin-top: 2rem;
-        padding: 5rem;
+        padding: 3rem;
         height: 16rem;
         background: #0B173C;
         color: white;
+        h3, p{
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+          }
+          #thirthCol{
+              display: inline-flex;
+              li{
+                  margin-left: 2.5rem;
+              }
 
+          }
     }
 }
