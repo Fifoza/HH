@@ -15,6 +15,8 @@
     <meta name="theme-color" content="#222222">
     <script async type="text/javascript" src="bubles/bubble-bg-master/background.js"></script>
     <link rel="stylesheet" href="../Fifoza Test Website/LoginForm/LoginRegistrationForm/css/animate-custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/index.css">
@@ -24,116 +26,117 @@
 
 <body>
 
+
     <!-- Start of Header-->
     <header id="header">
-        <div class="container" width="100%">
+
+        <canvas id="background"></canvas>
+
+        <div class="container" width="100%" id="headerTitle">
             <h1>HandMade Home</h1>
-            <h2>Created by Fifoza</h2>
+
             <h3>Домът на ръчната изработка</h3>
         </div>
 
     </header>
+    <!--End of Header-->
 
 
     <main id="main">
-        <canvas id="background"></canvas>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Начало</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <!--Start of Navigation-->
+        <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+
+            <button class="navbar-toggler bg-info text-white" type="button" data-toggle="collapse" style="width: 100%"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
+                <span class="navbar-toggler-icon mr-3"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Кои сме ние <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Нашата мисия</a>
-
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Полезна информация
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Контакти</a>
-                            <a class="dropdown-item" href="#">Как да се регистрирате</a>
-                            <a class="dropdown-item" href="#">Условия за ползване на платформата</a>
-                        </div>
-                    </li>
-
-                </ul>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                <a href="index.html" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало H&H</a>
+                <div class="dropdown show">
+                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Изберете изкуство
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item" href="#">Квилинг</a>
                         <a class="dropdown-item" href="#">Плетени на Една кука</a>
                         <a class="dropdown-item" href="#">Плетени на Две куки</a>
                         <a class="dropdown-item" href="#">Живопис</a>
                         <a class="dropdown-item" href="#">Декупаж</a>
-                        <a class="dropdown-item" href="#">Щамповане</a>
-
-
-
+                        <a class="dropdown-item" href="#">Щамповани</a>
+                        <a class="dropdown-item" href="#">Дигитални</a>
+                        <a class="dropdown-item" href="#">Други</a>
                     </div>
                 </div>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Търсене</button>
-                </form>
+
+
+
+                <ul class="navbar-nav mr-auto">
+
+
+                    <li class="nav-link"><a href="login.html" class="btn btn-primary  active" role="button"
+                            aria-pressed="true"><i class="fas fa-sign-in-alt mr-3"></i>Влезте
+                            в акаунта си</a></li>
+
+                    <li class="nav-link"><a href="register.html" class="btn btn-primary  active" role="button"
+                            aria-pressed="true"><i class="fas fa-user-plus mr-3"></i>Регистрирайте се</a></li>
+
+                </ul>
+                <input type="text" placeholder="Търсене...">
+                <button class="btn btn-secondary" type="button" id="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
             </div>
+
+
         </nav>
+        <!--End of Navigation-->
 
 
-
-    <div class="container bg-info mt-5 p-4"  id="loginForm">
-        <form class="form-horizontal" action="/action_page.php">
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="email">Email:</label>
-                <div class="col-sm-10">
-                    <input type="email" class="form-control" id="email" placeholder="Enter email">
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="pwd">Password:</label>
-                <div class="col-sm-10">
-                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                    <div class="checkbox">
-                        <label><input type="checkbox"> Remember me</label>
+        <!--Start of LogIn Form-->
+        <div class="container bg-info mt-5 p-4" id="loginForm">
+            <h2>Влезте в акаунта си</h2>
+            <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Въведете имейл">
                     </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default">Submit</button>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="pwd">Password:</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="Въведете парола">
+                    </div>
                 </div>
-            </div>
-        </form>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label><input type="checkbox">Запомни ме</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">Изпрати</button>
+                    </div>
+                </div>
+            </form>
 
-    </div>
+        </div>
 
-</main>
-
-
-<div class=" jumbotron-fluid">
+        <!--End of LogIn Form-->
 
 
-
+        <!--Satrt Of Footer-->
         <div class="row" id="footer">
             <div class="col">
                 <h3>Контакти</h3>
-                <p><i class="fas fa-mobile-alt m-3"></i><a href="tel:+359878738045">+359 878 738 045</a></p>
-                <p><i class="fas fa-envelope-square m-3"></i><a href="mailto:admin@fifoza.com">Email: admin@fifoza.com</a></i></p>
+                <p><i class="fas fa-mobile-alt m-3"></i><a href="tel:+359878738045">+359878738040</a></p>
+                <p><i class="fas fa-envelope-square m-3"></i><a href="mailto:admin@fifoza.com">Email:
+                        admin@fifoza.com</a></i></p>
             </div>
             <div class="col">
 
@@ -141,8 +144,8 @@
                     <li> <a href="#">Квилинг</a></li>
                     <li> <a href="#">Плетени на Една кука</a></li>
                     <li> <a href="#">Плетени на Две куки</a></li>
-                    <li><a href="#">Живопис</a></li>
-                    <li> <a href="#">Декупаж</a></li>
+                    <li><a href="#">Живопис</a> /
+                        <a href="#">Декупаж</a></li>
                     <li> <a href="#">Щамповани</a></li>
                     <li><a href="#">Дигитални</a></li>
                     <li><a href="#">Други</a></li>
@@ -150,6 +153,8 @@
 
             </div>
             <div class="col">
+                <p><a href="#">Нашата мисия</a></p>
+
                 <p><a href="conditions.html" target="_blanc" rel="noopener noreferrer">Общи правила за ползване на
                         сайта</a></p>
 
@@ -172,9 +177,16 @@
                     </li>
                 </ul>
             </div>
+
         </div>
 
-    </div>
+        <!--End Of Footer-->
+
+
+    </main>
+
+
+
 
 
 

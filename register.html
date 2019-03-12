@@ -15,6 +15,8 @@
     <meta name="theme-color" content="#222222">
     <script async type="text/javascript" src="bubles/bubble-bg-master/background.js"></script>
     <link rel="stylesheet" href="../Fifoza Test Website/LoginForm/LoginRegistrationForm/css/animate-custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/index.css">
@@ -26,182 +28,217 @@
 
     <!-- Start of Header-->
     <header id="header">
-        <div class="container" width="100%">
+
+        <canvas id="background"></canvas>
+
+        <div class="container" width="100%" id="headerTitle">
             <h1>HandMade Home</h1>
-            <h2>Created by Fifoza</h2>
+
             <h3>Домът на ръчната изработка</h3>
         </div>
 
     </header>
+    <!--End of Header-->
 
 
 
-    <canvas id="background"></canvas>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Начало</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Кои сме ние <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Нашата мисия</a>
+    <main id="main">
 
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+
+        <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+
+            <button class="navbar-toggler bg-info text-white" type="button" data-toggle="collapse" style="width: 100%"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
+                <span class="navbar-toggler-icon mr-3"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a href="index.html" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало
+                            H&H</a>
+                <div class="dropdown show">
+                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
-                        Полезна информация
+                        Изберете изкуство
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Контакти</a>
-                        <a class="dropdown-item" href="#">Как да се регистрирате</a>
-                        <a class="dropdown-item" href="#">Условия за ползване на платформата</a>
-                    </div>
-                </li>
 
-            </ul>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Изберете изкуство
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Квилинг</a>
+                        <a class="dropdown-item" href="#">Плетени на Една кука</a>
+                        <a class="dropdown-item" href="#">Плетени на Две куки</a>
+                        <a class="dropdown-item" href="#">Живопис</a>
+                        <a class="dropdown-item" href="#">Декупаж</a>
+                        <a class="dropdown-item" href="#">Щамповани</a>
+                        <a class="dropdown-item" href="#">Дигитални</a>
+                        <a class="dropdown-item" href="#">Други</a>
+                    </div>
+                </div>
+
+
+
+                <ul class="navbar-nav mr-auto">
+
+
+                    <li class="nav-link"><a href="#" class="btn btn-primary  active" role="button" aria-pressed="true"><i
+                                class="fas fa-sign-in-alt mr-3"></i>Влезте
+                            в акаунта си</a></li>
+
+                    <li class="nav-link"><a href="#" class="btn btn-primary  active" role="button" aria-pressed="true"><i
+                                class="fas fa-user-plus mr-3"></i>Регистрирайте се</a></li>
+
+                </ul>
+                <input type="text" placeholder="Търсене...">
+                <button class="btn btn-secondary" type="button" id="searchButton">
+                    <i class="fa fa-search"></i>
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Квилинг</a>
-                    <a class="dropdown-item" href="#">Плетени на Една кука</a>
-                    <a class="dropdown-item" href="#">Плетени на Две куки</a>
-                    <a class="dropdown-item" href="#">Живопис</a>
-                    <a class="dropdown-item" href="#">Декупаж</a>
-                    <a class="dropdown-item" href="#">Щамповане</a>
+            </div>
 
 
-
+        </nav>
+        <!--End of Navigation-->
+        <!--  <div id="slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/DSC02866.JPG" class="d-block w-100" width="400" height="300" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>...</h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/IMG_20171112_132526-compressor.jpg" class="d-block w-100" width="400" height="300"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
                 </div>
             </div>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Търсене</button>
-            </form>
-        </div>
-    </nav>
-
-
-
-    <div class="container" id="registerForm">
-
-        <div class="container" id="mailForm">
-
-            <h3>Регистриране на потребител</h3>
-            <hr>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
-            <form>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    -->
+     
+        <div class="container " id="registerForm">
 
-                <div class="col">
-                    <div class="form-group">
-                        <label for="FirstName">Име и Фамилия</label>
-                        <input type="text" class="form-control" placeholder="First and Last Name">
+            <div class="container" id="mailForm">
 
-                        <label for="LastName">Псевдоним</label>
-                        <input type="text" class="form-control" placeholder="Nickname">
-
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                        <hr>
-
-                        <label for="inputPassword4">Парола</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-
-                        <label for="psw-repeat">Повторете паролата</label>
-                        <input type="Repeat" class="form-control" placeholder="Repeat Password">
-                    </div>
-
-
-
-                    <p>Създавайки акаунт в този сайт Вие се съгласявате с <a href="conditions.html" target="_blanc" rel="noopener noreferrer">Условията и Правилата</a>.</p>
-
-                </div>
+                <h3>Регистриране на потребител</h3>
                 <hr>
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Прочетох и приех общите условия
-                        </label>
+                </a>
+                <form>
+
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="FirstName">Име и Фамилия</label>
+                            <input type="text" class="form-control" placeholder="First and Last Name">
+
+                            <label for="LastName">Псевдоним</label>
+                            <input type="text" class="form-control" placeholder="User">
+
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            <hr>
+
+                            <label for="inputPassword4">Парола</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+
+                            <label for="psw-repeat">Повторете паролата</label>
+                            <input type="Repeat" class="form-control" placeholder="Repeat Password">
+                        </div>
+
+
+
+                        <p>Създавайки акаунт в този сайт Вие се съгласявате с <a href="conditions.html" target="_blanc"
+                                rel="noopener noreferrer">Общите Условия
+                                и Правилата на платформата H&H</a>.</p>
+
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Прочетох и приех общите условия
+                            </label>
+
+
+                        </div>
 
 
                     </div>
 
-
-                </div>
-
-                <button type="submit" class="btn btn-success">Изпрати</button>
-            </form>
-        </div>
-    </div>
-
-
-   
-
-
-
-    <div class=" jumbotron-fluid">
-
-
-
-            <div class="row" id="footer">
-                <div class="col">
-                    <h3>Контакти</h3>
-                    <p><i class="fas fa-mobile-alt m-3"></i><a href="tel:+359878738045">+359878738045</a></p>
-                    <p><i class="fas fa-envelope-square m-3"></i><a href="mailto:admin@fifoza.com">Email: admin@fifoza.com</a></i></p>
-                </div>
-                <div class="col">
-    
-                    <ul>
-                        <li> <a href="#">Квилинг</a></li>
-                        <li> <a href="#">Плетени на Една кука</a></li>
-                        <li> <a href="#">Плетени на Две куки</a></li>
-                        <li><a href="#">Живопис</a></li>
-                        <li> <a href="#">Декупаж</a></li>
-                        <li> <a href="#">Щамповани</a></li>
-                        <li><a href="#">Дигитални</a></li>
-                        <li><a href="#">Други</a></li>
-                    </ul>
-    
-                </div>
-                <div class="col">
-                    <p><a href="conditions.html" target="_blanc" rel="noopener noreferrer">Общи правила за ползване на
-                            сайта</a></p>
-    
-                    <ul id="thirthCol">
-                        <li>
-                            <p><a href="#" target="_blanc"><img border=" 0" alt="facebook" src="socialicons/f_48.png" width="45"
-                                        height="45"></a></p>
-                        </li>
-                        <li>
-                            <p><a href="#" target="_blanc"><img border=" 0" alt="etsy" src="socialicons/e_48.png" width="45"
-                                        height="45"></a></p>
-                        </li>
-                        <li>
-                            <p><a href="#" target="_blanc"><img border=" 0" alt="pinterest" src="socialicons/pin_48.png"
-                                        width="45" height="45"></a></p>
-                        </li>
-                        <li>
-                            <p><a href="#" target="_blanc"><img border=" 0" alt="tweeter" src="socialicons/t_48.png" width="45"
-                                        height="45"></a></p>
-                        </li>
-                    </ul>
-                </div>
+                    <button type="submit" class="btn btn-success">Регистрирай</button>
+                </form>
             </div>
-    
         </div>
-    
 
 
+
+
+
+
+
+
+
+        <div class="row" id="footer">
+            <div class="col">
+                <h3>Контакти</h3>
+                <p><i class="fas fa-mobile-alt m-3"></i><a href="tel:+359878738045">+359878738040</a></p>
+                <p><i class="fas fa-envelope-square m-3"></i><a href="mailto:admin@fifoza.com">Email:
+                        admin@fifoza.com</a></i></p>
+            </div>
+            <div class="col">
+
+                <ul>
+                    <li> <a href="#">Квилинг</a></li>
+                    <li> <a href="#">Плетени на Една кука</a></li>
+                    <li> <a href="#">Плетени на Две куки</a></li>
+                    <li><a href="#">Живопис</a> /
+                        <a href="#">Декупаж</a></li>
+                    <li> <a href="#">Щамповани</a></li>
+                    <li><a href="#">Дигитални</a></li>
+                    <li><a href="#">Други</a></li>
+                </ul>
+
+            </div>
+            <div class="col">
+                <p><a href="#">Нашата мисия</a></p>
+
+                <p><a href="conditions.html" target="_blanc" rel="noopener noreferrer">Общи правила за ползване на
+                        сайта</a></p>
+
+                <ul id="thirthCol">
+                    <li>
+                        <p><a href="#" target="_blanc"><img border=" 0" alt="facebook" src="socialicons/f_48.png" width="45"
+                                    height="45"></a></p>
+                    </li>
+                    <li>
+                        <p><a href="#" target="_blanc"><img border=" 0" alt="etsy" src="socialicons/e_48.png" width="45"
+                                    height="45"></a></p>
+                    </li>
+                    <li>
+                        <p><a href="#" target="_blanc"><img border=" 0" alt="pinterest" src="socialicons/pin_48.png"
+                                    width="45" height="45"></a></p>
+                    </li>
+                    <li>
+                        <p><a href="#" target="_blanc"><img border=" 0" alt="tweeter" src="socialicons/t_48.png" width="45"
+                                    height="45"></a></p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+    </main>
 
 
 
@@ -214,7 +251,8 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script src="js/custom.js"></script>  
+
+    <script src="js/custom.js"></script>
 </body>
 
 
