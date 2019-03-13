@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <a href="/" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало H&H</a>
         <div class="dropdown show">
-            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            <a class="btn btn-primary dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Изберете изкуство
             </a>
@@ -24,21 +24,36 @@
             </div>
         </div>
 
-        <ul class="navbar-nav mr-auto">
 
-            @auth
-            <li class="nav-link"><a href="home.html" class="btn btn-primary  active" role="button"
-                  aria-pressed="true"><i class="fas fa-user mr-3"></i>Потребител еди кой си</a></li>
-            @else
+        @auth
+        <div class="dropdown show mr-auto">
+            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              {{auth()->user()->name}}
+            </a>
+        
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                <a class="dropdown-item" href="#">Настройки</a>
+                <a class="dropdown-item" href="{{ route('logout') }}"
+                onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                Изход
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </div>
+        </div>
+        @else
+        <ul class="navbar-nav mr-auto">
             <li class="nav-link"><a href="{{ route('login') }}" class="btn btn-primary  active" role="button"
                   aria-pressed="true"><i class="fas fa-sign-in-alt mr-3"></i>Влезте
                   в акаунта си</a></li>
 
             <li class="nav-link"><a href="{{ route('register') }}" class="btn btn-primary  active" role="button"
                   aria-pressed="true"><i class="fas fa-user-plus mr-3"></i>Регистрирайте се</a></li>
-            @endauth
-
         </ul>
+        @endauth
+
         <input type="text" placeholder="Търсене...">
         <button class="btn btn-secondary" type="button" id="searchButton">
             <i class="fa fa-search"></i>
