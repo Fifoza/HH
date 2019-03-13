@@ -5,71 +5,273 @@
 @endsection
 
 @section('content')
-    <div class="container" id="mainContainer">
-        <h2>Добре дошли в света на хартиената красота</h2>
-        <h3>Регистрирайте се и качете своите продукти</h3>
-        <h4>Зарадвайте клиентите</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident suscipit expedita, adipisci
-            praesentium minus officiis itaque sint facilis libero quae reprehenderit, laborum iusto quaerat
-            explicabo voluptatem numquam, aperiam eum possimus.</p>
+    <div class="container bg-white" id="mainContainer">
 
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Избирате Творчество</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Продължете</a>
+            <section id="centralHeader">
+                <h2>Добре дошли в света на ръчно изработената красота</h2>
+                <h3>Регистрирайте се и качете своите продукти</h3>
+                <p>Всички продукти, които са качени тук, са изработени ръчно от участниците във тази платформа.</p>
+
+                Ако сте клиент и търсите уникални ръчно изработени продукти, може да разгледате нашите предложения.
+                Всеки творец отговаря за своите продукти.
+            </section>
+
+            <div class="container">
+
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
+                                        alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Мандала - Квилинг</h5>
+                                    <h4>Ива Миланова</h4>
+                                    <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
+
+                                    <a href="#" class="btn btn-primary">Продължете</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Избирате творец</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Продължете</a>
+
+            <div class="row mt-5" id="middleContainer">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Избирате Творчество</h5>
+                            <p class="card-text">Потапяте се в пофилите на нашите творци и избирате уникалния
+                                продукт.</p>
+                            <a href="#" class="btn btn-primary">Продължете</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Избирате творец</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Продължете</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container p-3 pb-3">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
+                                    alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Мандала - Квилинг</h5>
+                                <h4>Ива Миланова</h4>
+                                <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
+
+                                <a href="#" class="btn btn-primary">Продължете</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+
+
+        <!--Container for Mobile-->
+        <div clas="jumbotron" id="mobilContainer">
+            <section class="container bg-white">
+                <h2>Добре дошли в света на ръчно изработената красота</h2>
+                <h3>Регистрирайте се и качете своите продукти</h3>
+                <p>Всички продукти, които са качени тук, са изработени ръчно от участниците във тази платформа.</p>
+
+                Ако сте клиент и търсите уникални ръчно изработени продукти, може да разгледате нашите предложения.
+                Всеки творец отговаря за своите продукти.
+            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card mt-3" style="width: 100%;">
+                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
+                                    alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Мандала - Квилинг</h5>
+                                <h4>Ива Миланова</h4>
+                                <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
+
+                                <a href="#" class="btn btn-primary">Продължете</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mt-3" style="width: 100%;">
+                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
+                                    alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Мандала - Квилинг</h5>
+                                <h4>Ива Миланова</h4>
+                                <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
+
+                                <a href="#" class="btn btn-primary">Продължете</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mt-3" style="width: 100%;">
+                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
+                                    alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Мандала - Квилинг</h5>
+                                <h4>Ива Миланова</h4>
+                                <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
+
+                                <a href="#" class="btn btn-primary">Продължете</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="container bg-transparent" id="gallery">
 
-    </div>
-    <div class="container" id="mainContainer">
-        <h2>Добре дошли в света на хартиената красота</h2>
-        <h3>Регистрирайте се и качете своите продукти</h3>
-        <h4>Зарадвайте клиентите</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident suscipit expedita, adipisci
-            praesentium minus officiis itaque sint facilis libero quae reprehenderit, laborum iusto quaerat
-            explicabo voluptatem numquam, aperiam eum possimus.</p>
+            <h4>Последните творби от нашите членове</h4>
 
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Избирате Творчество</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Продължете</a>
-                    </div>
+            <hr class="mt-2 mb-5">
+
+            <div class="row text-center text-lg-left">
+
+                <!---->
+                <div class="col-lg-3 col-md-4 col-6">
+
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Избирате творец</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Продължете</a>
-                    </div>
+                <div class="col-lg-3 col-md-4 col-6">
+
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="images/DSC02867-compressor.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="images/IMG_20181005_084650.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="images/fofo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="images/IMG_20171112_132526-compressor.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                    </a>
                 </div>
             </div>
         </div>
+@endsection
 
-    </div>
-    <div class="container">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias porro perspiciatis, enim architecto
-            culpa ea blanditiis, consequuntur voluptates, saepe error dolor ut cumque voluptas iusto minus ullam
-            temporibus iste velit.
-        </p>
-    </div>
+@section('custom-scripts')
+    <script src="js/custom.js"></script>
 @endsection
