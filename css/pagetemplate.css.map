@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC,KAAK,CAAA;EACN,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "pagetemplate.scss"
+    ],
+    "names": [],
+    "file": "pagetemplate.css"
+}
