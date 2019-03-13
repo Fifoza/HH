@@ -5,7 +5,7 @@
         <span class="navbar-toggler-icon mr-3"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a href="#" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало H&H</a>
+        <a href="/" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало H&H</a>
         <div class="dropdown show">
             <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -30,11 +30,11 @@
             <li class="nav-link"><a href="home.html" class="btn btn-primary  active" role="button"
                   aria-pressed="true"><i class="fas fa-user mr-3"></i>Потребител еди кой си</a></li>
             @else
-            <li class="nav-link"><a href="login.html" class="btn btn-primary  active" role="button"
+            <li class="nav-link"><a href="{{ route('login') }}" class="btn btn-primary  active" role="button"
                   aria-pressed="true"><i class="fas fa-sign-in-alt mr-3"></i>Влезте
                   в акаунта си</a></li>
 
-            <li class="nav-link"><a href="register.html" class="btn btn-primary  active" role="button"
+            <li class="nav-link"><a href="{{ route('register') }}" class="btn btn-primary  active" role="button"
                   aria-pressed="true"><i class="fas fa-user-plus mr-3"></i>Регистрирайте се</a></li>
             @endauth
 

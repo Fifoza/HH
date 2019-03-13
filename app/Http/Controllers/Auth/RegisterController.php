@@ -28,7 +28,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';
 
     /**
      * Create a new controller instance.
@@ -49,9 +49,25 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+            'name' => ['required', 'string', 'min:2', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'agree' => ['accepted'],
+        ], [
+            'name.required' => 'Моля, въведете име или псевдоним!',
+            'name.string' => 'Името трябва да съдържа букви!',
+            'name.min' => 'Името трябва да е поне 2 символа!',
+            'name.max' => 'Името не може да бъде по-дълго от 255 символа!',
+            'email.required' => 'Моля, въведете имейл!',
+            'email.string' => 'Имейла трябва да съдържа букви!',
+            'email.email' => 'Моля, въведете валиден имейл!',
+            'email.max' => 'Имейла не може да бъде по-дълъг от 255 символа!',
+            'email.unique' => 'Съжаляваме, имейла е вече зает!',
+            'password.required' => 'Моля, въведете парола',
+            'password.string' => 'Паролата трябва да съдържа поне един символ!',
+            'password.min' => 'Паролата трябва да бъде поне 8 символа!',
+            'password.confirmed' => 'Моля повторете паролата!',
+            'agree.accepted' => 'За да се регистрирате, трябва да прочетете и да се съгласите с общите условия на сайта ни!',
         ]);
     }
 
