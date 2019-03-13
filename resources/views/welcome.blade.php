@@ -1,7 +1,6 @@
 @extends('layouts.main')
 
 @section('custom-styles')
-    <link rel="stylesheet" href="css/index.css">
 @endsection
 
 @section('content')

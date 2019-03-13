@@ -127,7 +127,7 @@ body #main div.card {
 
 body #main #footer {
   text-align: left;
-  margin-top: 2rem;
+  margin: 2rem 0 0 0;
   padding: 3rem;
   height: 16rem;
   background: #532878;

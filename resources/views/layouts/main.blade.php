@@ -7,16 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="robots" content="noindex">
     <meta name="googlebot" content="noindex">
+    <meta name="theme-color" content="#222222">
 
     <title>Fifoza Test Website</title>
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <meta name="theme-color" content="#222222">
     <script async type="text/javascript" src="bubles/bubble-bg-master/background.js"></script>
     <link rel="stylesheet" href="../Fifoza Test Website/LoginForm/LoginRegistrationForm/css/animate-custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css">
 
     @yield('custom-styles')
 
@@ -34,7 +36,6 @@
         
         @include('layouts._footer')
 
-
     </main>
 
     <script src="js/bootstrap.bundle.js"></script>
@@ -45,7 +46,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        
+
     @yield('custom-scripts')
 </body>
 
