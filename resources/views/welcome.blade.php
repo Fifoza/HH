@@ -19,43 +19,23 @@
 
                 <div class="container p-3">
                     <div class="row">
+
+                        @foreach($users as $user)
                         <div class="col-sm-4">
                             <div class="card" style="width: 18rem;">
                                 <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                         alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Мандала - Квилинг</h5>
-                                    <h4>Ива Миланова</h4>
-                                    <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
+                                    <h5 class="card-title">{{$user->creativities()->first()->title}}</h5>
+                                    <h4>{{$user->name}}</h4>
+                                    <p class="card-text">{{$user->creativities()->first()->description}}</p>
 
                                     <a href="#" class="btn btn-primary">Продължете</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
+                        
                     </div>
                 </div>
             </div>

@@ -1,5 +1,7 @@
 <?php
 
+use App\User;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +14,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $users = User::with('creativities')->get()->filter(function($u){
+        return $u->creativities()->count() > 0;
+    })->take(3);
+
+    return view('welcome')->withUsers($users);
 });
 
 Auth::routes();
