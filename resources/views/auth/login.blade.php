@@ -6,8 +6,16 @@
 @section('content')
     <div class="container bg-info mt-5 p-4" id="loginForm">
         <h2>Влезте в акаунта си</h2>
+
+
+
         <form class="form-horizontal" action="{{route('login')}}"" method="POST">
+            
             @csrf
+            <div class="form-group col-8 offset-2">
+                <h2 class="text-danger"> @if($errors->any()) Неправилни имейл и/или парола. Моля, опитайте отново! @endif</h2>
+            </div>
+
             <div class="form-group">
                 <label class="control-label col-sm-2" for="email">Имейл:</label>
                 <div class="col-sm-10">
