@@ -16,6 +16,7 @@ class CreateCreativitiesTable extends Migration
         Schema::create('creativities', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
+            $table->string('image');
             $table->text('description');
             $table->integer('user_id')->unsigned();
             $table->timestamps();

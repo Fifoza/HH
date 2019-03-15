@@ -23,7 +23,7 @@
                         @foreach($users as $user)
                         <div class="col-sm-4">
                             <div class="card" style="width: 18rem;">
-                                <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                                <div class="img__wrapper"><img src="images/{{$user->creativities()->first()->image}}" class="card-img-top"
                                         alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                                 <div class="card-body">
                                     <h5 class="card-title">{{$user->creativities()->first()->title}}</h5>
@@ -209,42 +209,42 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
                     </a>
                 </div>
             </div>

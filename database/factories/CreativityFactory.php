@@ -18,8 +18,9 @@ use Faker\Generator as Faker;
 $factory->define(Creativity::class, function (Faker $faker) {
     return [
         'title' => $faker->text(15, 30),
+        'image' => 'empty.jpeg',
         'description' => $faker->text(35, 75),
-        'user_id' => rand(1, 10),
+        'user_id' => rand(1, 5),
         'created_at' => now(),
     ];
 });

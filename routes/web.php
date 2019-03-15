@@ -14,10 +14,7 @@ use App\User;
 */
 
 Route::get('/', function () {
-    $users = User::with('creativities')->get()->filter(function($u){
-        return $u->creativities()->count() > 0;
-    })->take(3);
-
+    $users = User::with('creativities')->latest('created_at')->has('creativities')->limit(3)->get();
     return view('welcome')->withUsers($users);
 });
 
