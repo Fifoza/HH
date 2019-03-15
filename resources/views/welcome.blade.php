@@ -68,7 +68,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="card" style="width: 18rem;">
-                            <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                            <div class="img__wrapper"><img src="images/hb.jpeg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                             <div class="card-body">
                                 <h5 class="card-title">Мандала - Квилинг</h5>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="card" style="width: 18rem;">
-                            <img src="images/empty.jpeg" class="card-img-top" alt="...">
+                            <img src="images/hb.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up
@@ -93,7 +93,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="card" style="width: 18rem;">
-                            <img src="images/empty.jpeg" class="card-img-top" alt="...">
+                            <img src="images/hb.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up
@@ -126,7 +126,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                            <div class="img__wrapper"><img src="images/hb.jpeg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                             <div class="card-body">
                                 <h5 class="card-title">Мандала - Квилинг</h5>
@@ -139,7 +139,7 @@
                     </div>
                     <div class="col">
                         <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                            <div class="img__wrapper"><img src="images/hb.jpeg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                             <div class="card-body">
                                 <h5 class="card-title">Мандала - Квилинг</h5>
@@ -152,7 +152,7 @@
                     </div>
                     <div class="col">
                         <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                            <div class="img__wrapper"><img src="images/hb.jpeg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                             <div class="card-body">
                                 <h5 class="card-title">Мандала - Квилинг</h5>
@@ -189,62 +189,62 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/hb.jpeg" alt="">
                     </a>
                 </div>
             </div>
