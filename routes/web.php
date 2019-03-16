@@ -16,7 +16,7 @@ use App\User;
 Route::get('/', function () {
     $users = User::with('creativities')->latest('created_at')->has('creativities')->limit(3)->get();
     return view('welcome')->withUsers($users);
-});
+})->name('welcome');
 
 Auth::routes();
 

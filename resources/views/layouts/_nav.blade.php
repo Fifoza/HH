@@ -1,4 +1,10 @@
 <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+    
+    <!-- todos list for development start -->
+    @todos(['routeName' => \Route::currentRouteName()])
+    @endtodos
+    <!-- todos list for development end -->
+
     <button class="navbar-toggler bg-info text-white" type="button" data-toggle="collapse" style="width: 100%"
       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
       aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
