@@ -76,7 +76,7 @@ body #main #navbar {
 
 body #main #navbar #startButton {
   margin-left: 1.5rem;
-  margin-right: 0.5rem;
+  margin-right: 0;
 }
 
 body #main #navbar #dropdownMenuLink {
@@ -257,6 +257,10 @@ body #mobilContainer {
   }
   body #main #mainContainer #centralHeader div.container {
     padding: 0;
+    border-radius: 15px;
+  }
+  body #main .container {
+    border-radius: 15px;
   }
   body #main div.card {
     margin-left: unset;
@@ -289,6 +293,9 @@ body #mobilContainer {
   .container {
     max-width: 705px;
   }
+  body #main .container {
+    border-radius: 15px;
+  }
   body div.container {
     background: transparent;
   }
@@ -351,7 +358,7 @@ body #mobilContainer {
   }
   body #main #footer #thirthCol {
     position: absolute;
-    left: -104px;
+    left: -10px;
   }
   body #main #navbar #dropdownMenuLink {
     margin-left: 0px;
@@ -366,6 +373,9 @@ body #mobilContainer {
   .container {
     max-width: 705px;
   }
+  body #main .container {
+    border-radius: 15px;
+  }
   body div.container {
     background: transparent;
   }
@@ -428,7 +438,7 @@ body #mobilContainer {
   }
   body #main #footer #thirthCol {
     position: absolute;
-    left: -104px;
+    left: -10px;
   }
   body #main #navbar #dropdownMenuLink {
     margin-left: 0px;
@@ -447,8 +457,8 @@ body #mobilContainer {
     font-size: 14px;
   }
   body #main #navbar #startButton {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
   #mainContainer {
     max-width: 1000px;

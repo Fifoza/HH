@@ -15,9 +15,28 @@ body {
     }
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media all and (min-width: 320px) and (max-width: 480px) {
-    body #main #loginForm{
-        width: 90%;
-    }
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  
+ 
 }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+ 
+   
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1109px) {}
