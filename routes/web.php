@@ -21,3 +21,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/todos', function(){
+    \file_put_contents(config_path('todos.txt'), request()->Original);
+    return 'it works';
+});

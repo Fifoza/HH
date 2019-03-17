@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
     
     <!-- todos list for development start -->
-    @todos(['routeName' => \Route::currentRouteName()])
+    @todos()
     @endtodos
     <!-- todos list for development end -->
 
