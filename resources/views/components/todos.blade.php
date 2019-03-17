@@ -1,5 +1,21 @@
 <script src="js/vue.js"></script>
 <script src="js/axios.js"></script>
+<style>
+.btn-circle{
+    border-radius: 50%;
+    width: 3vw;
+    height: 5vw;
+    margin: 1rem;
+    font-size: 2.2rem;
+}
+.btn-circle-sm{
+    border-radius: 50%;
+    width:2vw;
+    height: 4vw;
+    margin: .8rem;
+    font-size: 1rem;
+}
+</style>
 @php
     $routeName = \Route::currentRouteName();
     $filepath = config_path('todos.txt');
@@ -36,16 +52,16 @@
         <li v-for="(todo, index) in todos" class="list-unstyled">
             <div v-if="todo" class="form-group row bg-dark">
                 <h3 class="col-8 mr-auto rounded">@{{todo}}</h3>
-                <button @click="editTodo(index)" class="btn btn-sm btn-primary col-2 ml-auto">редактирай</button>
-                <button @click="deleteTodo(index)" class="btn btn-sm btn-danger col-1">изтрий</button>
+                <button @click="editTodo(index)" class="btn btn-circle btn-primary col-1 ml-auto">&#9998;</button>
+                <button @click="deleteTodo(index)" class="btn btn-circle btn-danger col-1">&#9249;</button>
             </div>
             <div v-else class="form-group row">
                 <textarea v-model="newTodoBody" @keyup="pressKyesInTodoForm($event)" rows="1" class="form-control col-8" placeholder="Напиши задача..." autofocus></textarea>
-                <button @click="storeNewTodo(index)" class="btn btn-sm btn-success col-1 ml-2" :disabled="storingTodoIsForbidden">запази</button>
-                <button @click="cancelWritingTodo()" class="btn btn-sm btn-danger col-1">изтрий</button>
+                <button @click="storeNewTodo(index)" class="btn btn-circle-sm btn-success col-1 ml-2" :disabled="storingTodoIsForbidden">&#128190;</button>
+                <button @click="cancelWritingTodo()" class="btn btn-circle-sm btn-danger col-1">&#9249;</button>
             </div>
         </li>
-        <li @click="todoCreate()" v-if="willWriteTodo" class="btn btn-sm btn-success">попълни нова задача</button></li>
+        <li @click="todoCreate()" v-if="willWriteTodo" class="btn btn-success">попълни нова задача</button></li>
     </ul>
 </div>
 <script>
