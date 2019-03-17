@@ -72,7 +72,7 @@
             willWriteTodo: true,
             storingTodoIsForbidden: true,
             routeName: '{!!$routeName!!}',
-            todos: [@foreach($todos as $todo) `{!!$todo!!}`, @endforeach]
+            todos: [@foreach($todos as $todo)"{!!$todo!!}",@endforeach]
         },
         methods: {
             todoCreate(){
@@ -124,7 +124,6 @@
                 compareString = compareString?compareString:"***"+this.routeName;
 
                 let Original = original.split(compareString).join(newContent);
-                alert(Original);
                 axios.post('/todos', {Original}).then(function(response){
                     console.log(response.data);
                 }).catch(function(error){
