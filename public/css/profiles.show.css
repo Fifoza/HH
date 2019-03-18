@@ -4,3 +4,21 @@
 }
 
 .star-rating .fa-star{color: yellow;}
+
+#main {
+  height: 0rem !important;
+}
+#mainContainer {
+  display: block !important;
+  margin: 2rem auto !important;
+  width: 90vw !important;
+}
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0;
+    text-align: center;
+  }
+  .card {
+    margin: 1rem auto 0;
+  }
+}
