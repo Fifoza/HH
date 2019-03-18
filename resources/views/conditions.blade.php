@@ -25,7 +25,7 @@
     <a href="{{route('home')}}" class="btn btn-info" role="button">Върнете се в началото</a>
     <hr>
     @if($registerButton)
-    <a href="{{route('register')}}" class="btn btn-info" role="button">Завършете регистрацията си</a>
+    <a onclick="window.history.back();" class="btn btn-info" role="button">Завършете регистрацията си</a>
     @endif
 
 </div>
