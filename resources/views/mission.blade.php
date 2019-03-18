@@ -13,7 +13,7 @@
 
         Ако сте клиент и търсите уникални ръчно изработени продукти, може да разгледате нашите предложения.
         Всеки творец отговаря за своите продукти.
-        <a href="{{route('home')}}" class="btn btn-info" role="button">Върнете се в началото</a>
+        <a href="{{route('welcome')}}" class="btn btn-info" role="button">Върнете се в началото</a>
     </section>
 </div>
 @endsection
