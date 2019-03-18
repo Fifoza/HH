@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <button type="submit" class="btn btn-success" name="submit">Изпрати</button>
+            <button type="submit" class="btn btn-success" name="submit">Регистрирай се</button>
         </form>
     </div>
 </div>

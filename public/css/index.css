@@ -158,7 +158,7 @@ body #main #footer #thirthCol {
 }
 
 body #main #footer #thirthCol li {
-  margin-left: 2.5rem;
+  margin-left: 15px;
 }
 
 body #main #gallery {
@@ -214,8 +214,10 @@ body #mobilContainer {
   display: none;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media all and (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 575.98px) {
+  body #header {
+    height: 17.5rem;
+  }
   body div.container {
     background: transparent;
   }
@@ -258,6 +260,10 @@ body #mobilContainer {
   }
   body #main #mainContainer #centralHeader div.container {
     padding: 0;
+    border-radius: 15px;
+  }
+  body #main .container {
+    border-radius: 15px;
   }
   body #main div.card {
     margin-left: unset;
@@ -283,6 +289,190 @@ body #mobilContainer {
   }
   body #main #navbar #dropdownMenuLink {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 705px;
+  }
+  body #main .container {
+    border-radius: 15px;
+  }
+  body div.container {
+    background: transparent;
+  }
+  body #navbar {
+    opacity: 1;
+  }
+  body #navbar li.nav-link {
+    padding: unset;
+  }
+  body #navbar li.nav-link:hover {
+    background: darkviolet;
+  }
+  body #navbar .dropdown-menu {
+    width: 100%;
+  }
+  body #navbar input {
+    margin-left: 16rem;
+  }
+  body #navbar #searchButton:hover {
+    background: darkmagenta;
+  }
+  body #navbar #navbarSupportedContent a {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    border-radius: unset;
+  }
+  body #navbar #navbarSupportedContent a:hover {
+    background: darkmagenta;
+  }
+  body #navbar i.fas fa-bars {
+    margin-left: 3rem;
+  }
+  body #main #navbar #startButton,
+  #dropdownMenuLink {
+    margin: 0;
+  }
+  body #main #mainContainer #centralHeader {
+    padding: 0rem;
+  }
+  body #main #mainContainer #centralHeader div.container {
+    padding: 0;
+  }
+  body #main div.card {
+    margin-left: unset;
+    width: 17rem;
+  }
+  body #main #footer {
+    padding: 20px;
+  }
+  #mainContainer {
+    display: none;
+  }
+  body #mobilContainer {
+    padding: 1rem;
+    display: block;
+  }
+  body #mobilContainer h2 {
+    font-size: 18px;
+  }
+  body #main #footer #thirthCol {
+    position: absolute;
+    left: -10px;
+  }
+  body #main #navbar #dropdownMenuLink {
+    margin-left: 0px;
+  }
+  .container {
+    max-width: 705px;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 705px;
+  }
+  body #main .container {
+    border-radius: 15px;
+  }
+  body div.container {
+    background: transparent;
+  }
+  body #navbar {
+    opacity: 1;
+  }
+  body #navbar li.nav-link {
+    padding: unset;
+  }
+  body #navbar li.nav-link:hover {
+    background: darkviolet;
+  }
+  body #navbar .dropdown-menu {
+    width: 100%;
+  }
+  body #navbar input {
+    margin-left: 16rem;
+  }
+  body #navbar #searchButton:hover {
+    background: darkmagenta;
+  }
+  body #navbar #navbarSupportedContent a {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    border-radius: unset;
+  }
+  body #navbar #navbarSupportedContent a:hover {
+    background: darkmagenta;
+  }
+  body #navbar i.fas fa-bars {
+    margin-left: 3rem;
+  }
+  body #main #navbar #startButton,
+  #dropdownMenuLink {
+    margin: 0;
+  }
+  body #main #mainContainer #centralHeader {
+    padding: 0rem;
+  }
+  body #main #mainContainer #centralHeader div.container {
+    padding: 0;
+  }
+  body #main div.card {
+    margin-left: unset;
+    width: 17rem;
+  }
+  body #main #footer {
+    padding: 20px;
+  }
+  #mainContainer {
+    display: none;
+  }
+  body #mobilContainer {
+    padding: 1rem;
+    display: block;
+  }
+  body #mobilContainer h2 {
+    font-size: 18px;
+  }
+  body #main #footer #thirthCol {
+    position: absolute;
+    left: -10px;
+  }
+  body #main #navbar #dropdownMenuLink {
+    margin-left: 0px;
+  }
+  .container {
+    max-width: 705px;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 1109px) {
+  body #main #navbar,
+  .navbar-expand-lg .navbar-nav,
+  li.nav-link,
+  .btn-primary {
+    font-size: 14px;
+  }
+  body #main #navbar #startButton {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  #mainContainer {
+    max-width: 1000px;
+    padding-right: 4rem;
+  }
+  #mainContainer .cow {
+    margin-right: 2rem;
+  }
+  #mainContainer .rol {
+    margin-right: -13px;
+    margin-left: -47px;
   }
 }
 /*# sourceMappingURL=index.css.map */

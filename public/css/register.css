@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   color: white;
 }
@@ -10,6 +11,7 @@ body #main #registerForm {
   width: 70%;
   background: lightblue;
   margin: 2rem;
+  padding: 0;
   margin-left: 14rem;
   -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
   box-shadow: 5px 5px 15px 5px #0B173C;
@@ -21,16 +23,40 @@ body #main #registerForm #mailForm {
   margin: 8rem auto;
   padding: 3rem;
   background: #7529ad;
+  border-radius: 15px;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media all and (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 575.98px) {
   body #main #registerForm {
     width: 90%;
-    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 0;
   }
   body #main #registerForm #mailForm {
-    padding: 15px;
+    margin: 0rem auto;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body #main #registerForm {
+    width: 90%;
+    margin-top: 1rem;
+  }
+  body #main #registerForm #mailForm {
+    margin: 0rem auto;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body #main #registerForm {
+    width: 90%;
+    margin-top: 1rem;
+  }
+  body #main #registerForm #mailForm {
+    margin: 0rem auto;
+    padding: 1remм;
   }
 }
 /*# sourceMappingURL=register.css.map */

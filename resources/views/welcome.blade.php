@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('custom-styles')
+<link rel="stylesheet" href="css/welcome.css">
 @endsection
 
 @section('content')
@@ -19,23 +20,43 @@
 
                 <div class="container p-3">
                     <div class="row">
-
-                        @foreach($users as $user)
                         <div class="col-sm-4">
-                            <div class="card" style="width: 18rem;">
-                                <div class="img__wrapper"><img src="images/{{$user->creativities()->first()->image}}" class="card-img-top"
+                            <div class="card">
+                                <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                         alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                                 <div class="card-body">
-                                    <h5 class="card-title">{{$user->creativities()->first()->title}}</h5>
-                                    <h4>{{$user->name}}</h4>
-                                    <p class="card-text">{{$user->creativities()->first()->description}}</p>
+                                    <h5 class="card-title">Мандала - Квилинг</h5>
+                                    <h4>Ива Миланова</h4>
+                                    <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
 
                                     <a href="#" class="btn btn-primary">Продължете</a>
                                 </div>
                             </div>
                         </div>
-                        @endforeach
-                        
+                        <div class="col-sm-4">
+                            <div class="card" >
+                                <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card" >
+                                <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,8 +88,8 @@
             <div class="container p-3 pb-3">
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="card" style="width: 18rem;">
-                            <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                        <div class="card">
+                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                             <div class="card-body">
                                 <h5 class="card-title">Мандала - Квилинг</h5>
@@ -80,8 +101,8 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="images/empty.jpeg" class="card-img-top" alt="...">
+                        <div class="card">
+                            <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up
@@ -92,8 +113,8 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="images/empty.jpeg" class="card-img-top" alt="...">
+                        <div class="card">
+                            <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up
@@ -126,7 +147,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                             <div class="card-body">
                                 <h5 class="card-title">Мандала - Квилинг</h5>
@@ -139,7 +160,7 @@
                     </div>
                     <div class="col">
                         <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                             <div class="card-body">
                                 <h5 class="card-title">Мандала - Квилинг</h5>
@@ -152,7 +173,7 @@
                     </div>
                     <div class="col">
                         <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/empty.jpeg" class="card-img-top"
+                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
                             <div class="card-body">
                                 <h5 class="card-title">Мандала - Квилинг</h5>
@@ -175,76 +196,65 @@
             <div class="row text-center text-lg-left">
 
                 <!---->
-                <div class="col-lg-3 col-md-4 col-6">
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-
-                </div>
+             
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/DSC02867-compressor.jpg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/IMG_20181005_084650.jpg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/IMG_20180405_123713.jpg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/IMG_20171112_132526-compressor.jpg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/empty.jpeg" alt="">
+                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
                     </a>
                 </div>
             </div>

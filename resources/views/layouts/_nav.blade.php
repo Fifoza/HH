@@ -60,9 +60,11 @@
         </ul>
         @endauth
 
-        <input type="text" placeholder="Търсене...">
-        <button class="btn btn-secondary" type="button" id="searchButton">
+    </div>
+    <form class="form-inline row">
+        <input class="form-control ml-4 ml-md-auto mt-2 mb-2 mr-md-2 col-8" type="search" placeholder="Търсене..." aria-label="Search" name="search">
+        <button id="searchButton" class="btn btn-secondary ml-2 ml-md-0 mr-md-4" type="submit">
             <i class="fa fa-search"></i>
         </button>
-    </div>
+    </form>
 </nav>
