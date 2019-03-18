@@ -1,9 +1,20 @@
+#main {
+  height: 0rem !important;
+}
 #mainContainer {
   display: block !important;
-  margin-top: 2rem !important;
-  margin-bottom: 7rem !important;
+  margin: 2rem auto !important;
+  width: 90vw !important;
 }
-
+#centralHeader {
+  padding-bottom: 0 !important;
+}
 #mainContainer a {
-  margin-top: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 0;
+}
+@media (max-width: 575.98px) {
+  #mainContainer a {
+    margin-top: 3rem;
+  }
 }

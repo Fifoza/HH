@@ -23,8 +23,7 @@
     <div class="col">
         <p><a href="{{route('mission')}}">Нашата мисия</a></p>
 
-        <p><a href="{{route('conditions')}}" rel="noopener noreferrer">Общи правила за ползване на
-                сайта</a></p>
+        <p><a href="{{route('conditions')}}">Общи правила за ползване на сайта</a></p>
 
         <ul id="thirthCol">
             <li>
