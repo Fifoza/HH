@@ -29,7 +29,7 @@
                                     <h4>Ива Миланова</h4>
                                     <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
 
-                                    <a href="#" class="btn btn-primary">Продължете</a>
+                                    <a href="#" class="btn btn-primary">Виж повече за това</a>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up
                                         the
                                         bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <a href="#" class="btn btn-primary">See more about that</a>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up
                                         the
                                         bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <a href="#" class="btn btn-primary">See more about that</a>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                             <h5 class="card-title">Избирате Творчество</h5>
                             <p class="card-text">Потапяте се в пофилите на нашите творци и избирате уникалния
                                 продукт.</p>
-                            <a href="#" class="btn btn-primary">Продължете</a>
+                            <a href="#" class="btn btn-primary">Виж повече за това</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                             <h5 class="card-title">Избирате творец</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional
                                 content.</p>
-                            <a href="#" class="btn btn-primary">Продължете</a>
+                            <a href="#" class="btn btn-primary">Виж повече за това</a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                                 <h4>Ива Миланова</h4>
                                 <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
 
-                                <a href="#" class="btn btn-primary">Продължете</a>
+                                <a href="#" class="btn btn-primary">Виж повече за това</a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up
                                     the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">See more about that</a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up
                                     the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">See more about that</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                 <h4>Ива Миланова</h4>
                                 <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
 
-                                <a href="#" class="btn btn-primary">Продължете</a>
+                                <a href="#" class="btn btn-primary">Виж повече за това</a>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                                 <h4>Ива Миланова</h4>
                                 <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
 
-                                <a href="#" class="btn btn-primary">Продължете</a>
+                                <a href="#" class="btn btn-primary">Виж повече за това</a>
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                                 <h4>Ива Миланова</h4>
                                 <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
 
-                                <a href="#" class="btn btn-primary">Продължете</a>
+                                <a href="#" class="btn btn-primary">Виж повече за това</a>
                             </div>
                         </div>
                     </div>
