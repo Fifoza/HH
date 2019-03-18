@@ -37,3 +37,5 @@ Route::post('/todos', function(){
     \file_put_contents(config_path('todos.txt'), $clean);
     return 'it works';
 });
+
+Route::get('/profiles/{userId}', 'ProfilesController@show')->name('profiles.show');
