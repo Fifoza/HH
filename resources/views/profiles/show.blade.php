@@ -230,7 +230,7 @@
 @endsection
 
 @section('custom-scripts')
-    <!-- <script src="js/custom.js"></script> -->
+    <script src="js/custom.js"></script>
     <script>
     var $star_rating = $('.star-rating .fa');
 
