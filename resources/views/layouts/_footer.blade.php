@@ -23,7 +23,7 @@
     <div class="col">
         <p><a href="mission.html">Нашата мисия</a></p>
 
-        <p><a href="conditions.html" target="_blanc" rel="noopener noreferrer">Общи правила за ползване на
+        <p><a href="{{route('conditions')}}" rel="noopener noreferrer">Общи правила за ползване на
                 сайта</a></p>
 
         <ul id="thirthCol">

@@ -1,6 +1,7 @@
 <?php
 
 use App\User;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,11 @@ Route::get('/', function () {
     $users = User::with('creativities')->latest('created_at')->has('creativities')->limit(3)->get();
     return view('welcome')->withUsers($users);
 })->name('welcome');
+
+Route::get('/conditions', function (Request $request) {
+    $registerButton = (app('router')->getRoutes()->match(app('request')->create(URL::previous()))->getName() == 'register');
+    return view('conditions')->withRegisterButton($registerButton);
+})->name('conditions');
 
 Auth::routes();
 

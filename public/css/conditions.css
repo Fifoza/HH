@@ -3,9 +3,8 @@ body #main {
 }
 
 body #conditions {
-  height: 65rem;
   background: #2a7573;
-  margin: 10rem;
+  margin: 10rem auto;
   border-radius: 15px;
   padding: 5rem;
   -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
@@ -15,5 +14,13 @@ body #conditions {
 
 body #conditions h3 {
   text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  body #conditions {
+    width: 90vw !important;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
 }
 /*# sourceMappingURL=conditions.css.map */
