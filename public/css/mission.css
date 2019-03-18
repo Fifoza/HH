@@ -1,0 +1,9 @@
+#mainContainer {
+  display: block !important;
+  margin-top: 2rem !important;
+  margin-bottom: 7rem !important;
+}
+
+#mainContainer a {
+  margin-top: 3rem;
+}

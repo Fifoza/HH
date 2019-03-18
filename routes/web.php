@@ -24,6 +24,10 @@ Route::get('/conditions', function (Request $request) {
     return view('conditions')->withRegisterButton($registerButton);
 })->name('conditions');
 
+Route::get('/mission', function (Request $request) {
+    return view('mission');
+})->name('mission');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

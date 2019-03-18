@@ -1,1 +1,1 @@
-***welcome***login***logout***register***password.request***password.email***password.reset***password.update***home***conditions
+***welcome***login***logout***register***password.request***password.email***password.reset***password.update***home***conditions***mission
