@@ -28,16 +28,14 @@
 
         <ul id="thirthCol">
             <li>
-                <p><a href="https://www.facebook.com/groups/691947731220270/?tn-str=*F" target="_blanc"><img border=" 0" alt="facebook" src="socialicons/Facebook.png" width="45"
-                            height="45"></a></p>
+                <p><a href="https://www.facebook.com/groups/691947731220270/?tn-str=*F" target="_blanc">Facebook</a></p>
             </li>
             <li>
-                <p><a href="https://www.pinterest.com/eb0cbd3ecf81451962746acda9cad4/" target="_blanc"><img border=" 0" alt="Pinterest" src="socialicons/Pinterest.png" width="45" height="45"></a></p>
+                <p><a href="https://www.pinterest.com/eb0cbd3ecf81451962746acda9cad4/" target="_blanc">Pinterest</a></p>
             </li>
           
             <li>
-                <p><a href="https://twitter.com/Creativni1?lang=en" target="_blanc"><img border=" 0" alt="tweeter" src="socialicons/Twitter.png" width="45"
-                            height="45"></a></p>
+                <p><a href="https://twitter.com/Creativni1?lang=en" target="_blanc">Tweeter</a></p>
             </li>
         </ul>
     </div>
