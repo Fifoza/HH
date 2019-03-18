@@ -145,7 +145,7 @@
             </section>
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12">
                         <div class="card mt-3" style="width: 100%;">
                             <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-12">
                         <div class="card mt-3" style="width: 100%;">
                             <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
@@ -171,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-12">
                         <div class="card mt-3" style="width: 100%;">
                             <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
                                     alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a></div>
