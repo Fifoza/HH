@@ -17,7 +17,6 @@
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
-        "marto/todos": "^1.0",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.5"
@@ -43,8 +42,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "Marto\\Todos\\": "package/todos/src/"
+            "Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
