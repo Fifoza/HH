@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b62faa411c91cd2af8619b953df64f9",
+    "content-hash": "4731429c7f25ab92eaa813447a972209",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2778,45 +2778,6 @@
                 "test"
             ],
             "time": "2016-01-20T08:20:44+00:00"
-        },
-        {
-            "name": "marto/todos",
-            "version": "v1.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/MartinPavlinovNikolov/todos.git",
-                "reference": "7db0620088e17b2fcdfb0e7b65e211e1004e23c2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/MartinPavlinovNikolov/todos/zipball/7db0620088e17b2fcdfb0e7b65e211e1004e23c2",
-                "reference": "7db0620088e17b2fcdfb0e7b65e211e1004e23c2",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Marto\\Todos\\TodosServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Marto\\Todos\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "MartinPavlinovNikolov",
-                    "email": "Martin_Nikolov.89@abv.bg"
-                }
-            ],
-            "time": "2019-03-22T23:04:20+00:00"
         },
         {
             "name": "mockery/mockery",
