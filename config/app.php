@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Marto\Todos\TodosServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -1050,6 +1050,47 @@
         ]
     },
     {
+        "name": "marto/todos",
+        "version": "v1.0.8",
+        "version_normalized": "1.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MartinPavlinovNikolov/todos.git",
+            "reference": "7db0620088e17b2fcdfb0e7b65e211e1004e23c2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/MartinPavlinovNikolov/todos/zipball/7db0620088e17b2fcdfb0e7b65e211e1004e23c2",
+            "reference": "7db0620088e17b2fcdfb0e7b65e211e1004e23c2",
+            "shasum": ""
+        },
+        "time": "2019-03-22T23:04:20+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Marto\\Todos\\TodosServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Marto\\Todos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "MartinPavlinovNikolov",
+                "email": "Martin_Nikolov.89@abv.bg"
+            }
+        ]
+    },
+    {
         "name": "mockery/mockery",
         "version": "1.2.2",
         "version_normalized": "1.2.2.0",
