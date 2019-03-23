@@ -1,0 +1,134 @@
+.star-rating {
+  line-height: 32px;
+  font-size: 1.25em;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  padding: 1rem;
+}
+
+.star-rating .fa-star {
+  color: rgb(255, 113, 13);
+}
+
+body h2 {
+  font-size: 20px;
+  margin: 2rem;
+}
+
+body #main #navbar #startButton {
+  margin-left: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+#main {
+  height: 0rem !important;
+}
+
+#mainContainer {
+  display: block !important;
+  margin: 2rem auto !important;
+  width: 90vw !important;
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0;
+    text-align: center;
+  }
+
+  .card {
+    margin: 1rem auto 0;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+ 
+
+  body #main div.card {
+    
+    width: 23rem;
+    margin-left: 1rem;
+  }
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  div.col-sm-4 {
+    display: contents;
+    padding: 1rem;
+  }
+
+  body {
+
+
+    #navbar {
+      opacity: 1;
+
+      li.nav-link {
+        padding: unset;
+      }
+
+      li.nav-link:hover {
+        background: darkviolet;
+      }
+
+      .dropdown-menu {
+        width: 100%;
+      }
+
+      input {
+        margin-left: 16rem;
+      }
+
+      #searchButton:hover {
+        background: darkmagenta;
+      }
+
+      #navbarSupportedContent a {
+        width: 100%;
+        margin: 0;
+        height: 40px;
+        border-radius: unset;
+      }
+
+      #navbarSupportedContent a:hover {
+        background: darkmagenta;
+      }
+
+      i.fas fa-bars {
+        margin-left: 3rem;
+      }
+    }
+  }
+
+  body #navbar input {
+    margin-left: 9rem;
+  }
+
+  body #main #navbar #startButton,
+  #dropdownMenuLink {
+    margin: 0;
+  }
+
+  #mainContainer {
+    div.container {
+      div.row {
+        margin-left: 32px;
+
+      }
+    }
+  }
+
+
+  .my-5 {
+    margin-top: 3rem !important;
+    margin-left: 3rem;
+  }
+}

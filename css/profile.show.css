@@ -1,0 +1,103 @@
+.star-rating {
+  line-height: 32px;
+  font-size: 1.25em;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  padding: 1rem;
+}
+
+.star-rating .fa-star {
+  color: #ff710d;
+}
+
+body h2 {
+  font-size: 20px;
+  margin: 2rem;
+}
+
+body #main #navbar #startButton {
+  margin-left: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+#main {
+  height: 0rem !important;
+}
+
+#mainContainer {
+  display: block !important;
+  margin: 2rem auto !important;
+  width: 90vw !important;
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0;
+    text-align: center;
+  }
+  .card {
+    margin: 1rem auto 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  div.col-sm-4 {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  div.col-sm-4 {
+    display: contents;
+    padding: 1rem;
+  }
+  body #navbar {
+    opacity: 1;
+  }
+  body #navbar li.nav-link {
+    padding: unset;
+  }
+  body #navbar li.nav-link:hover {
+    background: darkviolet;
+  }
+  body #navbar .dropdown-menu {
+    width: 100%;
+  }
+  body #navbar input {
+    margin-left: 16rem;
+  }
+  body #navbar #searchButton:hover {
+    background: darkmagenta;
+  }
+  body #navbar #navbarSupportedContent a {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    border-radius: unset;
+  }
+  body #navbar #navbarSupportedContent a:hover {
+    background: darkmagenta;
+  }
+  body #navbar i.fas fa-bars {
+    margin-left: 3rem;
+  }
+  body #navbar input {
+    margin-left: 9rem;
+  }
+  body #main #navbar #startButton,
+  #dropdownMenuLink {
+    margin: 0;
+  }
+  #mainContainer div.container div.row {
+    margin-left: 32px;
+  }
+  .my-5 {
+    margin-top: 3rem !important;
+    margin-left: 3rem;
+  }
+}
+/*# sourceMappingURL=profile.show.css.map */
