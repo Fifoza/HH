@@ -34,7 +34,7 @@
             </a>
         
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                <a class="dropdown-item" href="{{route('profiles.show', ['id' => auth()->id()])}}">Моят Профил</a>
+                <a class="dropdown-item" href="{{route('profiles.show', ['profile' => auth()->id()])}}">Моят Профил</a>
                 <a class="dropdown-item" href="#">Настройки</a>
                 <a class="dropdown-item" href="{{ route('logout') }}"
                 onclick="event.preventDefault();document.getElementById('logout-form').submit();">

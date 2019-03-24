@@ -1,6 +1,7 @@
 <?php
 
 use App\User;
+use App\Creativity;
 use Illuminate\Http\Request;
 
 /*
@@ -15,8 +16,9 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    $users = User::with('creativities')->latest('created_at')->has('creativities')->limit(3)->get();
-    return view('welcome')->withUsers($users);
+    $users = User::with('creativities')->has('creativities')->latest()->limit(3)->get();
+    $lastCreativities = Creativity::latest()->limit(3)->with('user')->get();
+    return view('welcome')->withUsers($users)->withLastCreativities($lastCreativities);
 })->name('welcome');
 
 Route::get('/conditions', function (Request $request) {
@@ -30,12 +32,8 @@ Route::get('/mission', function (Request $request) {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/profiles/{profile}', 'ProfilesController@show')->name('profiles.show');
 
-Route::post('/todos', function(){
-    $clean = str_replace("\n", ' ',request()->Original);
-    \file_put_contents(config_path('todos.txt'), $clean);
-    return 'it works';
-});
-
-Route::get('/profiles/{userId}', 'ProfilesController@show')->name('profiles.show');
+Route::get('/profiles/{profile}/creativities/create', 'ProfilesCreativitiesController@create')->name('profiles.creativities.create');
+Route::post('/profiles/{profile}/creativities', 'ProfilesCreativitiesController@store')->name('profiles.creativities.store');
+Route::get('/profiles/{profile}/creativities/{creativity}', 'ProfilesCreativitiesController@show')->name('profiles.creativities.show');

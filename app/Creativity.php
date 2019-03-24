@@ -9,8 +9,8 @@ class Creativity extends Model
     protected $guarded = [];
     protected $table = 'creativities';
 
-    public function users()
+    public function user()
     {
-        return $this->belongsTo(App\User::class);
+        return $this->belongsTo('App\User');
     }
 }

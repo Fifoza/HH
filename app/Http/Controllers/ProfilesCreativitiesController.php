@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\User;
+use App\Creativity;
 
-class ProfilesController extends Controller
+class ProfilesCreativitiesController extends Controller
 {
 
     public function __construct()
@@ -28,9 +28,10 @@ class ProfilesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create($profile)
     {
-        //
+        $profile = auth()->user()->get();
+        return view('profiles.creativities.create')->with(compact($profile));
     }
 
     /**
@@ -41,7 +42,22 @@ class ProfilesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'title' => ['required', 'string', 'min:1','max:255'],
+            'description' => ['required', 'min:1'],
+            'image' => ['required', 'image', 'mimes:jpeg,png,jpg,gif']
+        ]);
+        $image = request()->image;
+        $filename = time().".".$image->extension();
+        $image->storeAs('public/images', $filename);
+        $creativity = Creativity::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'image' => $filename,
+            'user_id' => auth()->id()
+        ]);
+
+        return redirect(route('profiles.creativities.show', ['profile' => auth()->id(), 'creativity' => $creativity->id]));
     }
 
     /**
@@ -50,10 +66,10 @@ class ProfilesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($profile)
+    public function show($profile, $creativity)
     {
-        $profile = User::where('id', auth()->id())->with('creativities')->get()[0];
-        return view('profiles.show')->withProfile($profile);
+        $creativity = Creativity::find($creativity);
+        return view('profiles.creativities.show')->withCreativity($creativity);
     }
 
     /**
@@ -62,7 +78,7 @@ class ProfilesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($profile)
+    public function edit($profile, $creativity)
     {
         //
     }
@@ -74,7 +90,7 @@ class ProfilesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $profile)
+    public function update(Request $request, $profile, $creativity)
     {
         //
     }
@@ -85,7 +101,7 @@ class ProfilesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($profile)
+    public function destroy($profile, $creativity)
     {
         //
     }
