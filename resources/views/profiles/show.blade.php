@@ -12,12 +12,13 @@
                 <a href="{{route('profiles.creativities.create', ['profile' => auth()->id()])}}" class="btn btn-success btn-block">Качи нова творба</a>
             </div>
             <div class="col-12">
-                <h2>Текущите Ви творби:</h2>
+                @if($profile->creativities->count())<h2>Текущите Ви творби:</h2>@endif
             </div>
             
             @foreach($profile->creativities as $creativity)
             <div class="col-sm-4 mt-5">
                 <div class="card">
+                    <h5>Категория: {{$creativity->type}}</h5>
                     <div class="img__wrapper">
                         <img src="{{asset('storage/images/'.$creativity->image)}}" class="card-img-top"
                             alt="...">
@@ -31,12 +32,11 @@
                         <a href="#" class="btn btn-danger btn-sm">Изтрий</a>
 
                         <div class="star-rating">
-                            <span class="fa fa-star-o" data-rating="1"></span>
-                            <span class="fa fa-star-o" data-rating="2"></span>
-                            <span class="fa fa-star-o" data-rating="3"></span>
-                            <span class="fa fa-star-o" data-rating="4"></span>
-                            <span class="fa fa-star-o" data-rating="5"></span>
-                            <input type="hidden" name="whatever1" class="rating-value" value="5">
+                            <span class="far fa-star {{$creativity->rate > 0 ? '' : 'fa-star-no'}}"></span>
+                            <span class="far fa-star {{$creativity->rate > 1 ? '' : 'fa-star-no'}}"></span>
+                            <span class="far fa-star {{$creativity->rate > 2 ? '' : 'fa-star-no'}}"></span>
+                            <span class="far fa-star {{$creativity->rate > 3 ? '' : 'fa-star-no'}}"></span>
+                            <span class="far fa-star {{$creativity->rate > 4 ? '' : 'fa-star-no'}}"></span>
                         </div>
 
                     </div>

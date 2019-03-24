@@ -18,6 +18,11 @@
                                 <h5 class="card-title">{{$creativity->title}}</h5>
                                 <p class="card-text">{{$creativity->user->name}}: {{$creativity->description}}</p>
                                 <a href="#" class="btn btn-primary">Редактирай</a>
+                                <div class="star-rating">
+                                    @for($i=1;$i<=$creativity->rate;$i++)
+                                    <span class="fa fa-star"></span>
+                                    @endfor
+                                </div>
                             </div>
                         </div>
                     </div>

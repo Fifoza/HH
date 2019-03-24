@@ -27,7 +27,7 @@
 
 
         @auth
-        <div class="dropdown show mr-auto">
+        <div class="dropdown show mr-2 ml-1">
             <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               {{auth()->user()->name}}
@@ -45,6 +45,12 @@
                 </form>
             </div>
         </div>
+        
+        <div class="dropdown show mr-auto">
+            <a href="{{route('profiles.creativities.create', ['profile' => auth()->id()])}}" class="btn btn-primary">Качи нова творба</a>
+        </div>
+
+
         @else
         <ul class="navbar-nav mr-auto">
             <li class="nav-link"><a href="{{ route('login') }}" class="btn btn-primary  active" role="button"

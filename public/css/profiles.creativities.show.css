@@ -2,6 +2,13 @@
   height: 0rem !important;
 }
 
+.star-rating {
+  line-height:32px;
+  font-size:1.25em;
+}
+
+.star-rating .fa-star{color: yellow;}
+
 @media (max-width: 767.98px) {
   #main {
     height: 0rem !important;

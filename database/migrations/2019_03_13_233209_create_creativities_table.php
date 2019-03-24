@@ -17,8 +17,10 @@ class CreateCreativitiesTable extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->string('image');
+            $table->string('type');
             $table->text('description');
             $table->integer('user_id')->unsigned();
+            $table->integer('rate')->unsigned();
             $table->timestamps();
         });
     }

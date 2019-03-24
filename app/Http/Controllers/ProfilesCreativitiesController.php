@@ -45,7 +45,8 @@ class ProfilesCreativitiesController extends Controller
         $this->validate($request, [
             'title' => ['required', 'string', 'min:1','max:255'],
             'description' => ['required', 'min:1'],
-            'image' => ['required', 'image', 'mimes:jpeg,png,jpg,gif']
+            'image' => ['required', 'image', 'mimes:jpeg,png,jpg,gif'],
+            'type' => ['required']
         ]);
         $image = request()->image;
         $filename = time().".".$image->extension();
@@ -54,7 +55,9 @@ class ProfilesCreativitiesController extends Controller
             'title' => $request->title,
             'description' => $request->description,
             'image' => $filename,
-            'user_id' => auth()->id()
+            'user_id' => auth()->id(),
+            'rate' => 0,
+            'type' => $request->type
         ]);
 
         return redirect(route('profiles.creativities.show', ['profile' => auth()->id(), 'creativity' => $creativity->id]));

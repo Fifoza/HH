@@ -16,9 +16,13 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    $users = User::with('creativities')->has('creativities')->latest()->limit(3)->get();
-    $lastCreativities = Creativity::latest()->limit(3)->with('user')->get();
-    return view('welcome')->withUsers($users)->withLastCreativities($lastCreativities);
+    $lastCreativities = Creativity::latest()->limit(3)->get();
+
+    $topRatedCreativities = Creativity::orderByDesc('rate')->limit(3)->with('user')->get();
+
+    $randomCreativities = Creativity::inRandomOrder()->limit(12)->with('user')->get();
+
+    return view('welcome')->withTopRatedCreativities($topRatedCreativities)->withRandomCreativities($randomCreativities)->withLastCreativities($lastCreativities);
 })->name('welcome');
 
 Route::get('/conditions', function (Request $request) {

@@ -16,11 +16,14 @@ use Faker\Generator as Faker;
 */
 
 $factory->define(Creativity::class, function (Faker $faker) {
+    $types = ["Квилинг","Плетени на една кука","Плетени на две куки","Живопис","Декупаж","Щамповани","Дигитални","Други"];
     return [
         'title' => $faker->text(15, 30),
         'image' => 'empty.jpeg',
         'description' => $faker->text(35, 75),
         'user_id' => rand(1, 5),
+        'rate' => rand(1, 5),
         'created_at' => now(),
+        'type' => $types[rand(0, 7)],
     ];
 });
