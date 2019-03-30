@@ -45,8 +45,9 @@ body #main #navbar #startButton {
 }
 
 @media (max-width: 575.98px) {
-  div.col-sm-4 {
-    padding-left: 4rem;
+  body #main div.card {
+    width: 23rem;
+    margin-left: 1rem;
   }
 }
 

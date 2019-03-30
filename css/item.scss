@@ -1,0 +1,137 @@
+body #main {
+    height: unset;
+
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+body #main #footer {
+    text-align: left;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    height: 19rem;
+}
+
+#item {
+
+    img {
+        border-radius: 15px;
+
+    }
+
+
+    text-align: left;
+
+
+}
+
+#mainContainer {
+    background: white;
+}
+
+#itemName {
+    font-size: 28px;
+    color: darkviolet;
+}
+
+a {
+    color: darkorchid
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    #mobilContainer {
+        display: none;
+
+    }
+
+    #mainContainer {
+        display: block;
+        background: transparent;
+        color: white;
+
+    }
+
+    body h3 {
+        font-size: 15px;
+    }
+
+    #itemName {
+        font-size: 20px;
+    }
+
+    .container {
+        max-width: 575px;
+        padding: 4rem;
+    }
+
+    body #main div.card {
+        margin-left: -3rem;
+        width: 24rem;
+        margin-bottom: 1rem;
+    }
+
+    body #main #footer {
+        text-align: left;
+        margin: 1rem 0 0 0;
+        padding: 1rem;
+        height: 43rem;
+        display: flex;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+    #mobilContainer {
+        display: none;
+
+    }
+
+    #mainContainer {
+        display: block;
+        background: transparent;
+        color: white;
+
+    }
+
+    body h3 {
+        font-size: 15px;
+    }
+
+    #itemName {
+        font-size: 20px;
+    }
+
+    .container {
+        max-width: 760px;
+        padding: 2rem;
+    }
+
+    body #main div.card {
+
+        margin-left: -3rem;
+        width: 4rem;
+        margin-bottom: 1rem;
+
+        display: contents;
+    }
+
+    body #main #footer {
+        text-align: left;
+        margin: 1rem 0 0 0;
+        padding: 1rem;
+        height: unset;
+        display: flex;
+    }
+
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: unset;
+        color: white;
+
+    }
+}
