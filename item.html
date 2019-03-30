@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <meta name="theme-color" content="#222222">
+
+    <title>Fifoza Test Website</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script async type="text/javascript" src="bubles/bubble-bg-master/background.js"></script>
+    <link rel="stylesheet" href="css/animate-custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/item.css">
+
+</head>
+
+<body>
+
+    <header id="header">
+
+        <canvas id="background"></canvas>
+
+        <div class="container" width="100%" id="headerTitle">
+            <h1>HandMade Home</h1>
+
+            <h3>Домът на ръчната изработка</h3>
+        </div>
+
+    </header>
+    <main id="main">
+
+        <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+
+            <button class="navbar-toggler bg-info text-white" type="button" data-toggle="collapse" style="width: 100%"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
+                <span class="navbar-toggler-icon mr-3"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a href="/" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало
+                    H&H</a>
+                <div class="dropdown show">
+                    <a class="btn btn-primary dropdown-toggle" href="/" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Изберете изкуство
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Квилинг</a>
+                        <a class="dropdown-item" href="#">Плетени на Една кука</a>
+                        <a class="dropdown-item" href="#">Плетени на Две куки</a>
+                        <a class="dropdown-item" href="#">Живопис</a>
+                        <a class="dropdown-item" href="#">Декупаж</a>
+                        <a class="dropdown-item" href="#">Щамповани</a>
+                        <a class="dropdown-item" href="#">Дигитални</a>
+                        <a class="dropdown-item" href="#">Други</a>
+                    </div>
+                </div>
+
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-link"><a href="login.html" class="btn btn-primary  active" role="button"
+                            aria-pressed="true"><i class="fas fa-sign-in-alt mr-3"></i>Влезте
+                            в акаунта си</a></li>
+
+                    <li class="nav-link"><a href="register.html" class="btn btn-primary  active" role="button"
+                            aria-pressed="true"><i class="fas fa-user-plus mr-3"></i>Регистрирайте се</a>
+                    </li>
+                </ul>
+
+            </div>
+            <form class="form-inline row">
+                <input class="form-control ml-4 ml-md-auto mt-2 mb-2 mr-md-2 col-8" type="search"
+                    placeholder="Търсене..." aria-label="Search" name="search">
+                <button id="searchButton" class="btn btn-secondary ml-2 ml-md-0 mr-md-4" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </nav>
+        <div class="container" id="mainContainer">
+
+            <section id="centralHeader">
+
+                <div class="row" id="item">
+                    <div class="row">
+                        <div class="col-8">
+
+
+                            <img src="images/IMG_20171112_132526.jpg" class="img-fluid" height="500" width="550"
+                                alt="image">
+                            <div class="star-rating">
+                                <span class="fa fa-star-o" data-rating="1"></span>
+                                <span class="fa fa-star-o" data-rating="2"></span>
+                                <span class="fa fa-star-o" data-rating="3"></span>
+                                <span class="fa fa-star-o" data-rating="4"></span>
+                                <span class="fa fa-star-o" data-rating="5"></span>
+                                <input type="hidden" name="whatever1" class="rating-value" value="5">
+                            </div>
+
+                        </div>
+                        <div class="col-4" id="itemParam">
+                            <h2 id="itemName">"Пеперуда"</h2>
+                            <h3><strong>Автор:</strong> <a href="#">Ива Миланова</a></h3>
+                            <h3><strong>Категория:</strong> <a href="#">Плетени</a></h3>
+                            <h3><strong>Материали:</strong> Прежда, силиконова вата, платсмасови очи </h3>
+                            <h4><strong>Размери:</strong> 18см</h4>
+                            <h4><strong>Статус:</strong> Налично </h4>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+            <div class="container">
+
+
+
+                <h3>Други продукти от <a href="#">Ива Миланова</a></h3>
+
+                <div class="container p-2 pb-3">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
+                                        alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Мандала - Квилинг</h5>
+                                    <h4>Ива Миланова</h4>
+                                    <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.
+                                    </p>
+
+                                    <a href="#" class="btn btn-primary">Виж повече за това</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">See more about that</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">See more about that</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container p-3 pb-3">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
+                                        alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a>
+
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Мандала - Квилинг</h5>
+                                    <h4>Ива Миланова</h4>
+                                    <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.
+                                    </p>
+
+                                    <a href="#" class="btn btn-primary">Виж повече за това</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">See more about that</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">See more about that</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Предишна</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Следваща</a>
+                      </li>
+                    </ul>
+                  </nav>
+        </div>
+
+
+
+       <!--Container for Mobile-->
+      <!--  <div clas="jumbotron bg-white" id="mobilContainer">
+            <div class="row" id="personalPhoto">
+                <div class="col-sm-4"><img src="images/IMG_20181005_090047.jpg" alt="..." class="img-thumbnail">
+                </div>
+                <div class="col-sm-8">
+                    <h2>Iva Milanova</h2>
+                    <h3><a href="#">Квилинг</a> и <a fref="#">Плетени на Една/две куки</a></h3>
+                    <h4>Занимавам се с квилинг и плетене в свободното си време. При желание от Ваша страна мога да
+                        изработя продукт,
+                        който сте си харесали на моята страничка. </h4>
+
+                    <h5>София, България</h5>
+
+                    <h5> <a href="https://www.facebook.com/iva.milanova.1441">Facebook страница</a></h5>
+
+
+                </div>
+            </div>
+        </div>
+    -->
+    
+        <div class="row" id="footer">
+
+            <div class="col">
+                <h3>Контакти</h3>
+                <p><i class="fas fa-mobile-alt m-3"></i><a href="tel:+359878738040">+359878738040</a></p>
+                <p><i class="fas fa-envelope-square m-3"></i><a href="mailto:info@creativni.com">Email:
+                        info@creativni.com</a></i></p>
+            </div>
+            <div class="col">
+
+                <ul>
+                    <li> <a href="#">Квилинг</a></li>
+                    <li> <a href="#">Плетени на Една кука</a></li>
+                    <li> <a href="#">Плетени на Две куки</a></li>
+                    <li><a href="#">Живопис</a> /
+                        <a href="#">Декупаж</a></li>
+                    <li> <a href="#">Щамповани</a></li>
+                    <li><a href="#">Дигитални</a></li>
+                    <li><a href="#">Други</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col">
+                <p><a href="mission.html">Нашата мисия</a></p>
+
+                <p><a href="conditions.html">Общи правила за ползване на сайта</a></p>
+
+                <ul id="thirthCol">
+                    <li>
+                        <p><a href="https://www.facebook.com/groups/691947731220270/?tn-str=*F" target="_blanc"><img
+                                    border=" 0" alt="facebook" src="images/facebook.png" width="45" height="45"></a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.pinterest.com/eb0cbd3ecf81451962746acda9cad4/" target="_blanc"><img
+                                    border=" 0" alt="Pinterest" src="images/pinterest.png" width="45" height="45"></a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><a href="https://twitter.com/Creativni1?lang=en" target="_blanc"><img border=" 0"
+                                    alt="tweeter" src="images/tweeter.png" width="45" height="45"></a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col" id="form">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Вашият Имейл</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Вашето съобщение</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input class="btn btn-primary m-1" type="submit" value="Изпратете">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="js/custom.js"></script>
+    <script src="js/item.js"></script>
+    
+    </script>
+</body>
+
+
+</html>
