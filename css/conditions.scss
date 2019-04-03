@@ -22,8 +22,19 @@ body {
             text-align: center;
         }
     }
+    .fa-check-square{
+        color: rgb(83, 40, 120);
+    }
+    .fa-exclamation{
+        color: rgb(0, 98, 204);
+    }
 }
-
+body #main #footer {
+    text-align: left;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    height: 19rem;
+}
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -101,5 +112,7 @@ body {
         font-size: 16px;
     }
 
-    
+    .fa-check-square{
+        color: violet;
+    }
 }

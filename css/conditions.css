@@ -21,6 +21,21 @@ body #conditions h3 {
   text-align: center;
 }
 
+body .fa-check-square {
+  color: #532878;
+}
+
+body .fa-exclamation {
+  color: #0062cc;
+}
+
+body #main #footer {
+  text-align: left;
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  height: 19rem;
+}
+
 @media (max-width: 575.98px) {
   body #main .container {
     margin: 0;
@@ -78,6 +93,9 @@ body #conditions h3 {
   body p.lead,
   p {
     font-size: 16px;
+  }
+  .fa-check-square {
+    color: violet;
   }
 }
 /*# sourceMappingURL=conditions.css.map */
