@@ -34,6 +34,13 @@ body #main #navbar #startButton {
   width: 90vw !important;
 }
 
+body #main #footer {
+  text-align: left;
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  height: 19rem;
+}
+
 @media (max-width: 575.98px) {
   .container {
     padding: 0;

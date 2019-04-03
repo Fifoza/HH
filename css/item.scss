@@ -62,9 +62,17 @@ a {
         font-size: 20px;
     }
 
+    a {
+        color: rgb(50, 99, 204);
+    }
+
     .container {
         max-width: 575px;
         padding: 4rem;
+    }
+
+    .card-body {
+        margin-bottom: 1rem;
     }
 
     body #main div.card {
@@ -105,6 +113,10 @@ a {
         font-size: 20px;
     }
 
+    .card-title {
+        margin-top: 1rem;
+    }
+
     .container {
         max-width: 760px;
         padding: 2rem;
@@ -117,6 +129,10 @@ a {
         margin-bottom: 1rem;
 
         display: contents;
+    }
+
+    a {
+        color: rgb(50, 99, 204);
     }
 
     body #main #footer {
@@ -134,4 +150,38 @@ a {
         color: white;
 
     }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    #mainContainer {
+        display: block;
+
+    }
+
+    body #main #mainContainer {
+        padding-bottom: 4rem;
+        text-align: left;
+        border-radius: 15px;
+        width: 90%;
+        margin-top: 2rem;
+    }
+    .container {
+        max-width: 854px;
+        padding: 1rem;
+    }
+    body #main div.card {
+        margin-left: 0;
+        width: 15rem;
+    }
+
+    .row {
+      
+        margin-left: 14px;
+
+
+    }
+
+
+
 }

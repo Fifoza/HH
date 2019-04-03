@@ -49,9 +49,15 @@ a {
   #itemName {
     font-size: 20px;
   }
+  a {
+    color: #3263cc;
+  }
   .container {
     max-width: 575px;
     padding: 4rem;
+  }
+  .card-body {
+    margin-bottom: 1rem;
   }
   body #main div.card {
     margin-left: -3rem;
@@ -84,6 +90,9 @@ a {
   #itemName {
     font-size: 20px;
   }
+  .card-title {
+    margin-top: 1rem;
+  }
   .container {
     max-width: 760px;
     padding: 2rem;
@@ -93,6 +102,9 @@ a {
     width: 4rem;
     margin-bottom: 1rem;
     display: contents;
+  }
+  a {
+    color: #3263cc;
   }
   body #main #footer {
     text-align: left;
@@ -109,6 +121,30 @@ a {
             flex: 1 1 auto;
     padding: unset;
     color: white;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #mainContainer {
+    display: block;
+  }
+  body #main #mainContainer {
+    padding-bottom: 4rem;
+    text-align: left;
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .container {
+    max-width: 854px;
+    padding: 1rem;
+  }
+  body #main div.card {
+    margin-left: 0;
+    width: 15rem;
+  }
+  .row {
+    margin-left: 14px;
   }
 }
 /*# sourceMappingURL=item.css.map */
