@@ -1,57 +1,28 @@
-body #main {
-    height: unset;
 
+body #main{
+    height: 40rem;
 }
-
-.form-group {
-    margin-bottom: 0;
-}
-
 body #main #footer {
     text-align: left;
     margin: 1rem 0 0 0;
     padding: 1rem;
     height: 19rem;
+    
 }
 
-#item {
 
-    img {
-        border-radius: 15px;
-
-    }
-
-
-    text-align: left;
-
-
-}
-
-#mainContainer {
-    background: white;
-}
-
-#itemName {
-    font-size: 28px;
-    color: darkviolet;
-}
-
-a {
-    color: darkorchid
-}
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    #mobilContainer {
+        display: none;
 
-    body #main #mainContainer {
+    }
+
+    #mainContainer {
         display: block;
-        background: wheat;
-
-        padding-bottom: 1rem;
-        text-align: left;
-        border-radius: 0px;
-        width: 100%;
-        margin-top: 0;
+        background: transparent;
+        color: white;
 
     }
 
@@ -69,7 +40,7 @@ a {
 
     .container {
         max-width: 575px;
-
+        padding: 4rem;
     }
 
     .card-body {
@@ -77,14 +48,14 @@ a {
     }
 
     body #main div.card {
-        margin-left: 1rem;
+        margin-left: -3rem;
         width: 24rem;
         margin-bottom: 1rem;
     }
 
     body #main #footer {
         text-align: left;
-        margin: 0rem 0 0 0;
+        margin: 1rem 0 0 0;
         padding: 1rem;
         height: 43rem;
         display: flex;
@@ -92,7 +63,7 @@ a {
 }
 
 // Small devices (landscape phones, less than 768px)
-@media (min-width: 576.98px) and (max-width: 767.98px) {
+@media (max-width: 767.98px) {
 
     #mobilContainer {
         display: none;
@@ -154,7 +125,7 @@ a {
 }
 
 // Medium devices (tablets, less than 992px)
-@media (min-width: 768.98px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
     #mainContainer {
         display: block;
 
@@ -167,24 +138,22 @@ a {
         width: 90%;
         margin-top: 2rem;
     }
-
     .container {
         max-width: 854px;
         padding: 1rem;
     }
-
     body #main div.card {
         margin-left: 0;
         width: 15rem;
     }
 
     .row {
-
+      
         margin-left: 14px;
 
 
     }
 
 
-   
+
 }
