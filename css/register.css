@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   color: white;
 }
@@ -9,7 +8,7 @@ body #main {
 
 body #main #registerForm {
   width: 70%;
-  background: lightblue;
+  background: #6dbf1c;
   margin: 2rem;
   margin-left: 14rem;
   -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
@@ -21,7 +20,17 @@ body #main #registerForm {
 body #main #registerForm #mailForm {
   margin: 8rem auto;
   padding: 3rem;
-  background: #7529ad;
+  background: #092514;
+}
+
+body #main #registerForm #registerButton {
+  background: #6dbf1c;
+  color: white;
+}
+
+body #main #registerForm #registerButton:hover {
+  background: white;
+  color: #092514;
 }
 
 @media (max-width: 575.98px) {
@@ -53,7 +62,7 @@ body #main #registerForm #mailForm {
   }
   body #main #registerForm #mailForm {
     margin: 0rem auto;
-    padding: 1remм;
+    padding: 1rem;
   }
 }
 /*# sourceMappingURL=register.css.map */

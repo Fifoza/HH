@@ -7,7 +7,7 @@ body {
 
     #main #registerForm {
         width: 70%;
-        background: lightblue;
+        background: rgb(109, 191, 28);
         margin: 2rem;
         margin-left: 14rem;
         -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
@@ -19,10 +19,18 @@ body {
 
             margin: 8rem auto;
             padding: 3rem;
-            background: #7529ad;
+            background:rgb(9, 37, 20);
 
 
 
+        }
+        #registerButton{
+            background:rgb(109, 191, 28);
+            color: white;
+        }
+        #registerButton:hover{
+            background:white;
+            color:rgb(9, 37, 20);
         }
     }
 }
@@ -68,7 +76,7 @@ body {
 
     body #main #registerForm #mailForm {
         margin: 0rem auto;
-        padding: 1remм
+        padding: 1rem;
     }
 }
 
