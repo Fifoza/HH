@@ -8,7 +8,7 @@
     <meta name="robots" content="noindex">
     <meta name="googlebot" content="noindex">
 
-    <title>Fifoza Test Website</title>
+    <title>Creativni.com</title>
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../Fifoza Test Website/LoginForm/LoginRegistrationForm/css/animate-custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/index.css">
 
@@ -28,14 +28,14 @@
     <!-- Start of Header-->
     <header id="header">
 
-        <canvas id="background"></canvas>
+        <!-- <canvas id="background"></canvas>-->
 
         <div class="container" width="100%" id="headerTitle">
             <h1>Creativni.com</h1>
-<h2>Най-голямата платформа в България</h2>
-            <h3>за ръчно изработени продукти</h3>
+            <h2>Най-голямата платформа в България</h2>
+            <h3>за творци на ръчно изработени продукти</h3>
         </div>
-<!--<img src="images/1001Logo2.png">-->
+        <!--<img src="images/1001Logo2.png">-->
     </header>
     <!--End of Header-->
 
@@ -43,461 +43,568 @@
 
 
     <main id="main">
+        <div class="container-fluid" id="upAdPanel">
 
-        <!--Start of Navigation-->
-        <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+            <!--Start of Navigation-->
+            <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
 
-            <button class="navbar-toggler bg-info text-white" type="button" data-toggle="collapse" style="width: 100%"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
-                <span class="navbar-toggler-icon mr-3"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <a href="#" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало
-                    H&H</a>
-                <div class="dropdown show">
-                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Изберете изкуство
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Квилинг</a>
-                        <a class="dropdown-item" href="#">Плетени на Една кука</a>
-                        <a class="dropdown-item" href="#">Плетени на Две куки</a>
-                        <a class="dropdown-item" href="#">Живопис</a>
-                        <a class="dropdown-item" href="#">Декупаж</a>
-                        <a class="dropdown-item" href="#">Щамповани</a>
-                        <a class="dropdown-item" href="#">Дигитални</a>
-                        <a class="dropdown-item" href="#">Други</a>
-                    </div>
-                </div>
-
-
-
-                <ul class="navbar-nav mr-auto">
-
-
-                    <li class="nav-link"><a href="login.html" class="btn btn-primary  active" role="button"
-                            aria-pressed="true"><i class="fas fa-sign-in-alt mr-3"></i>Влезте
-                            в акаунта си</a></li>
-
-                    <li class="nav-link"><a href="register.html" class="btn btn-primary  active" role="button"
-                            aria-pressed="true"><i class="fas fa-user-plus mr-3"></i>Регистрирайте се</a></li>
-
-                </ul>
-                <input type="text" placeholder="Търсене...">
-                <button class="btn btn-secondary" type="button" id="searchButton">
-                    <i class="fa fa-search"></i>
+                <button class="navbar-toggler text-white" type="button" data-toggle="collapse" style="width: 100%"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
+                    <span class="navbar-toggler-icon mr-3"></span>
                 </button>
-            </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a href="#" class="btn active" role="button" aria-pressed="true" id="startButton">Начало
+                    </a>
+                    <div class="dropdown show">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Изберете изкуство
+                        </a>
 
-
-        </nav>
-        <!--End of Navigation-->
-        <!--  <div id="slider" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/DSC02866.JPG" class="d-block w-100" width="400" height="300" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>...</h5>
-                        <p>...</p>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Квилинг</a>
+                            <a class="dropdown-item" href="#">Плетени на Една кука</a>
+                            <a class="dropdown-item" href="#">Плетени на Две куки</a>
+                            <a class="dropdown-item" href="#">Живопис</a>
+                            <a class="dropdown-item" href="#">Декупаж</a>
+                            <a class="dropdown-item" href="#">Щамповани</a>
+                            <a class="dropdown-item" href="#">Дигитални</a>
+                            <a class="dropdown-item" href="#">Сувенири</a>
+                            <a class="dropdown-item" href="#">Други</a>
+                        </div>
                     </div>
+                    <div class="dropdown show">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Тематични артикули
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Рожден ден/Имен ден</a>
+                            <a class="dropdown-item" href="#">Сватба</a>
+                            <a class="dropdown-item" href="#">Изписване/Кръщене на дете</a>
+                            <a class="dropdown-item" href="#">Детски артикули/играчки</a>
+                            <a class="dropdown-item" href="#">Баба Марта</a>
+                            <a class="dropdown-item" href="#">Трифон Зарезан/Св. Валентин</a>
+                            <a class="dropdown-item" href="#">Хелоуин</a>
+                            <a class="dropdown-item" href="#">Коледа</a>
+                            <a class="dropdown-item" href="#">Други</a>
+                        </div>
+                    </div>
+
+
+                    <ul class="navbar-nav mr-auto">
+
+
+                        <li class="nav-link"><a href="login.html" class="btn  active" role="button"
+                                aria-pressed="true"><i class="fas fa-sign-in-alt mr-2"></i>Влезте
+                                в акаунта си</a></li>
+
+                        <li class="nav-link"><a href="register.html" class="btn  active" role="button"
+                                aria-pressed="true"><i class="fas fa-user-plus mr-2"></i>Регистрирайте се</a></li>
+
+                    </ul>
+                    <input type="text" placeholder="Търсене...">
+                    <button class="btn btn-secondary" type="button" id="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/IMG_20171112_132526-compressor.jpg" class="d-block w-100" width="400" height="300"
-                        alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+
+
+            </nav>
+            <!--End of Navigation-->
+
+
+
         </div>
-    -->
         <div class="container bg-white" id="mainContainer">
             <section id="centralHeader">
-                <h2>Добре дошли в <a href="https://creativni.com">Creativni.com</a> - Най-голямата платформа <br>на HandMade-творци в България!</h2>
-               <h3>Тук може да откриете абсолютно всичко, от което имате нужда. Дори повече!</h3>
-                
+                <h2>Добре дошли в <a href="https://creativni.com">Creativni.com</a> - Най-голямата платформа <br>на
+                    HandMade-творци в България!</h2>
+                <img class="img-thumbnail" src="images/art-supplies-arts-and-crafts-ballpens-159644(1).jpg">
+                <h3>Тук може да откриете абсолютно всичко, от което имате нужда. Дори повече!</h3>
+
                 <p class="lead">Всички продукти са изработени ръчно от участниците в тази платформа.</p>
 
                 Ако сте клиент и търсите уникални ръчно изработени продукти, може да разгледате нашите предложения.
                 Всеки творец отговаря за своите продукти.
 
-                <h3 class="animated fadeInUp">Регистрирайте се и качете своите продукти - 
-                        <a class="btn btn-primary" href="register.html" role="button">Станете част от Нашето голямо семейтво</a>
+                <h3 class="animated fadeInUp">Регистрирайте се и качете своите продукти -
+                    <a class="btn btn-primary" href="register.html" role="button">Станете част от Нашето голямо
+                        семейтво</a>
                 </h3>
             </section>
-            <div class="container">
-                    <h2>Най-новите членове на <a href="https://creativni.com">Creativni.com</a></h2>
-                <div class="container p-3">
+            <div class="container" id="leftSide">
+                <div class="row">
+
+                    <div class="col-8">
+
+
+                        <h2>Най-новите членове на <a href="https://creativni.com">Creativni.com</a></h2>
+                        <div class="container p-3">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="card" style="height: 400px;">
+                                        <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg"
+                                                class="card-img-top" alt="..."><a class="sold_out text-white"
+                                                style="font-size: 16px;">Продадено!</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Мандала - Квилинг</h5>
+                                            <h4>Ива Миланова</h4>
+                                            <p class="card-text">Изработена от 5мм ленти, лепило, ...
+                                            </p>
+
+                                            <a href="#" class="btn btn-primary">Продължете</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card" style="height: 400px;">
+                                        <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg"
+                                                class="card-img-top" alt="..."><a class="sold_out text-white"
+                                                style="font-size: 16px;">Продадено!</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Мандала - Квилинг</h5>
+                                            <h4>Ива Миланова</h4>
+                                            <p class="card-text">Изработена от 5мм ленти, лепило, ...
+                                            </p>
+
+                                            <a href="#" class="btn btn-primary">Продължете</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card" style="height: 400px;">
+                                        <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg"
+                                                class="card-img-top" alt="..."><a class="sold_out text-white"
+                                                style="font-size: 16px;">Продадено!</a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Мандала - Квилинг</h5>
+                                            <h4>Ива Миланова</h4>
+                                            <p class="card-text">Изработена от 5мм ленти, лепило, ...
+                                            </p>
+
+                                            <a href="#" class="btn btn-primary">Продължете</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Продължете</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Продължете</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Продължете</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
-                                        alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Мандала - Квилинг</h5>
-                                    <h4>Ива Миланова</h4>
-                                    <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.
-                                    </p>
-
-                                    <a href="#" class="btn btn-primary">Продължете</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-            </div>
-
-
-
-
-
-            <div class="row mt-5" id="middleContainer">
-                <div class="col-sm-6">
-                    <div class="card">
+                    <div class="col-4" id="rightAdPanel">
                         <div class="card-body">
-                            <h5 class="card-title">Избирате Творчество</h5>
-                            <p class="card-text">Потапяте се в пофилите на нашите творци и избирате уникалния
-                                продукт.</p>
-                            <a href="#" class="btn btn-primary">Продължете</a>
+                            <h5 class="card-title"></h5>
+                            <a href="#"><img src="images/Fifoza-baner.png" alt="..." class="img-thumbnail"
+                                    style=" margin-bottom:1rem;"></a>
+                            <a href="#"><img src="images/Shumen-logo.png" alt="..." class="img-thumbnail"
+                                    style=" margin-bottom:1rem;"></a>
+                            <a href="#"><img src="images/fifoza-baner2.png" alt="..." class="img-thumbnail"
+                                style=" margin-bottom:1rem;"></a>
+
+
+
+                            <p class="card-text">Станете наш партньор и подкрепете българските творци на ръчно
+                                изработени
+                                продукти</p>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Избирате творец</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Продължете</a>
+
+                <img src="images/LeftGreenButterfy.png"  id="leftGreenButterfy">
+                <div id="carouselExampleIndicators" class="carousel slide"
+                    "data-ride=" carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/DSC02866.JPG" alt="First slide" height="400px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Октопод - плетен на една кука</h5>
+                                <p>Ива Миланова</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/DSC02874.JPG" alt="Second slide" height="400px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Топка - плетена на една кука</h5>
+                                <p>Ива Миланова</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/IMG_20180403_101746.jpg" alt="Third slide"
+                                height="400px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Калъвка за възглавница - плетена на една кука</h5>
+                                <p>Ива Миланова</p>
+                            </div>
                         </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
 
-            </div>
 
-            <div class="container p-3 pb-3">
-                    <h2>Най-високо оценените творби в <a href="https://creativni.com">Creativni.com</a></h2>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="card">
-                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
-                                    alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Мандала - Квилинг</h5>
-                                <h4>Ива Миланова</h4>
-                                <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
-
-                                <a href="#" class="btn btn-primary">Продължете</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                            <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up
-                                    the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                            <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up
-                                    the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-
-        </div>
-        </div>
-
-
-
-        <!--Container for Mobile-->
-        <div clas="jumbotron" id="mobilContainer">
-            <section class="container bg-white">
-                <h2>Добре дошли в света на ръчно изработената красота</h2>
-                <h3>Регистрирайте се и качете своите продукти</h3>
-                <p>Всички продукти, които са качени тук, са изработени ръчно от участниците във тази платформа.</p>
-
-                Ако сте клиент и търсите уникални ръчно изработени продукти, може да разгледате нашите предложения.
-                Всеки творец отговаря за своите продукти.
                 
-            </section>
-            <div class="container">
-                   
-                <div class="row">
-                    <div class="col">
-                        <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
-                                    alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Мандала - Квилинг</h5>
-                                <h4>Ива Миланова</h4>
-                                <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
+                <div class="card text-center" id="adsContainer">
+                    <div class="row text-white bg-info p-2 m-4">
+                        <a href="#">
+                            <div class="col-12" style="width:728px; height:90px;">Banner</div>
+                        </a>
+                        <!--  <div class="card-header">
+                        Място за Вашата реклама
+                    </div>
 
-                                <a href="#" class="btn btn-primary">Продължете</a>
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <img src="images/Fifoza_300.png" alt="..." class="img-thumbnail"
+                            style="width:300px; height: 250px;">
+                        <img src="images/Fifoza_300.png" alt="..." class="img-thumbnail"
+                            style="width:300px; height: 250px;">
+                        <img src="images/Fifoza_300.png" alt="..." class="img-thumbnail"
+                            style="width:300px; height: 250px;">
+
+                        <p class="card-text">Станете наш партньор и подкрепете българските творци на ръчно изработени
+                            продукти</p>
+
+                    </div>
+                    <div class="card-footer text-muted">
+                        За контакти - свържете се с нас <a href="mailto:info@creativni.com">info@creativni.com</a>
+                    </div>-->
+                    </div>
+
+                    <div class="container p-5 pb-3">
+                        <img id="greenButterfy" src="images/Butterfy-Green.png">
+                        <h2>Най-високо оценените творби в <a href="https://creativni.com">Creativni.com</a></h2>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg"
+                                            class="card-img-top" alt="..."><a class="sold_out text-white"
+                                            style="font-size: 16px;">Продадено!</a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Мандала - Квилинг</h5>
+                                        <h4>Ива Миланова</h4>
+                                        <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка -
+                                            по-желание.
+                                        </p>
+
+                                        <a href="#" class="btn btn-primary">Продължете</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <img src="images/IMG_20181005_085623.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the
+                                            bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Продължете</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <img src="images/IMG_20181005_085629.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the
+                                            bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Продължете</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
-                                    alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Мандала - Квилинг</h5>
-                                <h4>Ива Миланова</h4>
-                                <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
 
-                                <a href="#" class="btn btn-primary">Продължете</a>
+
+                </div>
+            </div>
+
+
+
+            
+            <div class="container bg-white text-dark p-3" id="gallery">
+                <img class="img-thumbnail" src="images/arrangement-art-beautiful-1483908.jpg" id="stayPicture">
+
+
+                <h3>Най-новите произведения от нашите творци</h3>
+
+                <hr class="mt-2 mb-5">
+
+                <div class="row text-center text-lg-left">
+
+                    <!---->
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+                                <img class="img-fluid img-thumbnail" src="images/IMG_20181005_084650.jpg" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Елха- квилинг</h2>
+                                <a class="info" href="#">Вижте</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card mt-3" style="width: 100%;">
-                            <div class="img__wrapper"><img src="images/IMG_20181005_085629.jpg" class="card-img-top"
-                                    alt="..."><a class="sold_out text-white" style="font-size: 16px;">Продадено!</a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Мандала - Квилинг</h5>
-                                <h4>Ива Миланова</h4>
-                                <p class="card-text">Изработена от 5мм ленти, лепило, картон, рамка - по-желание.</p>
-
-                                <a href="#" class="btn btn-primary">Продължете</a>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+                                <img class="img-fluid img-thumbnail" src="images/DansingBallerins.jpg" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+                                <img class="img-fluid img-thumbnail" src="images/IMG_20181005_084650.jpg" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+                                <img class="img-fluid img-thumbnail" src="images/IMG_20180405_123929.jpg" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+
+                                <img class="img-fluid img-thumbnail" src="images/DSC02874.JPG" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+
+                                <img class="img-fluid img-thumbnail" src="images/DSC02917.JPG" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+
+                                <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+
+                                <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+
+                                <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+
+                                <img class="img-fluid img-thumbnail" src="images/Mandala.jpg" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+
+                                <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="hovereffect">
+                            <a href="#" class="d-block mb-4 h-100">
+
+                                <img class="img-fluid img-thumbnail" src="images/Mandala.jpg" alt="">
+                            </a>
+                            <div class="overlay">
+                                <h2>Hover effect 3</h2>
+                                <a class="info" href="#">Вижте</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card text-center" id="horizontalBaner">
+                    <div class="card-header">
+                        Място за Вашата реклама
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <a href="#"><img src="images/fifoza-baner2.png" alt="..." class="img-thumbnail"></a>
+                        <a href="#"><img src="images/Shumen-logo.png" alt="..." class="img-thumbnail"></a>
+                        <a href="#"><img src="images/Fifoza-baner.png" alt="..." class="img-thumbnail"></a>
+
+                        <p class="card-text">Станете наш партньор и подкрепете българските творци на ръчно изработени
+                            продукти</p>
+
+                    </div>
+                    <div class="card-footer text-muted">
+                        За информация - свържете се с нас на посочените контакти.</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container bg-transparent" id="gallery">
+
+        <img id="darkButterfy" src="images/Butterfly-DarkGreen.png">
 
 
 
-            <h3>Най-новите произведения от нашите творци</h3>
-
-            <hr class="mt-2 mb-5">
-
-            <div class="row text-center text-lg-left">
-
-                <!---->
-
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="images/IMG_20181005_084650.jpg" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Елха- квилинг</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="images/IMG_20180405_123929.jpg" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="images/IMG_20181005_084650.jpg" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="images/IMG_20180405_123929.jpg" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-
-                            <img class="img-fluid img-thumbnail" src="images/DSC02874.JPG" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-
-                            <img class="img-fluid img-thumbnail" src="images/DSC02917.JPG" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-
-                            <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-
-                            <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-
-                            <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-
-                            <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-
-                            <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <div class="hovereffect">
-                        <a href="#" class="d-block mb-4 h-100">
-
-                            <img class="img-fluid img-thumbnail" src="images/DSC02867.JPG" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h2>Hover effect 3</h2>
-                            <a class="info" href="#">Вижте</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-        <!--Satrt Of Footer-->
+        <!--Start Of Footer-->
         <div class="row" id="footer">
-            <div class="col">
+
+            <div class="col" id="firstBox">
                 <h3>Контакти</h3>
-                <p><i class="fas fa-mobile-alt m-3"></i><a href="tel:+359878738040">+359878738040</a></p>
-                <p><i class="fas fa-envelope-square m-3"></i><a href="mailto:info@creativni.com">Email:
+                <p><i class="fas fa-mobile-alt m-2"></i><a href="tel:+359878738040">+359878738040</a></p>
+                <p><i class="fas fa-envelope-square m-2"></i><a href="mailto:info@creativni.com">Email:
                         info@creativni.com</a></i></p>
+                <p><i class="fas fa-envelope-square m-2"></i><a href="mailto:team@creativni.com">Email:
+                        team@creativni.com</a></i></p>
+                <ul id="thirthCol">
+                    <li>
+                        <p><a href="https://www.facebook.com/groups/691947731220270/?tn-str=*F" target="_blanc"><img
+                                    border=" 0" alt="facebook" src="images/facebook-new.png" width="45" height="45"></a>
+                        </p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.pinterest.com/eb0cbd3ecf81451962746acda9cad4/" target="_blanc"><img
+                                    border=" 0" alt="Pinterest" src="images/pinterest-new.png" width="45"
+                                    height="45"></a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><a href="https://twitter.com/Creativni1?lang=en" target="_blanc"><img border=" 0"
+                                    alt="tweeter" src="images/tweeter-new.png" width="45" height="45"></a></p>
+                    </li>
+                </ul>
             </div>
-            <div class="col">
+            <div class="col" id="secondBox">
 
                 <ul>
                     <li> <a href="#">Квилинг</a></li>
@@ -511,28 +618,32 @@
                 </ul>
 
             </div>
-            <div class="col">
+
+            <div class="col" id="thirdBox">
                 <p><a href="mission.html">Нашата мисия</a></p>
+                <p><a href="#">Нашият екип</a></p>
 
-                <p><a href="conditions.html" target="_blanc" rel="noopener noreferrer">Общи правила за ползване на
-                        сайта</a></p>
+                <p><a href="conditions.html">Общи правила за ползване на сайта</a></p>
 
-                <ul id="thirthCol">
-                    <li>
-                        <p><a href="https://www.facebook.com/groups/691947731220270/?tn-str=*F" target="_blanc"><img
-                                    border=" 0" alt="facebook" src="images/facebook.png" width="45" height="45"></a></p>
-                    </li>
-                    <li>
-                        <p><a href="https://www.pinterest.com/eb0cbd3ecf81451962746acda9cad4/" target="_blanc"><img
-                                    border=" 0" alt="Pinterest" src="images/pinterest.png" width="45" height="45"></a>
-                        </p>
-                    </li>
 
-                    <li>
-                        <p><a href="https://twitter.com/Creativni1?lang=en" target="_blanc"><img border=" 0"
-                                    alt="tweeter" src="images/tweeter.png" width="45" height="45"></a></p>
-                    </li>
-                </ul>
+
+
+            </div>
+            <div class="col" id="form">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Вашият Имейл</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Вашето съобщение</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input class="btn btn-primary" type="submit" value="Изпратете">
+                    </div>
+                </form>
             </div>
 
         </div>
@@ -557,6 +668,7 @@
     </script>
 
     <script src="js/custom.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 
