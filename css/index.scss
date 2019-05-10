@@ -48,7 +48,7 @@ body {
         padding-top: 2rem;
         text-align: center;
         margin: 0;
-        background-image: url(../images/White-logo.jpg);
+        background-image: url(../images/Creativni-1520.jpg);
         background-repeat: no-repeat;
         color: white;
         background-repeat: no-repeat;
@@ -82,7 +82,7 @@ body {
     }
 
     #main {
-        background-image: url(../images/BackgroundFlowers.jpg);
+        background-image: url(../images/Background-new6.jpg);
 
 
 
@@ -344,7 +344,7 @@ body #main #mainContainer h2 a:hover {
 #carouselExampleIndicators {
     margin-bottom: 2rem;
     padding: 2rem;
-    margin-left: 13rem;
+    margin-left: 11rem;
 }
 
 .hovereffect {
@@ -503,12 +503,9 @@ body #main #mainContainer {
     width: 728px;
 
     background: rgb(250, 235, 215);
-    margin-top: 2rem;
+    margin-top: -2rem;
 
-    #adsNumber1 {
-        width: 300px;
-        height: 250px;
-    }
+
 }
 
 #greenButterfy {
@@ -613,9 +610,19 @@ body #horizontalBaner img.img-thumbnail {
     width: 300px;
     height: 250px;
 }
-body #main #footer a:hover{
-background: #092514;
+
+body #main #footer #thirthCol li a:hover {
+    background: rgb(9, 37, 20);
+    border-radius: 15px;
 }
+
+#banner {
+    width: 728px;
+    height: 90px;
+
+    margin-left: -6rem;
+}
+
 //**********Responsive*****************//
 //=======================================================================
 //=======================================================================
@@ -634,6 +641,7 @@ background: #092514;
         background-repeat: no-repeat;
 
         background-position: center top;
+        padding-bottom: 1rem;
 
         h2,
         h3 {
@@ -650,7 +658,11 @@ background: #092514;
         }
     }
 
-    body #main h2 {
+    body #main {
+        background-image: url(../images/Background-new1280.jpg);
+    }
+
+    h2 {
         font-size: 16px;
     }
 
@@ -736,6 +748,14 @@ background: #092514;
         width: 250px;
         height: 200px;
     }
+
+
+    #banner {
+        width: 780px;
+        height: 130px;
+
+        margin-left: -4rem;
+    }
 }
 
 //=======================================================================
@@ -744,10 +764,19 @@ background: #092514;
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 1109px) {
+    #header {
 
-    body #header {
-        height: 365px;
+
+        background-image: url(../images/Creativni1100.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+
+        background-position: center top;
+        padding-bottom: 1rem;
+        height: 372px;
     }
+
 
 
 
@@ -763,6 +792,9 @@ background: #092514;
         margin-right: 0rem;
     }
 
+    body #main {
+        background-image: url(../images/Background-new1109.jpg);
+    }
 
 
     #mainContainer {
@@ -779,10 +811,14 @@ background: #092514;
         }
     }
 
+    body #main #mainContainer #centralHeader a.btn {
+        margin-top: 2rem;
+    }
+
     #centralHeader img {
         margin-top: 2rem;
         width: 558px;
-        margin-left: 5.5rem;
+        margin-left: 4.5rem;
     }
 
     body #main #mainContainer #centralHeader img {
@@ -822,6 +858,68 @@ background: #092514;
         margin-left: 3.5rem;
     }
 
+    #leftGreenButterfy {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        top: 174rem;
+    }
+
+    body #main #adsContainer {
+        margin-top: 1rem;
+    }
+
+    .col-sm-4 {
+
+        max-width: 33.333%;
+        margin-left: unset;
+        margin-top: 2rem;
+    }
+
+    body #main #gallery #stayPicture {
+        width: 545px;
+        margin-left: 8rem;
+        margin-bottom: 4rem;
+        height: 339px;
+    }
+
+    #greenButterfy {
+        position: absolute;
+        left: 45rem;
+        top: 74rem;
+        width: 125px;
+    }
+
+    body .hovereffect img {
+        display: block;
+
+        width: 200px;
+        height: 250px;
+    }
+
+    body #horizontalBaner img.img-thumbnail {
+        width: 200px;
+        height: 170px;
+    }
+
+    #horizontalBaner {
+        margin-left: 2rem;
+        margin-top: 3rem;
+
+
+    }
+
+    #darkButterfy {
+        width: 135px;
+        margin-left: 30rem;
+    }
+
+    #banner {
+        width: 635px;
+        height: 90px;
+
+        margin-left: 0rem;
+    }
 
 }
 
@@ -830,22 +928,10 @@ background: #092514;
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
-    /*body #leftSide {
-        max-width: 885px;
-        padding: unset;
+    body #main {
+        background-image: url(../images/Background-new991.jpg);
     }
 
-    body #main .container {
-        border-radius: 15px;
-    }
-
-    body {
-        div.container {
-            background: transparent;
-
-        }
-*/
     body #navbar {
         opacity: 1;
 
@@ -894,7 +980,7 @@ background: #092514;
     body #main #mainContainer #centralHeader img {
         margin-top: 2rem;
         width: 515px;
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
 
     body #main #mainContainer #centralHeader h2 {
@@ -905,16 +991,25 @@ background: #092514;
         font-size: 14px;
     }
 
+    body #main #mainContainer #centralHeader h3 {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        margin-left: unset;
+    }
+
+
+
     body h3 {
         font-size: 14px;
     }
 
     body #main #mainContainer {
-        width: 100%;
+        width: 80%;
     }
 
     body #main #mainContainer #centralHeader p.lead {
         font-size: 15px;
+        margin-left: unset;
     }
 
     body #main #mainContainer #centralHeader a.btn {
@@ -926,6 +1021,10 @@ background: #092514;
         margin-top: 2rem;
     }
 
+    body #main #mainContainer #centralHeader a.btn {
+        margin-top: 2rem;
+    }
+
     body #main #mainContainer #leftSide {
         display: inline-table;
     }
@@ -934,7 +1033,11 @@ background: #092514;
         width: 110px;
         height: 110px;
         position: absolute;
-        top: 162rem;
+        top: 166rem;
+    }
+
+    body #main #adsContainer {
+        width: 100%;
     }
 
     body #main #adsContainer .col-sm-4 {
@@ -952,24 +1055,24 @@ background: #092514;
     }
 
     body #main #mainContainer #leftSide a.btn {
-        margin-top: 0rem;
+        margin-top: 2rem;
     }
 
     body #main #mainContainer #centralHeader a.btn {
 
-        margin-top: 0rem;
+        margin-top: 2rem;
     }
 
     body #main #gallery #stayPicture {
         width: 500px;
-        margin-left: 7rem;
+        margin-left: 5rem;
         margin-bottom: 4rem;
         height: 325px;
     }
 
     #greenButterfy {
         position: absolute;
-        left: 44rem;
+        left: 41rem;
         top: 65rem;
         width: 125px;
     }
@@ -979,9 +1082,37 @@ background: #092514;
         height: 150px;
     }
 
+    #horizontalBaner {
+        margin-left: 2rem;
+        margin-top: 3rem;
+
+        .card-body {
+
+            padding: 0.25rem;
+        }
+    }
+
+    body .hovereffect img {
+        display: block;
+        position: relative;
+        -webkit-transition: all 0.4s ease-in;
+        transition: all 0.4s ease-in;
+        width: 200px;
+        height: 250px;
+    }
+
+    body #main #carouselExampleIndicators {
+        height: 350px;
+        width: 500px;
+        display: none;
+    }
+
+
+
+
     #darkButterfy {
         width: 125px;
-        margin-left: 23rem;
+        margin-left: 2rem;
 
         width: 100px;
         height: 100px;
@@ -998,9 +1129,7 @@ background: #092514;
         -webkit-transform: rotate(45deg);
     }
 
-    #main {
-        background-image: unset;
-    }
+
 
     body #main #footer #firstBox {
         padding: 2rem;
@@ -1016,80 +1145,79 @@ background: #092514;
         color: transparent;
     }
 
-    /*
-    body #main #mainContainer #centralHeader {
-        padding: 0rem;
+    #mainContainer {
+        max-width: 980px;
+        padding-right: 0rem;
+    }
 
-        div.container {
-            padding: 0;
+    #rightAdPanel {
+        height: 90px;
+        width: 728px;
+        background: antiquewhite;
+        margin-top: -1rem;
+    }
+
+    #banner {
+        width: 530px;
+        height: 90px;
+
+        margin-left: 1rem;
+    }
+
+    #firstPanel .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 0.25rem;
+
+        h4 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 0.7rem;
+        }
+
+        a.sold_out {
+            font-size: 9px;
         }
     }
 
-
-    body #main div.card {
-        margin-left: unset;
-        width: 10rem;
-
+    a.sold_out {
+        font-size: 9px;
     }
 
-    body #main #mainContainer #leftSide .card-title {
-        font-size: 11px;
-        height: 4px;
-
-
-    }
-
-    body #main #mainContainer h4 {
-        text-align: center;
-        font-size: 15px;
-    }
-
-    body #main #footer {
-
-        padding: 20px;
-    }
-
-
-
-
-    body #main #footer #thirthCol {
-        position: absolute;
-        left: -10px;
-    }
-
-    body #main #navbar #dropdownMenuLink {
-        margin-left: 0px;
-    }
-
-    .container {
-        max-width: 705px;
-        padding: 2rem;
-    }
-
-    body #main #mainContainer #leftSide a.btn {
-        margin-top: unset;
-    }
-    body #main #mainContainer #centralHeader img {
+    body #main #mainContainer #rightAdPanel .card-body {
+        padding: 1.35rem;
         margin-top: 2rem;
-        width: 474px;
-        margin-left: 5.5rem;
     }
-    body #main #mainContainer #centralHeader h2 {
-        padding: 1rem;
+    body #main #adsContainer .col-sm-4 .card-body {
+        padding-bottom: 1rem;
+        height: 292px;
     }
-    body #main div.card{
-        height: 350px;
+    body #main #mainContainer #leftSide .card-title {
+        font-size: 12px;
     }
-    body #leftGreenButterfy {
-        width: 125px;
-        height: 125px;
-        position: absolute;
-        top: 168rem;
-    }*/
 }
+
+//========================================================
+//========================================================
+
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+    body #header {
+
+        height: 255px;
+        padding-top: 2rem;
+        text-align: center;
+        margin: 0;
+        background-image: url(../images/Creativni767.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+
+        background-position: center top;
+    }
 
     body #navbar {
         opacity: 1;
@@ -1099,7 +1227,7 @@ background: #092514;
         }
 
         li.nav-link:hover {
-            background: darkviolet;
+            background: rgb(109, 191, 28);
         }
 
         .dropdown-menu {
@@ -1130,6 +1258,9 @@ background: #092514;
         }
     }
 
+    body #main {
+        background-image: url(../images/Background-new760.jpg);
+    }
 
     body #main #navbar #startButton,
     #dropdownMenuLink {
@@ -1154,8 +1285,22 @@ background: #092514;
         font-size: 14px;
     }
 
+    body h1 {
+        font-size: 1.5rem;
+    }
+
+    body h2 {
+        font-size: 15px;
+
+    }
+
+    body #headerTitle {
+        margin-top: 1rem;
+        color: #6dbf1c;
+    }
+
     body #main #mainContainer {
-        width: 100%;
+        width: 80%;
     }
 
     body #main #mainContainer #centralHeader p.lead {
@@ -1173,14 +1318,52 @@ background: #092514;
 
     body #main #mainContainer #leftSide {
         display: inline-table;
+        h2{
+            margin-right: 120px;
+        }
     }
+
+    body #main #mainContainer #centralHeader img {
+        margin-top: 2rem;
+        width: 400px;
+        margin-left: 5rem;
+    }
+
     body #main #mainContainer #rightAdPanel .card-body {
         padding: 0.35rem;
         margin-right: 4rem;
     }
+
     body p {
         font-size: 0.7rem;
     }
+
+    #rightAdPanel {
+        display: none;
+    }
+
+    body #main #mainContainer #leftSide a.btn {
+        margin-top: unset;
+        margin-left: 1.5rem;
+        margin-bottom: -4rem;
+    }
+    body #main #mainContainer #leftSide h2 {
+        margin-right: 11px;
+    }
+    .sold_out {
+        display: none;
+    }
+
+    #firstPanel .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 0.25rem;
+    }
+
+    #firstPanel div.row {
+        width: 140%;
+    }
+
     #leftGreenButterfy {
         width: 110px;
         height: 110px;
@@ -1202,13 +1385,17 @@ background: #092514;
         height: 365px;
     }
 
+    body #main div.card {
+        height: 300px;
+    }
+
     body #main #mainContainer #leftSide a.btn {
         margin-top: 0rem;
     }
 
     body #main #mainContainer #centralHeader a.btn {
 
-        margin-top: 0rem;
+        margin-top: 1rem;
     }
 
     body #main #gallery #stayPicture {
@@ -1268,72 +1455,104 @@ background: #092514;
     body #main #footer #firstBox #thirthCol a:hover {
         color: transparent;
     }
-    #carouselExampleIndicators{
+
+    body #main #mainContainer #centralHeader {
+        padding: 1rem;
+    }
+
+    #carouselExampleIndicators {
         display: none;
     }
-    body #main #mainContainer h4{
+
+    body #main #mainContainer h4 {
         font-size: 12px;
     }
-    body #adsContainer{
-        width: 95%;
+    body #main #adsContainer {
+        width: 80%;
         margin-left: 1rem;
-        div.row{
+    }
+    body #adsContainer {
+       
+        
+
+        div.row {
             width: 38rem;
-            margin-left: -5rem; 
+            margin-left: -5rem;
         }
-        div.col-12{
-            width: 600px;
-            height: 70px;
+
+        #banner a {
+            display: none;
+        }
+
+        #banner {
+            
+            width: 75%;
+            margin-right: 8rem;
+        
         }
     }
-    #leftGreenButterfy{
+    #hightPriced{
+        margin-top: 6rem;
+    }
+    #leftGreenButterfy {
         display: none;
     }
+
     body #main #gallery #stayPicture {
         width: 400px;
         margin-left: 4rem;
         margin-bottom: 3rem;
         height: 290px;
     }
-    #darkButterfy{
+
+    #darkButterfy {
         display: none;
     }
-    #gallery div.row{
+
+    #gallery div.row {
         width: 120%;
     }
+
     #gallery .col-6 {
-      
+
         max-width: 33%;
         max-height: 10rem;
-       
+
         margin-bottom: 29px;
     }
+
     #horizontalBaner {
-        div.card-header{
+        div.card-header {
             font-size: 12px;
         }
-        div.card-footer{
+
+        div.card-footer {
             font-size: 12px;
         }
+
         width: 700px;
         margin-left: -78px;
         padding-left: 0px;
     }
+
     body #main #footer a {
         color: white;
         font-size: 10px;
     }
+
     #form label {
         display: inline-block;
         margin-bottom: 0.5rem;
         font-size: 12px;
     }
-        #exampleFormControlInput1{
-            color: #6c757d;
-            opacity: 1;
-            font-size: 9px;
-        }
-    body #main #footer .btn-primary{
+
+    #exampleFormControlInput1 {
+        color: #6c757d;
+        opacity: 1;
+        font-size: 9px;
+    }
+
+    body #main #footer .btn-primary {
         font-size: 12px;
     }
 }
@@ -1342,108 +1561,7 @@ background: #092514;
 
 
 
-/* .container {
-        max-width: 705px;
-    }
 
-    body #main .container {
-        border-radius: 15px;
-    }
-
-    body {
-        div.container {
-            background: transparent;
-
-        }
-
-        #navbar {
-            opacity: 1;
-
-            li.nav-link {
-                padding: unset;
-            }
-
-            li.nav-link:hover {
-                background: darkviolet;
-            }
-
-            .dropdown-menu {
-                width: 100%;
-            }
-
-            input {
-                margin-left: 16rem;
-            }
-
-            #searchButton:hover {
-                background: rgb(109, 191, 28);
-                ;
-                ;
-            }
-
-            #navbarSupportedContent a {
-                width: 100%;
-                margin: 0;
-                height: 40px;
-                border-radius: unset;
-            }
-
-            #navbarSupportedContent a:hover {
-                background: rgb(109, 191, 28);
-            }
-
-            i.fas fa-bars {
-                margin-left: 3rem;
-            }
-        }
-    }
-
-    body #main #navbar #startButton,
-    #dropdownMenuLink {
-        margin: 0;
-    }
-
-    body #main #mainContainer #centralHeader {
-        padding: 0rem;
-
-        div.container {
-            padding: 0;
-        }
-    }
-
-    body #main div.card {
-        margin-left: unset;
-        width: 17rem;
-    }
-
-    body #main #footer {
-
-        padding: 20px;
-    }
-
-
-
-
-
-    body #main #footer #thirthCol {
-        position: absolute;
-        left: -10px;
-    }
-
-    body #main #navbar #dropdownMenuLink {
-        margin-left: 0px;
-    }
-
-    .container {
-        max-width: 705px;
-        padding: 2rem;
-    }
-
-}
-
-
-
-*/
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {

@@ -7,6 +7,23 @@ body {
         height: unset;
     }
 
+    h1,
+    .h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    body #header {
+        height: 520px;
+        padding-top: 2rem;
+        text-align: center;
+        margin: 0;
+        background-image: url(../images/Creativni-1520.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
     #conditions {
         height: 65rem;
         color: white;
@@ -20,15 +37,24 @@ body {
 
         h3 {
             text-align: center;
+            margin: 3rem;
         }
+
     }
-    .fa-check-square{
-        color: rgb(83, 40, 120);
+
+    .fa-check-square {
+        color: rgb(109, 191, 28);
     }
-    .fa-exclamation{
+
+    .fa-exclamation {
         color: rgb(0, 98, 204);
     }
 }
+
+#backButton {
+    margin-left: 24rem;
+}
+
 body #main #footer {
     text-align: left;
     margin: 1rem 0 0 0;
@@ -36,12 +62,193 @@ body #main #footer {
     height: 19rem;
 }
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
+#darkButterfy {
+    width: 120px;
+
+    margin-left: 28rem;
+}
+
+#darkButterfy:hover {
+    transition: ease all 1.5s;
+    margin-left: 26rem;
+
+}
+
+//**********Responsive***************
+//___*____*____*___*____*_____*_____*__//
+
+
+
+//=======================================================================
+//=======================================================================
+
+// Medium-large devices (monitors, less than 1280px)
+@media (max-width: 1280px) {
+    body #conditions {
+        height: 65rem;
+        color: white;
+        background: #092514;
+        margin-top: 6rem;
+        margin-left: 8rem;
+        width: 80%;
+        margin-bottom: 7rem;
+    }
+
+    body h1 {
+        font-size: 1.2rem;
+    }
+
+    #backButton {
+        margin-left: 20rem;
+    }
+
+    #finishRegister {
+        margin-left: 18rem;
+    }
+
+    #darkButterfy {
+        width: 120px;
+        margin-left: 45rem;
+        margin-top: -3rem;
+    }
+
+    #darkButterfy:hover {
+        transition: ease all 1.5s;
+        margin-left: 43rem;
+        margin-top: -3rem;
+
+    }
+
+    body h2 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    body p.lead {
+        font-size: 16px;
+    }
+}
+
+//=======================================================================
+//=======================================================================
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1109px) {
+
+
+
+    body #navbar input {
+        margin-left: 4rem;
+    }
+
     body #main .container {
-        margin: 0;
-        padding: 1rem;
+        margin: 3.5rem;
+        padding: 3rem;
         height: auto;
+        margin-left: 9rem;
+        width: 75%;
+    }
+
+    body p.lead,
+    p {
+        font-size: 16px;
+    }
+
+
+    #backButton {
+        background-color: white;
+        border-color: white;
+        margin-left: 15rem;
+    }
+
+    #finishRegister {
+        margin-left: 13rem;
+    }
+
+    #darkButterfy {
+        width: 120px;
+        margin-left: 36rem;
+    }
+
+    #darkButterfy:hover {
+
+        transition: ease 1.5s all;
+        margin-left: 33rem;
+    }
+
+    p.lead,
+    p {
+        font-size: 15px;
+    }
+}
+
+
+//=======================================================================
+//=======================================================================
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    body #main .container {
+        margin: 3.5rem;
+        padding: 3rem;
+        height: auto;
+        width: 90%;
+        margin-left: 9rem;
+    }
+
+    body p.lead,
+    p {
+        font-size: 14px;
+    }
+
+    body #navbar input {
+        margin-left: 18rem;
+    }
+
+    #conditions {
+        width: 80%;
+    }
+
+    #backButton {
+
+        margin-left: 13rem;
+    }
+
+    #finishRegister {
+        margin-left: 11rem;
+    }
+
+    body #main a.btn {
+        background-color: white;
+        border-color: white;
+        font-size: 15px;
+    }
+
+    #darkButterfy {
+        width: 100px;
+        margin-left: 32rem;
+    }
+
+    #darkButterfy:hover {
+        width: 100px;
+        margin-left: 30rem;
+    }
+}
+
+
+//=======================================================================
+//=======================================================================
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+    body #main .container {
+        padding: 2rem;
+        height: auto;
+        width: 85%;
+        margin-left: 7rem;
+        margin-top: 2rem;
     }
 
     body p.lead,
@@ -53,66 +260,135 @@ body #main #footer {
         margin-left: 7rem;
     }
 
+    #backButton {
+        margin-left: 8rem;
+    }
 
+    #finishRegister {
+        margin-left: 6rem;
+    }
+
+    body h2 {
+        font-size: 15px;
+        text-align: center;
+    }
 }
 
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
+//========================================================================
+//========================================================================
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    body h1 {
+        font-size: 25px;
+    }
+
     body #main .container {
+        padding: 2rem;
+        height: auto;
+        width: 85%;
+        margin-left: 3rem;
+        margin-top: 0rem;
+        margin-bottom: 4rem;
+    }
+    body #header {
+        height: 255px;
+        padding-top: 2rem;
+        text-align: center;
         margin: 0;
-        padding: 1rem;
-        height: auto;
+        background-image: url(../images/Creativni575.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+        background-position: center top;
     }
+ 
 
-    body p.lead,
-    p {
+    body h1 {
         font-size: 16px;
     }
+    body #main {
+        display: block;
+    }
+    body #main {
+        background-image: url(../images/Background-new575.jpg);
+    }
+  
+    body p.lead,
+    p {
+        font-size: 12px;
+    }
 
-    body #navbar input {
+    body #main #backButton {
+        margin-left: 8rem;
+        font-size: 11px;
+    }
+
+    body #main #finishRegister {
         margin-left: 7rem;
+        font-size: 11px;
     }
-
 }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-    body #main .container {
-        margin: 3.5rem;
-        padding: 1rem;
-        height: auto;
+//========================================================================
+//========================================================================
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 400px) {
+    body h1 {
+        font-size: 12px;
+    }
+    body #header {
+        height: 175px;
+        padding-top: 2rem;
+        text-align: center;
+        margin: 0;
+        background-image: url(../images/Creativni400.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+        background-position: center top;
+     
+    }
+    body #conditions h2 {
+        font-size: 9px;
+        padding: unset;
+    }
+    body #main h2 {
+        font-size: 11px;
     }
 
     body p.lead,
     p {
-        font-size: 16px;
+        font-size: 10px;
     }
 
-    body #navbar input {
-        margin-left: 18rem;
+    body #conditions h3 {
+        text-align: center;
+        margin: 2rem;
+
+        font-size: 12px;
     }
-}
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 1109px) {
-
-
-    body #navbar input {
-        margin-left: 4rem;
+    body #main {
+        background-image: url(../images/Background-new400.jpg);
+    }
+    body #main #backButton {
+        margin-left: 3rem;
+        font-size: 10px;
     }
 
+    body #main #finishRegister {
+        margin-left: 2rem;
+        font-size: 10px;
+    }
     body #main .container {
-        margin: 3.5rem;
-        padding: 1rem;
+        padding: 2rem;
         height: auto;
-    }
-
-    body p.lead,
-    p {
-        font-size: 16px;
-    }
-
-    .fa-check-square{
-        color: violet;
+        width: 80%;
+        margin-left: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 4rem;
     }
 }
