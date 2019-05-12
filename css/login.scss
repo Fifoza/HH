@@ -1,17 +1,38 @@
 body {
-   #main {
-    height: 0rem;
+    #main {
+        background-image: url(../images/Background-new1520.jpg);
+        width: 100%;
+
+
 
         #loginForm {
+            color: rgb(109, 191, 28);
+            background: #092514;
             margin-top: 5rem;
             margin-bottom: 8rem;
             -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
             box-shadow: 5px 5px 15px 5px #0B173C;
-            color: white;
+
             border-radius: 15px;
             max-width: unset;
-            width: 65%;
+            width: 60%;
         }
+    }
+
+    #submit {
+        background: white;
+
+    }
+
+    #submit:hover {
+        color: white;
+        background: rgb(109, 191, 28);
+    }
+  
+    #horizontalBaner {
+        width: 70%;
+        margin-left: 15rem;
+        margin-bottom: 4rem;
     }
 }
 
@@ -19,24 +40,161 @@ body {
 
 
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-  
- 
+
+//**********Responsive***************
+//___*____*____*___*____*_____*_____*__//
+
+
+
+//=======================================================================
+//=======================================================================
+
+// Medium-large devices (monitors, less than 1280px)
+@media (max-width: 1280px) {
+    body {
+        #main {
+            background-image: url(../images/Background-new1280.jpg);
+            width: 100%;
+
+        }
+    }
+    body #horizontalBaner {
+        width: 70%;
+        margin-left: 12rem;
+        margin-bottom: 5rem;
+    }
 }
 
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
- 
-   
+//=======================================================================
+//=======================================================================
 
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1109px) {
+
+    body {
+        #main {
+            background-image: url(../images/Background-new1109.jpg);
+            width: 100%;
+
+        }
+    }
+    body #horizontalBaner {
+        width: 70%;
+        margin-left: 10rem;
+        margin-bottom: 5rem;
+    }
 }
+
+//=======================================================================
+//=======================================================================
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  
+
+    body {
+        #main {
+            background-image: url(../images/Background-new991.jpg);
+            width: 100%;
+
+        }
+    }
 
 }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 1109px) {}
+
+//=======================================================================
+//=======================================================================
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    body {
+        #main {
+            background-image: url(../images/Background-new760.jpg);
+            width: 100%;
+
+        }
+    }
+    body #horizontalBaner img.img-thumbnail {
+        width: 140px;
+        height: 125px;
+    }
+    body #horizontalBaner {
+        width: 70%;
+        margin-left: 7rem;
+        margin-bottom: 5rem;
+    }
+}
+
+//========================================================================
+//========================================================================
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    
+       body #main {
+            background-image: url(../images/Background-new575.jpg);
+            width: 100%;
+
+        }
+    
+    body #main #loginForm {
+        color: #6dbf1c;
+        background: #092514;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+        -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+        box-shadow: 5px 5px 15px 5px #0B173C;
+        border-radius: 15px;
+        max-width: unset;
+        width: 85%;
+    }
+    body #main div.card {
+        margin-left: 1rem;
+        width: 34rem;
+    }
+    body #main div.card {
+        height: 295px;
+    }
+}
+
+
+//========================================================================
+//========================================================================
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 400px) {
+    
+     body  #main {
+            background-image: url(../images/Background-new400.jpg);
+            width: 100%;
+
+        }
+    
+    body #main #loginForm {
+        color: #6dbf1c;
+        background: #092514;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+        -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+        box-shadow: 5px 5px 15px 5px #0B173C;
+        border-radius: 15px;
+        max-width: unset;
+        width: 85%;
+    }
+
+    body #main div.card {
+        height: 800px;
+        width: 350px;
+        margin-left: 2rem;
+    }
+    body #horizontalBaner img.img-thumbnail {
+        width: 240px;
+        height: 190px;
+    }
+}
+
+

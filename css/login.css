@@ -1,15 +1,131 @@
 body #main {
-  height: 0rem;
+  background-image: url(../images/Background-new1520.jpg);
+  width: 100%;
 }
 
 body #main #loginForm {
+  color: #6dbf1c;
+  background: #092514;
   margin-top: 5rem;
   margin-bottom: 8rem;
   -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
   box-shadow: 5px 5px 15px 5px #0B173C;
-  color: white;
   border-radius: 15px;
   max-width: unset;
-  width: 65%;
+  width: 60%;
+}
+
+body #submit {
+  background: white;
+}
+
+body #submit:hover {
+  color: white;
+  background: #6dbf1c;
+}
+
+body #horizontalBaner {
+  width: 70%;
+  margin-left: 15rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1280px) {
+  body #main {
+    background-image: url(../images/Background-new1280.jpg);
+    width: 100%;
+  }
+  body #horizontalBaner {
+    width: 70%;
+    margin-left: 12rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 1109px) {
+  body #main {
+    background-image: url(../images/Background-new1109.jpg);
+    width: 100%;
+  }
+  body #horizontalBaner {
+    width: 70%;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body #main {
+    background-image: url(../images/Background-new991.jpg);
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body #main {
+    background-image: url(../images/Background-new760.jpg);
+    width: 100%;
+  }
+  body #horizontalBaner img.img-thumbnail {
+    width: 140px;
+    height: 125px;
+  }
+  body #horizontalBaner {
+    width: 70%;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body #main {
+    background-image: url(../images/Background-new575.jpg);
+    width: 100%;
+  }
+  body #main #loginForm {
+    color: #6dbf1c;
+    background: #092514;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+    box-shadow: 5px 5px 15px 5px #0B173C;
+    border-radius: 15px;
+    max-width: unset;
+    width: 85%;
+  }
+  body #main div.card {
+    margin-left: 1rem;
+    width: 34rem;
+  }
+  body #main div.card {
+    height: 295px;
+  }
+}
+
+@media (max-width: 400px) {
+  body #main {
+    background-image: url(../images/Background-new400.jpg);
+    width: 100%;
+  }
+  body #main #loginForm {
+    color: #6dbf1c;
+    background: #092514;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+    box-shadow: 5px 5px 15px 5px #0B173C;
+    border-radius: 15px;
+    max-width: unset;
+    width: 85%;
+  }
+  body #main div.card {
+    height: 800px;
+    width: 350px;
+    margin-left: 2rem;
+  }
+  body #horizontalBaner img.img-thumbnail {
+    width: 240px;
+    height: 190px;
+  }
 }
 /*# sourceMappingURL=login.css.map */

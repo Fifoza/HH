@@ -44,11 +44,11 @@ body {
 
     #header {
 
-        height: 435px;
+        height: 500px;
         padding-top: 2rem;
         text-align: center;
         margin: 0;
-        background-image: url(../images/Creativni-1520.jpg);
+        background-image: url(../images/DarkGreenHeader1520.jpg);
         background-repeat: no-repeat;
         color: white;
         background-repeat: no-repeat;
@@ -82,9 +82,7 @@ body {
     }
 
     #main {
-        background-image: url(../images/Background-new6.jpg);
-
-
+        background-image: url(../images/DarkGreenBackground1520-2.jpg);
 
 
         a.btn {
@@ -635,7 +633,7 @@ body #main #footer #thirthCol li a:hover {
         padding-top: 2rem;
         text-align: center;
         margin: 0;
-        background-image: url(../images/Creativni-header-1280.jpg);
+        background-image: url(../images/DarkGreenHeader1280.jpg);
         background-repeat: no-repeat;
         color: white;
         background-repeat: no-repeat;
@@ -659,7 +657,7 @@ body #main #footer #thirthCol li a:hover {
     }
 
     body #main {
-        background-image: url(../images/Background-new1280.jpg);
+        background-image: url(../images/DarkGreenBackground1280.jpg);
     }
 
     h2 {
@@ -767,7 +765,7 @@ body #main #footer #thirthCol li a:hover {
     #header {
 
 
-        background-image: url(../images/Creativni1100.jpg);
+        background-image: url(../images/DarkGreenHeader1100.jpg);
         background-repeat: no-repeat;
         color: white;
         background-repeat: no-repeat;
@@ -793,7 +791,7 @@ body #main #footer #thirthCol li a:hover {
     }
 
     body #main {
-        background-image: url(../images/Background-new1109.jpg);
+        background-image: url(../images/DarkGreenBackground1100.jpg);
     }
 
 
@@ -833,7 +831,11 @@ body #main #footer #thirthCol li a:hover {
         margin-left: 7rem;
     }
 
-    body #main #gallery #stayPicture {
+    body #main #gallery {
+        margin-left: 1.5rem;
+    }
+
+    #stayPicture {
         width: 578px;
         margin-left: 10rem;
         margin-bottom: 4rem;
@@ -847,7 +849,11 @@ body #main #footer #thirthCol li a:hover {
         width: 142px;
     }
 
-    body #horizontalBaner img.img-thumbnail {
+    body #horizontalBaner {
+        margin-left: 0rem;
+    }
+
+    img.img-thumbnail {
         width: 250px;
         height: 200px;
     }
@@ -862,11 +868,12 @@ body #main #footer #thirthCol li a:hover {
         width: 130px;
         height: 130px;
         position: absolute;
-        top: 174rem;
+        top: 164rem;
     }
 
     body #main #adsContainer {
         margin-top: 1rem;
+        margin-left: 3rem;
     }
 
     .col-sm-4 {
@@ -885,7 +892,7 @@ body #main #footer #thirthCol li a:hover {
 
     #greenButterfy {
         position: absolute;
-        left: 45rem;
+        left: 41rem;
         top: 74rem;
         width: 125px;
     }
@@ -921,6 +928,19 @@ body #main #footer #thirthCol li a:hover {
         margin-left: 0rem;
     }
 
+    body #main #adsContainer .col-sm-4 {
+        max-width: 33.333%;
+        margin-left: 0rem;
+    }
+
+    .sold_out {
+        top: 2em;
+        left: -5em;
+    }
+
+    body #main #mainContainer .col-sm-4 {
+        margin-bottom: 0rem;
+    }
 }
 
 //=================================================================
@@ -928,8 +948,22 @@ body #main #footer #thirthCol li a:hover {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+    body #header {
+
+
+        background-image: url(../images/DarkGreenHeader990.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+
+        background-position: center top;
+        padding-bottom: 1rem;
+        height: 372px;
+    }
+
+
     body #main {
-        background-image: url(../images/Background-new991.jpg);
+        background-image: url(../images/DarkGreenBackground990.jpg);
     }
 
     body #navbar {
@@ -1033,7 +1067,7 @@ body #main #footer #thirthCol li a:hover {
         width: 110px;
         height: 110px;
         position: absolute;
-        top: 166rem;
+        top: 171rem;
     }
 
     body #main #adsContainer {
@@ -1072,9 +1106,9 @@ body #main #footer #thirthCol li a:hover {
 
     #greenButterfy {
         position: absolute;
-        left: 41rem;
-        top: 65rem;
-        width: 125px;
+        left: 38rem;
+        top: 68rem;
+        width: 125p;
     }
 
     body #horizontalBaner img.img-thumbnail {
@@ -1190,12 +1224,30 @@ body #main #footer #thirthCol li a:hover {
         padding: 1.35rem;
         margin-top: 2rem;
     }
+
     body #main #adsContainer .col-sm-4 .card-body {
         padding-bottom: 1rem;
         height: 292px;
     }
+
     body #main #mainContainer #leftSide .card-title {
         font-size: 12px;
+    }
+    body #main #adsContainer {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        height: 45rem;
+    }
+
+    #darkButterfy {
+        width: 105px;
+        margin-left: 27rem;
+    }
+    body #main #footer {
+        text-align: left;
+        margin: 1rem 0 0 0;
+        padding: 1rem;
+        height: 21rem;
     }
 }
 
@@ -1211,7 +1263,7 @@ body #main #footer #thirthCol li a:hover {
         padding-top: 2rem;
         text-align: center;
         margin: 0;
-        background-image: url(../images/Creativni767.jpg);
+        background-image: url(../images/DarkGreenHeader760.jpg);
         background-repeat: no-repeat;
         color: white;
         background-repeat: no-repeat;
@@ -1259,7 +1311,7 @@ body #main #footer #thirthCol li a:hover {
     }
 
     body #main {
-        background-image: url(../images/Background-new760.jpg);
+        background-image: url(../images/DarkGreenBackground760.jpg);
     }
 
     body #main #navbar #startButton,
@@ -1318,7 +1370,8 @@ body #main #footer #thirthCol li a:hover {
 
     body #main #mainContainer #leftSide {
         display: inline-table;
-        h2{
+
+        h2 {
             margin-right: 120px;
         }
     }
@@ -1347,9 +1400,11 @@ body #main #footer #thirthCol li a:hover {
         margin-left: 1.5rem;
         margin-bottom: -4rem;
     }
+
     body #main #mainContainer #leftSide h2 {
         margin-right: 11px;
     }
+
     .sold_out {
         display: none;
     }
@@ -1467,13 +1522,15 @@ body #main #footer #thirthCol li a:hover {
     body #main #mainContainer h4 {
         font-size: 12px;
     }
+
     body #main #adsContainer {
         width: 80%;
         margin-left: 1rem;
     }
+
     body #adsContainer {
-       
-        
+
+
 
         div.row {
             width: 38rem;
@@ -1485,15 +1542,17 @@ body #main #footer #thirthCol li a:hover {
         }
 
         #banner {
-            
+
             width: 75%;
             margin-right: 8rem;
-        
+
         }
     }
-    #hightPriced{
+
+    #hightPriced {
         margin-top: 6rem;
     }
+
     #leftGreenButterfy {
         display: none;
     }
@@ -1565,6 +1624,23 @@ body #main #footer #thirthCol li a:hover {
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    body #header {
+
+
+        background-image: url(../images/DarkGreenHeader575.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+
+        background-position: center top;
+        padding-bottom: 1rem;
+        height: 372px;
+    }
+
+    body #main {
+        background-image: url(../images/DarkGreenBackground575.jpg);
+    }
+
     body {
         div.container {
             background: transparent;
@@ -1674,4 +1750,32 @@ body #main #footer #thirthCol li a:hover {
         border-radius: 15px;
         margin-left: 2rem;
     }
+}
+
+
+//=====================================================================
+//=====================================================================
+
+// Extra small devices (portrait phones, less than 400px)
+@media (max-width: 400.98px) {
+
+
+    body #header {
+
+
+        background-image: url(../images/DarkGreenHeader400.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+
+        background-position: center top;
+        padding-bottom: 1rem;
+        height: 372px;
+    }
+
+    body #main {
+        background-image: url(../images/DarkGreenBackground400.jpg);
+    }
+
+
 }

@@ -51,7 +51,7 @@ body {
     }
 }
 
-#backButton {
+body #main #backButton {
     margin-left: 24rem;
 }
 
@@ -62,17 +62,25 @@ body #main #footer {
     height: 19rem;
 }
 
-#darkButterfy {
+body #conditions #darkButterfy {
     width: 120px;
-
-    margin-left: 28rem;
+    margin-left: 52rem;
+    margin-top: -7rem;
 }
 
-#darkButterfy:hover {
-    transition: ease all 1.5s;
-    margin-left: 26rem;
-
+body #conditions #darkButterfy:hover {
+    transition: all ease 2s;
+    width: 120px;
+    margin-left: 50rem;
+    margin-top: -7rem;
 }
+body #main #finishRegister{
+    margin-left: 22rem;
+}
+
+
+
+
 
 //**********Responsive***************
 //___*____*____*___*____*_____*_____*__//

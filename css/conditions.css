@@ -50,7 +50,7 @@ body .fa-exclamation {
   color: #0062cc;
 }
 
-#backButton {
+body #main #backButton {
   margin-left: 24rem;
 }
 
@@ -61,15 +61,22 @@ body #main #footer {
   height: 19rem;
 }
 
-#darkButterfy {
+body #conditions #darkButterfy {
   width: 120px;
-  margin-left: 28rem;
+  margin-left: 52rem;
+  margin-top: -7rem;
 }
 
-#darkButterfy:hover {
-  -webkit-transition: ease all 1.5s;
-  transition: ease all 1.5s;
-  margin-left: 26rem;
+body #conditions #darkButterfy:hover {
+  -webkit-transition: all ease 2s;
+  transition: all ease 2s;
+  width: 120px;
+  margin-left: 50rem;
+  margin-top: -7rem;
+}
+
+body #main #finishRegister {
+  margin-left: 22rem;
 }
 
 @media (max-width: 1280px) {
