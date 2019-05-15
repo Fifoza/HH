@@ -15,28 +15,35 @@
     <meta name="theme-color" content="#222222">
     <script async type="text/javascript" src="bubles/bubble-bg-master/background.js"></script>
     <link rel="stylesheet" href="../Fifoza Test Website/LoginForm/LoginRegistrationForm/css/animate-custom.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!--Custom CSS-->
-    <link rel="stylesheet" href="css/index.css">
+
     <link rel="stylesheet" href="css/pagetemplate.css">
 
 </head>
 
 <body>
 
+
+
     <!-- Start of Header-->
     <header id="header">
 
-        <canvas id="background"></canvas>
+        <!-- <canvas id="background"></canvas>-->
 
         <div class="container" width="100%" id="headerTitle">
-            <h1>HandMade Home</h1>
+            <!--<a href="#"><img src="images/Logo-New2.png" alt="..." class="img-thumbnail"
+                            style=" margin-bottom:1rem;"></a>
+                    <a href="#"><img src="images/Logo-New3.png" alt="..." class="img-thumbnail"
+                        style=" margin-bottom:1rem;"></a>-->
+            <h1>Creativni.com</h1>
+            <h2>Най-голямата платформа в България</h2>
+            <h3>за творци на ръчно изработени продукти</h3>
 
-            <h3>Домът на ръчната изработка</h3>
         </div>
-
+        <!--<img src="images/1001Logo2.png">-->
     </header>
     <!--End of Header-->
 
@@ -44,57 +51,80 @@
 
 
     <main id="main">
+        <div class="container-fluid" id="upAdPanel">
 
+            <!--Start of Navigation-->
+            <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
 
-        <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
-
-            <button class="navbar-toggler bg-info text-white" type="button" data-toggle="collapse" style="width: 100%"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
-                <span class="navbar-toggler-icon mr-3"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <a href="#" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало</a>
-                <div class="dropdown show">
-                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Изберете изкуство
+                <button class="navbar-toggler text-white" type="button" data-toggle="collapse" style="width: 100%"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
+                    <span class="navbar-toggler-icon mr-3"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a href="#" class="btn active" role="button" aria-pressed="true" id="startButton">Начало
                     </a>
+                    <div class="dropdown show">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Изберете изкуство
+                        </a>
 
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Квилинг</a>
-                        <a class="dropdown-item" href="#">Плетени на Една кука</a>
-                        <a class="dropdown-item" href="#">Плетени на Две куки</a>
-                        <a class="dropdown-item" href="#">Живопис</a>
-                        <a class="dropdown-item" href="#">Декупаж</a>
-                        <a class="dropdown-item" href="#">Щамповани</a>
-                        <a class="dropdown-item" href="#">Дигитални</a>
-                        <a class="dropdown-item" href="#">Други</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Квилинг</a>
+                            <a class="dropdown-item" href="#">Плетени на Една кука</a>
+                            <a class="dropdown-item" href="#">Плетени на Две куки</a>
+                            <a class="dropdown-item" href="#">Живопис</a>
+                            <a class="dropdown-item" href="#">Декупаж</a>
+                            <a class="dropdown-item" href="#">Щамповани</a>
+                            <a class="dropdown-item" href="#">Дигитални</a>
+                            <a class="dropdown-item" href="#">Сувенири</a>
+                            <a class="dropdown-item" href="#">Други</a>
+                        </div>
                     </div>
+                    <div class="dropdown show">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Тематични артикули
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Рожден ден/Имен ден</a>
+                            <a class="dropdown-item" href="#">Сватба</a>
+                            <a class="dropdown-item" href="#">Изписване/Кръщене на дете</a>
+                            <a class="dropdown-item" href="#">Детски артикули/играчки</a>
+                            <a class="dropdown-item" href="#">Баба Марта</a>
+                            <a class="dropdown-item" href="#">Трифон Зарезан/Св. Валентин</a>
+                            <a class="dropdown-item" href="#">Хелоуин</a>
+                            <a class="dropdown-item" href="#">Коледа</a>
+                            <a class="dropdown-item" href="#">Други</a>
+                        </div>
+                    </div>
+
+
+                    <ul class="navbar-nav mr-auto">
+
+
+                        <li class="nav-link"><a href="login.html" class="btn  active" role="button"
+                                aria-pressed="true"><i class="fas fa-sign-in-alt mr-2"></i>Влезте
+                                в акаунта си</a></li>
+
+                        <li class="nav-link"><a href="register.html" class="btn  active" role="button"
+                                aria-pressed="true"><i class="fas fa-user-plus mr-2"></i>Регистрирайте се</a></li>
+
+                    </ul>
+                    <input type="text" placeholder="Търсене...">
+                    <button class="btn btn-secondary" type="button" id="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
                 </div>
 
 
-
-                <ul class="navbar-nav mr-auto">
-
-
-                    <li class="nav-link"><a href="#" class="btn btn-primary  active" role="button" aria-pressed="true"><i
-                                class="fas fa-sign-in-alt mr-3"></i>Влезте
-                            в акаунта си</a></li>
-
-                    <li class="nav-link"><a href="#" class="btn btn-primary  active" role="button" aria-pressed="true"><i
-                                class="fas fa-user-plus mr-3"></i>Регистрирайте се</a></li>
-
-                </ul>
-                <input type="text" placeholder="Търсене...">
-                <button class="btn btn-secondary" type="button" id="searchButton">
-                    <i class="fa fa-search"></i>
-                </button>
-            </div>
-
-
-        </nav>
+            </nav>
+        </div>
         <!--End of Navigation-->
+
+
         <!--  <div id="slider" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -145,14 +175,37 @@
 
 
 
+        <!--Start Of Footer-->
         <div class="row" id="footer">
-            <div class="col">
+
+            <div class="col" id="firstBox">
                 <h3>Контакти</h3>
-                <p><i class="fas fa-mobile-alt m-3"></i><a href="tel:+359878738040">+359878738040</a></p>
-                <p><i class="fas fa-envelope-square m-3"></i><a href="mailto:admin@fifoza.com">Email:
-                    admin@fifoza.com</a></i></p>
+                <p><i class="fas fa-mobile-alt m-2"></i><a href="tel:+359878738040">+359878738040</a></p>
+                <p><i class="fas fa-envelope-square m-2"></i><a href="mailto:info@creativni.com">Email:
+                        info@creativni.com</a></i></p>
+                <p><i class="fas fa-envelope-square m-2"></i><a href="mailto:team@creativni.com">Email:
+                        team@creativni.com</a></i></p>
+                <ul id="thirthCol">
+                    <li>
+                        <p><a href="https://www.facebook.com/groups/691947731220270/?tn-str=*F" target="_blanc"><img
+                                    border=" 0" alt="facebook" src="images/Green_Facebook.png" width="45"
+                                    height="45"></a>
+                        </p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.pinterest.com/eb0cbd3ecf81451962746acda9cad4/" target="_blanc"><img
+                                    border=" 0" alt="Pinterest" src="images/Green_Pinterest.png" width="45"
+                                    height="45"></a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><a href="https://twitter.com/Creativni1?lang=en" target="_blanc"><img border=" 0"
+                                    alt="tweeter" src="images/Twitter_Green.png" width="45" height="45"></a></p>
+                    </li>
+                </ul>
             </div>
-            <div class="col">
+            <div class="col" id="secondBox">
 
                 <ul>
                     <li> <a href="#">Квилинг</a></li>
@@ -166,32 +219,37 @@
                 </ul>
 
             </div>
-            <div class="col">
-                <p><a href="#">Нашата мисия</a></p>
 
-                <p><a href="conditions.html" target="_blanc" rel="noopener noreferrer">Общи правила за ползване на
-                        сайта</a></p>
-                        <ul id="thirthCol">
-                            <li>
-                                <p><a href="https://www.facebook.com/groups/691947731220270/?tn-str=*F" target="_blanc"><img border=" 0" alt="facebook" src="images/facebook.png" width="45"
-                                            height="45"></a></p>
-                            </li>
-                            <li>
-                                <p><a href="https://www.pinterest.com/eb0cbd3ecf81451962746acda9cad4/" target="_blanc"><img border=" 0" alt="Pinterest" src="images/pinterest.png" width="45" height="45"></a></p>
-                            </li>
-                          
-                            <li>
-                                <p><a href="https://twitter.com/Creativni1?lang=en" target="_blanc"><img border=" 0" alt="tweeter" src="images/tweeter.png" width="45"
-                                            height="45"></a></p>
-                            </li>
-                        </ul>
+            <div class="col" id="thirdBox">
+                <p><a href="mission.html">Нашата мисия</a></p>
+                <p><a href="#">Нашият екип</a></p>
 
+                <p><a href="conditions.html">Общи правила за ползване на сайта</a></p>
+
+
+
+
+            </div>
+            <div class="col" id="form">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Вашият Имейл</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Вашето съобщение</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input class="btn btn-primary" type="submit" value="Изпратете">
+                    </div>
+                </form>
             </div>
 
         </div>
 
-
-
+        <!--End Of Footer-->
 
 
 
@@ -199,12 +257,15 @@
 
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
     <script src="js/custom.js"></script>
 </body>
