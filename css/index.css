@@ -646,6 +646,12 @@ body #main #footer #thirthCol li a:hover {
     width: 180px;
     margin-left: 33rem;
   }
+  #greenButterfy {
+    position: absolute;
+    left: 50rem;
+    top: 80rem;
+    width: 165px;
+  }
   body #main #mainContainer #rightAdPanel .card-body {
     padding: 1.35rem;
   }
@@ -1127,7 +1133,7 @@ body #main #footer #thirthCol li a:hover {
     color: #6dbf1c;
   }
   body #main #mainContainer {
-    width: 80%;
+    width: 83%;
   }
   body #main #mainContainer #centralHeader p.lead {
     font-size: 15px;
@@ -1167,7 +1173,7 @@ body #main #footer #thirthCol li a:hover {
     margin-bottom: -4rem;
   }
   body #main #mainContainer #leftSide h2 {
-    margin-right: 11px;
+    margin-right: 7rem;
   }
   .sold_out {
     display: none;
@@ -1179,7 +1185,8 @@ body #main #footer #thirthCol li a:hover {
     padding: 0.25rem;
   }
   #firstPanel div.row {
-    width: 140%;
+    width: 145%;
+    margin-left: -2rem;
   }
   #leftGreenButterfy {
     width: 110px;
@@ -1197,6 +1204,32 @@ body #main #footer #thirthCol li a:hover {
     padding-bottom: 1rem;
     height: 250px;
   }
+  body #main #adsContainer {
+    width: 80%;
+    margin-left: 0.5rem;
+    height: 102rem;
+  }
+  body #hightPriced {
+    margin-top: -2rem;
+  }
+  body #main #hightPriced div.card {
+    height: 400px;
+    width: 170%;
+    margin-bottom: 0rem;
+  }
+  body #main #mainContainer #leftSide a.btn {
+    margin-top: -2rem;
+    margin-right: 1rem;
+  }
+  body #main #adsContainer .col-sm-4 {
+    max-width: 51.333%;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    height: 365px;
+  }
+  body #main #mainContainer #leftSide h2 {
+    margin-right: 0rem;
+  }
   body #main div.card {
     height: 300px;
   }
@@ -1206,11 +1239,8 @@ body #main #footer #thirthCol li a:hover {
   body #main #mainContainer #centralHeader a.btn {
     margin-top: 1rem;
   }
-  body #main #gallery #stayPicture {
-    width: 500px;
-    margin-left: 7rem;
-    margin-bottom: 4rem;
-    height: 325px;
+  #body #gallery div.row {
+    width: 108%;
   }
   #greenButterfy {
     position: absolute;
@@ -1283,7 +1313,7 @@ body #main #footer #thirthCol li a:hover {
   }
   body #main #gallery #stayPicture {
     width: 400px;
-    margin-left: 4rem;
+    margin-left: 3.5rem;
     margin-bottom: 3rem;
     height: 290px;
   }
@@ -1299,16 +1329,26 @@ body #main #footer #thirthCol li a:hover {
     margin-bottom: 29px;
   }
   #horizontalBaner {
-    width: 700px;
-    margin-left: -78px;
-    padding-left: 0px;
+    display: none;
   }
-  #horizontalBaner div.card-header {
-    font-size: 12px;
-  }
-  #horizontalBaner div.card-footer {
-    font-size: 12px;
-  }
+  /*  div.card-header {
+            font-size: 12px;
+        }
+
+        div.card-footer {
+            font-size: 12px;
+        }
+
+        height: 40rem;
+        width: 495px;
+        margin-left: -78px;
+        padding-left: 0px;
+    }
+
+    body #horizontalBaner img.img-thumbnail {
+        width: 250px;
+        height: 180px;
+    }*/
   body #main #footer a {
     color: white;
     font-size: 10px;
@@ -1326,6 +1366,17 @@ body #main #footer #thirthCol li a:hover {
   body #main #footer .btn-primary {
     font-size: 12px;
   }
+  #gallery div.row {
+    width: 115%;
+  }
+  #gallery .col-6 {
+    max-width: 30%;
+    max-height: 10rem;
+    margin-bottom: 29px;
+  }
+  #greenButterfy {
+    display: none;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -1336,7 +1387,8 @@ body #main #footer #thirthCol li a:hover {
     background-repeat: no-repeat;
     background-position: center top;
     padding-bottom: 1rem;
-    height: 372px;
+    height: 170px;
+    margin-top: 2rem;
   }
   body #main {
     background-image: url(../images/DarkGreenBackground575.jpg);
@@ -1385,8 +1437,13 @@ body #main #footer #thirthCol li a:hover {
     padding: 0;
     border-radius: 15px;
   }
-  body #main {
-    display: inline;
+  body #headerTitle {
+    margin-top: -1rem;
+    color: #6dbf1c;
+  }
+  body #main #mainContainer #centralHeader {
+    padding: 0rem;
+    margin-right: 2rem;
   }
   body #main .container {
     border-radius: 15px;
@@ -1420,6 +1477,81 @@ body #main #footer #thirthCol li a:hover {
     border-radius: 15px;
     margin-left: 2rem;
   }
+  body #main #mainContainer #centralHeader img {
+    margin-top: 2rem;
+    width: 355px;
+    margin-left: 3rem;
+  }
+  body #main #mainContainer #centralHeader h3 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  body #main #mainContainer #leftSide h2 {
+    margin-right: 17rem;
+  }
+  #firstPanel div.row {
+    width: 47%;
+    margin-left: -2rem;
+  }
+  #firstPanel .col-sm-4 {
+    max-width: 50.333%;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    height: 20rem;
+  }
+  #firstPanel .col-sm-4 div.card {
+    height: 368px;
+  }
+  body #main #mainContainer .col-sm-4 {
+    margin-bottom: 2rem;
+  }
+  body #main #mainContainer #leftSide a.btn {
+    margin-top: 0rem;
+    margin-left: 5rem;
+  }
+  body #main #adsContainer {
+    width: 56%;
+    margin-left: 1rem;
+    color: darkgreen;
+    height: 107rem;
+  }
+  body #adsContainer #banner {
+    width: 49%;
+    margin-right: 19rem;
+    margin-left: 0rem;
+  }
+  body #main #mainContainer #leftSide h2 {
+    margin-right: 17remrem;
+  }
+  body #main #hightPriced h2 {
+    margin-left: 0rem;
+  }
+  body #main #hightPriced div.card {
+    height: 400px;
+    width: 175%;
+    margin-left: -4.5rem;
+  }
+  body #main #mainContainer #leftSide a.btn {
+    margin-top: 0rem;
+    margin-left: 5rem;
+  }
+  body #main #gallery {
+    margin-left: 0rem;
+  }
+  #stayPicture {
+    width: 375px;
+    margin-left: -0.5rem;
+    margin-bottom: 3rem;
+    height: 250px;
+  }
+  #greenButterfy {
+    display: none;
+  }
+  body h5 {
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 400.98px) {
@@ -1430,10 +1562,102 @@ body #main #footer #thirthCol li a:hover {
     background-repeat: no-repeat;
     background-position: center top;
     padding-bottom: 1rem;
-    height: 372px;
+    height: 115px;
+    margin-top: 2rem;
   }
   body #main {
-    background-image: url(../images/DarkGreenBackground400.jpg);
+    background-image: url(../images/DarkGreenBackground375.jpg);
+  }
+  body h1 {
+    font-size: 18px;
+  }
+  body h2 {
+    font-size: 11px;
+  }
+  body h3 {
+    font-size: 7px;
+  }
+  body #main #mainContainer #centralHeader img {
+    margin-top: 2rem;
+    width: 230px;
+    margin-left: 2rem;
+    height: 150px;
+  }
+  body #main #mainContainer #centralHeader p.lead {
+    font-size: 11px;
+  }
+  body h5 {
+    font-size: 12px;
+    text-align: center;
+  }
+  body #main #mainContainer #centralHeader a.btn {
+    font-size: 11px;
+  }
+  body #main div.card {
+    margin-left: -4.5rem;
+    width: 17rem;
+  }
+  body #main #mainContainer #leftSide a.btn {
+    margin-top: 0rem;
+    margin-left: 5rem;
+  }
+  body #main #adsContainer {
+    width: 46%;
+    margin-left: -1rem;
+    color: darkgreen;
+    height: 86rem;
+    margin-top: 3rem;
+  }
+  body #adsContainer #banner {
+    width: 35%;
+    margin-right: 25rem;
+    margin-left: 0rem;
+  }
+  body #main #mainContainer #leftSide h2 {
+    margin-right: 22rem;
+  }
+  body #main #hightPriced div.card {
+    height: 365px;
+    width: 125%;
+    margin-left: -4.5rem;
+  }
+  body #main #mainContainer .col-sm-4 {
+    margin-bottom: 1rem;
+  }
+  body #main #adsContainer .col-sm-4 {
+    max-width: 42.333%;
+    margin-left: 8rem;
+    margin-top: 0rem;
+    height: 365px;
+  }
+  #greenButterfy {
+    display: none;
+  }
+  body #main #mainContainer #leftSide h2 {
+    margin-right: 1rem;
+  }
+  body #main #mainContainer #leftSide a.btn {
+    margin-top: 0rem;
+    margin-left: 1rem;
+  }
+  body #main #gallery #stayPicture {
+    width: 250px;
+    margin-left: 0.5rem;
+    margin-bottom: 3rem;
+    height: 165px;
+  }
+  body .hovereffect img {
+    width: 170px;
+    height: 80px;
+  }
+  #gallery .col-6 {
+    max-width: 31%;
+    max-height: 10rem;
+    margin-bottom: -8px;
+  }
+  body #main #mainContainer {
+    padding-bottom: 0rem;
+    margin-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=index.css.map */
