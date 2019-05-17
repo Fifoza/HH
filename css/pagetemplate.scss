@@ -1,3 +1,386 @@
-body #main{
-    height: 20rem;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p,
+    p.lead,
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    a {
+        color: #6dbf1c;
+
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    #headerTitle {
+        margin-top: 3rem;
+        color: rgb(109, 191, 28);
+    }
+
+    #header {
+
+        height: 500px;
+        padding-top: 2rem;
+        text-align: center;
+        margin: 0;
+        background-image: url(../images/DarkGreenHeader1520.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+
+        background-position: center top;
+    }
+}
+#main {
+    
+    background-image: url(../images/DarkGreenBackground1520-2.jpg);
+
+
+    a.btn {
+        background-color: white;
+        border-color: white;
+
+    }
+
+    a.btn:hover {
+        color: rgb(9, 37, 20);
+        background-color: rgb(109, 191, 28);
+    }
+
+    #navbar {
+        #startButton {
+            margin-left: 1.5rem;
+            margin-right: 0.6rem;
+            font-size: 0.9rem;
+        }
+
+        padding: 0;
+        background:rgb(9, 37, 20);
+
+        #dropdownMenuLink {
+            margin-left: 5px;
+            margin-right: 5px;
+
+            div.dropdown {
+                #dropdownMenuLink {
+                    border-color: rgb(109, 191, 28);
+                }
+
+                body #main a.btn:focus {
+                    box-shadow: 0 0 0 0.2rem rgb(109, 191, 28);
+                }
+            }
+
+        }
+
+        a {
+            color: rgb(9, 37, 20);
+            background-color: white;
+            font-size: 0.9rem;
+        }
+
+        a:hover {
+            background: rgb(9, 37, 20);
+            color: white;
+        }
+
+        a.dropdown-item:hover {
+            background: rgb(9, 37, 20);
+            color: rgb(109, 191, 28);
+        }
+
+        #searchButton {
+            background: white;
+            color: rgb(9, 37, 20);
+        }
+
+        #searchButton:hover {
+            color: white;
+            background: rgb(9, 37, 20);
+        }
+    }
+}
+
+   
+    #footer {
+        text-align: left;
+        margin: 2rem 0 0 0;
+        padding: 3rem;
+        height: 16rem;
+        background: rgb(9, 37, 20);
+        color: white;
+
+        s h3,
+        p {
+            text-align: left;
+        }
+
+        a {
+            color: white;
+        }
+
+        a:hover {
+            color: #6dbf1c;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        #thirthCol {
+            display: inline-flex;
+
+            li {
+
+
+                padding-right: 15px;
+
+                a:hover {
+                    height: 5rem;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+ #footer #thirthCol li a:hover {
+    background: rgb(9, 37, 20);
+    border-radius: 15px;
+}
+#footer {
+    text-align: left;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    height: 19rem;
+
+    .btn-primary {
+        color: white;
+        background: #6dbf1c;
+        border-color: unset;
+        font-size: 14px;
+        margin-top: 0.5rem;
+
+    }
+
+    .btn-primary:hover {
+        background: #fff;
+        color: rgb(9, 37, 20);
+    }
+
+    #firstBox {
+        padding: 2rem;
+
+        p {
+            height: 20px;
+        }
+
+        h3 {
+            text-align: left;
+        }
+
+        #thirthCol {
+
+            margin-top: 2rem;
+        }
+    }
+
+    #secondBox {
+        margin-top: 2rem;
+    }
+
+    #thirdBox {
+        margin-top: 2rem;
+    }
+
+}
+
+
+
+
+
+//**********Responsive*****************//
+//=======================================================================
+//=======================================================================
+
+// Medium-large devices (monitors, less than 1280px)
+@media (max-width: 1280px) {
+    body #header {
+
+        height: 435px;
+        padding-top: 2rem;
+        text-align: center;
+        margin: 0;
+        background-image: url(../images/Creativni-header-1280.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+
+        background-position: center top;
+        padding-bottom: 1rem;
+
+        h2,
+        h3 {
+            color: rgb(9, 37, 20);
+        }
+    }
+
+    body #main #navbar {
+
+        a,
+        #startButton {
+
+            font-size: 12px;
+        }
+    }
+
+    body #main {
+        background-image: url(../images/Background-new1280.jpg);
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+//=======================================================================
+//=======================================================================
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1109px) {
+    #header {
+
+
+        background-image: url(../images/Creativni1100.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        background-repeat: no-repeat;
+
+        background-position: center top;
+        padding-bottom: 1rem;
+        height: 372px;
+    }
+
+
+
+
+    body #main #navbar,
+    .navbar-expand-lg .navbar-nav,
+    li.nav-link,
+    .btn-primary {
+        font-size: 14px;
+    }
+
+    body #main #navbar #startButton {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    body #main {
+        background-image: url(../images/Background-new1109.jpg);
+    }
+
+}
+
+//=================================================================
+//=================================================================
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    body #main {
+        background-image: url(../images/Background-new991.jpg);
+    }
+
+    body #navbar {
+        opacity: 1;
+
+        li.nav-link {
+            padding: unset;
+        }
+
+        li.nav-link:hover {
+            background: darkviolet;
+        }
+
+        .dropdown-menu {
+            width: 100%;
+        }
+
+        input {
+            margin-left: 16rem;
+        }
+
+        #searchButton:hover {
+            background: rgb(109, 191, 28);
+        }
+
+        #navbarSupportedContent a {
+            width: 100%;
+            margin: 0;
+            height: 40px;
+            border-radius: unset;
+        }
+
+        #navbarSupportedContent a:hover {
+            background: rgb(109, 191, 28);
+        }
+
+        i.fas fa-bars {
+            margin-left: 3rem;
+        }
+    }
+
+
+    body #main #navbar #startButton,
+    #dropdownMenuLink {
+        margin: 0;
+    }
+    body #main #mainContainer #centralHeader img {
+        margin-top: 2rem;
+        width: 515px;
+        margin-left: 3rem;
+    }
+
+    body #main #mainContainer #centralHeader h2 {
+        padding: 1rem;
+        color: white;
+        background: #092514;
+        border-radius: 15px;
+        font-size: 14px;
+    }
+
+    body #main #mainContainer #centralHeader h3 {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        margin-left: unset;
+    }
+
 }
