@@ -339,6 +339,16 @@ template {
   justify-content: left;
   align-items: center;
 }
+
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
+}
 /* хедър елемент */
 
 /* бутони */
@@ -347,7 +357,9 @@ fieldset:disabled a.mi-btn-success,
 fieldset:disabled a.mi-btn-warning,
 fieldset:disabled a.mi-btn-danger,
 fieldset:disabled a.mi-btn-info,
-fieldset:disabled a.mi-btn-link {
+fieldset:disabled a.mi-btn-link,
+fieldset:disabled a.mi-btn-nav,
+fieldset:disabled a.mi-btn-footer {
   pointer-events: none;
 }
 
@@ -400,6 +412,16 @@ fieldset:disabled a.mi-btn-link {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
+}
+
 .mi-btn-success {
   display: inline-block;
   font-weight: 400;
@@ -445,6 +467,16 @@ fieldset:disabled a.mi-btn-link {
 
 .mi-btn-success:not(:disabled):active:focus {
   box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
 }
 
 .mi-btn-warning {
@@ -494,6 +526,16 @@ fieldset:disabled a.mi-btn-link {
   box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
 }
 
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
+}
+
 .mi-btn-danger {
   display: inline-block;
   font-weight: 400;
@@ -541,6 +583,16 @@ fieldset:disabled a.mi-btn-link {
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
 
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
+}
+
 .mi-btn-info {
   display: inline-block;
   font-weight: 400;
@@ -586,6 +638,16 @@ fieldset:disabled a.mi-btn-link {
 
 .mi-btn-info:not(:disabled):active:focus {
   box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
 }
 
 .mi-btn-nav {
@@ -636,6 +698,19 @@ fieldset:disabled a.mi-btn-link {
   box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
 }
 
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  .mi-btn-nav:hover {
+    border-color: var(--success-color);
+    background-color: var(--primary-hover-color);
+  }
+}
+
 .mi-btn-link {
   text-decoration: none;
   display: inline-block;
@@ -679,6 +754,16 @@ fieldset:disabled a.mi-btn-link {
 .mi-btn-link:focus {
   text-decoration: underline;
   box-shadow: none;
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+
 }
 
 .mi-btn-footer {
@@ -736,10 +821,7 @@ fieldset:disabled a.mi-btn-link {
 
 }
 @media only screen and (max-width: 575px) {
-  .mi-btn-nav:hover {
-    border-color: var(--success-color);
-    background-color: var(--primary-hover-color);
-  }
+
 }
 /* бутони */
 
@@ -828,6 +910,59 @@ fieldset:disabled a.mi-btn-link {
   display: none;
 }
 
+.mi-navbar .mi-dropdown-nav {
+  position: relative;
+  max-height: var(--btn-nav-max-height);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  border-color: var(--primary-color);
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1vw;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.mi-navbar .mi-dropdown-nav:hover {
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-color: var(--white-color);
+}
+
+.mi-navbar .mi-dropdown-content-nav {
+  background-color: var(--white-color);
+  display: none;
+  position: absolute;
+  border: 2px solid var(--white-color);
+  border-radius: 5px;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+.mi-navbar .mi-dropdown-nav:focus .mi-dropdown-content-nav {
+  display: block;
+}
+.mi-navbar .mi-dropdown-content-nav a {
+  display: block;
+  min-height: 2rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  margin-top: .5rem;
+}
+.mi-navbar .mi-dropdown-content-nav a:hover {
+  color: var(--success-color);
+  background-color: var(--primary-color);
+}
+
 @media only screen and (max-width: 991px) {
   
   .mi-navbar {
@@ -841,33 +976,6 @@ fieldset:disabled a.mi-btn-link {
 }
 
 @media only screen and (max-width: 768px) {
-  
-  .mi-navbar {
-    max-height: 2.2rem;
-  }
-  .mi-navbar > ul li:first-child {
-    margin-left: 1rem;
-  }
-  .mi-navbar > ul li:last-child {
-    margin-right: 1rem;
-  }
-
-  .mi-navbar .mi-search-input-nav {
-    max-width: 15vw;
-    font-size: 1.5vw;
-  }
-
-  .mi-footer .mi-btn-footer {
-    width: 100%;
-    max-height: 4.5rem;
-    height: 4.5vw;
-    font-size: 2.4vw;
-    line-height: 1rem;
-  }
-
-}
-
-@media only screen and (max-width: 575px) {
 
   .mi-navbar #hamburger {
     display: flex;
@@ -927,6 +1035,13 @@ fieldset:disabled a.mi-btn-link {
     align-items: center;
     background-color: var(--primary-color);
   }
+
+  .mi-navbar .mi-btn-nav {
+    border-top: 1px solid var(--success-color);
+    border-left: 1px solid var(--success-color);
+    border-right: 1px solid var(--success-color);
+  }
+
   .mi-navbar ul li a {
     width: 100%;
     margin: 0;
@@ -953,6 +1068,9 @@ fieldset:disabled a.mi-btn-link {
     width: 100%;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+  }
+  .mi-navbar ul li a:hover {
+    background-color: var(--primary-hover-color);
   }
 
   .mi-navbar .mi-search-input-nav {
@@ -982,79 +1100,7 @@ fieldset:disabled a.mi-btn-link {
     border-color: var(--success-color);
   }
 
-  .mi-footer .mi-btn-footer {
-    max-height: 2rem;
-    height: 2rem;
-    font-size: 1rem;
-  }
-
-}
-/* навигационна лента */
-
-/* падащи менюта */
-.mi-dropdown-nav {
-  position: relative;
-  max-height: var(--btn-nav-max-height);
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: var(--primary-color);
-  background-color: var(--white-color);
-  border-color: var(--primary-color);
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1vw;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-.mi-dropdown-nav:hover {
-  text-decoration: none;
-  color: var(--white-color);
-  background-color: var(--primary-color);
-  border-color: var(--white-color);
-}
-
-.mi-dropdown-content-nav {
-  background-color: var(--white-color);
-  display: none;
-  position: absolute;
-  border: 2px solid var(--white-color);
-  border-radius: 5px;
-  width: 100%;
-  top: 100%;
-  left: 0;
-}
-.mi-dropdown-nav:focus .mi-dropdown-content-nav {
-  display: block;
-}
-.mi-dropdown-content-nav a {
-  display: block;
-  min-height: 2rem;
-  text-decoration: none;
-  color: var(--primary-color);
-  margin-top: .5rem;
-}
-.mi-dropdown-content-nav a:hover {
-  color: var(--success-color);
-  background-color: var(--primary-color);
-}
-
-@media only screen and (max-width: 991px) {
-
-}
-
-@media only screen and (max-width: 768px) {
-
-}
-
-@media only screen and (max-width: 575px) {
-  .mi-dropdown-nav {
+  .mi-navbar .mi-dropdown-nav {
     width: 100%;
     margin: 0;
     font-size: 1rem;
@@ -1071,14 +1117,49 @@ fieldset:disabled a.mi-btn-link {
     opacity: 0;
     transition: opacity 150ms ease-in-out;
   }
-  .mi-dropdown-nav:hover {
+  .mi-navbar .mi-dropdown-nav:hover {
     color: var(--white-color);
     background-color: var(--primary-hover-color);
     border-color: var(--success-color);
   }
-  .mi-dropdown-content-nav a:hover {
+  .mi-navbar .mi-dropdown-content-nav a:hover {
     background-color: var(--primary-hover-color);
   }
+
+  .mi-navbar .mi-dropdown-content-nav {
+    border-color: var(--success-color);
+  }
+
+  .mi-navbar .mi-dropdown-content-nav a {
+    display: block;
+    min-height: 2rem;
+    text-decoration: none;
+    color: var(--white-color);
+    margin: 0;
+    padding-top: .5rem;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+
+}
+/* навигационна лента */
+
+/* падащи менюта */
+
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+}
+
+@media only screen and (max-width: 575px) {
+  
 }
 /* падащи менюта */
 
@@ -1088,6 +1169,25 @@ fieldset:disabled a.mi-btn-link {
   width: 100%;
   margin: 0;
   text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .mi-footer .mi-btn-footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+
+  .mi-footer .mi-btn-footer {
+    max-height: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
 }
 /* футър */
 
@@ -1129,8 +1229,28 @@ fieldset:disabled a.mi-btn-link {
   min-height: 100%;
 }
 
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
+}
+
 .mi-main {
   flex: 1;
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
 }
 
 .mi-gap-0-for-desktop {
@@ -1205,6 +1325,17 @@ fieldset:disabled a.mi-btn-link {
 .mi-gap-5-for-mobile {
   grid-gap: 1rem;
 }
+
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  
+}
+
 @media only screen and (min-width: 992px) {
   .mi-column-for-desktop,
   .mi-columns-2-for-desktop,
