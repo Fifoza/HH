@@ -1,0 +1,97 @@
+.mi-footer > ul {
+  text-align: left;
+  color: var(--white-color);
+  margin-top: calc(var(--footer-gap,0) / 2);
+}
+.mi-footer > ul {
+  margin-left: calc(var(--footer-gap,0) / 3 * 2);
+  margin-right: calc(var(--footer-gap,0) / 2);
+  padding-left: calc(var(--footer-gap,0) / 3);
+  border-left: 1px solid rgb(127, 0, 0);
+  border-left: 1px solid rgba(255, 255, 255, .1);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+.mi-footer > ul:last-child {
+  margin-right: var(--footer-gap,0);
+}
+.mi-footer > ul:hover {
+  text-align: left;
+}
+.mi-footer a, .mi-footer h3, .mi-footer p {
+  color: var(--white-color);
+  font-weight: 500;
+}
+
+.mi-footer h3 {
+  font-size: 1rem;
+}
+.mi-footer a {
+  font-size: .9rem;
+}
+.mi-footer a:hover {
+  color: var(--success-color);
+}
+
+/* социалните иконки */
+.mi-footer .mi-columns-3-for-desktop,
+.mi-footer .mi-columns-3-for-tablet,
+.mi-footer .mi-columns-3-for-notebook {
+  margin-top: 3rem;
+  width: 13vw;
+}
+
+.mi-footer textarea, .mi-footer input[type='email'] {
+  width: 100%;
+  border: 1px solid var(--gray-color);
+  border-radius: 5px;
+  min-height: 2.7vw;
+}
+
+.mi-footer input[type='email'] {
+  padding: 0 1rem;
+  font-size: .7rem;
+}
+
+.mi-footer > ul > li > form label:nth-child(3) {
+  margin-top: .5rem;
+}
+
+.mi-footer .mi-btn-footer {
+  margin-top: .5rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .mi-footer > ul {
+    padding-bottom: 2rem;
+    border-left: 0;
+    border-left: 0;
+    border-bottom: 1px solid rgb(127, 0, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+  }
+
+  .mi-footer input[type='email'] {
+    font-size: 1rem;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+  .mi-footer > ul {
+    margin-left: calc(var(--footer-gap,0) / 2);
+    padding-left: 0;
+    margin-top: .5rem;
+    border-bottom: 1px solid rgb(127, 0, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+  }
+  .mi-footer > ul:first-child {
+    margin-top: calc(var(--footer-gap,.2rem) / 3 * 1.5);
+  }
+  .mi-footer > ul:last-child {
+    margin-right: calc(var(--footer-gap,.2rem) / 2);
+    margin-left: calc(var(--footer-gap,.2rem) / 2);
+    border-bottom: 0;
+  }
+}

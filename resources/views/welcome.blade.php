@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('custom-styles')
-<link rel="stylesheet" href="css/welcome.css">
+<link rel="stylesheet" href="{{ URL::asset('css/welcome.css') }}">
 @endsection
 
 @section('content')
@@ -167,5 +167,5 @@
 @endsection
 
 @section('custom-scripts')
-    <script src="js/custom.js"></script>
+    <script src="{{ URL::asset('js/custom.js') }}"></script>
 @endsection

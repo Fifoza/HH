@@ -1,72 +1,96 @@
-<nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+<nav class="mi-navbar">
+    <input type="checkbox" id="hamburger-button">
+    <label id="hamburger" for="hamburger-button">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+    <ul>
+        <li>
+            <a href="/" class="mi-btn-nav" role="button">Начало</a>
+        </li>
 
-    <button class="navbar-toggler bg-info text-white" type="button" data-toggle="collapse" style="width: 100%"
-      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation"><i class="fas fa-bars" style="margin-left: 3rem;"></i>
-        <span class="navbar-toggler-icon mr-3"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a href="/" class="btn btn-primary active" role="button" aria-pressed="true" id="startButton">Начало H&H</a>
-        <div class="dropdown show">
-            <a class="btn btn-primary dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Изберете изкуство
-            </a>
+        <li>
+            <button class="mi-dropdown-nav">
+                Изберете изкуство
+                <i class="fa fa-caret-down"></i>
+                <div class="mi-dropdown-content-nav">
+                    <a href="#">Квилинг</a>
+                    <a href="#">Плетени на Една кука</a>
+                    <a href="#">Плетени на Две куки</a>
+                    <a href="#">Живопис</a>
+                    <a href="#">Декупаж</a>
+                    <a href="#">Щамповани</a>
+                    <a href="#">Дигитални</a>
+                    <a href="#">Сувенири</a>
+                    <a href="#">Други</a>
+                </div>
+            </button>
+        </li>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Квилинг</a>
-                <a class="dropdown-item" href="#">Плетени на Една кука</a>
-                <a class="dropdown-item" href="#">Плетени на Две куки</a>
-                <a class="dropdown-item" href="#">Живопис</a>
-                <a class="dropdown-item" href="#">Декупаж</a>
-                <a class="dropdown-item" href="#">Щамповани</a>
-                <a class="dropdown-item" href="#">Дигитални</a>
-                <a class="dropdown-item" href="#">Други</a>
-            </div>
-        </div>
-
+        <li>
+            <button class="mi-dropdown-nav">
+                Тематични артикули
+                <i class="fa fa-caret-down"></i>
+                <div class="mi-dropdown-content-nav">
+                    <a href="#">Рожден ден/Имен ден</a>
+                    <a href="#">Сватба</a>
+                    <a href="#">Изписване/Кръщене на дете</a>
+                    <a href="#">Детски артикули/играчки</a>
+                    <a href="#">Баба Марта</a>
+                    <a href="#">Трифон Зарезан/Св. Валентин</a>
+                    <a href="#">Хелоуин</a>
+                    <a href="#">Коледа</a>
+                    <a href="#">Други</a>
+                </div>
+            </button>
+        </li>
 
         @auth
-        <div class="dropdown show mr-2 ml-1">
-            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              {{auth()->user()->name}}
-            </a>
+        <li>
+            <button class="mi-dropdown-nav">{{auth()->user()->name}}
+                <i class="fa fa-caret-down"></i>
+                <div class="mi-dropdown-content-nav">
+                    <a href="{{route('profiles.show', ['profile' => auth()->id()])}}">Моят Профил</a>
+                    <a href="#">Настройки</a>
+                </div>
+            </button>
+        </li>
+
+        <li>
+            <a class="mi-btn-nav" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Изход</a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
+        </li>
         
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                <a class="dropdown-item" href="{{route('profiles.show', ['profile' => auth()->id()])}}">Моят Профил</a>
-                <a class="dropdown-item" href="#">Настройки</a>
-                <a class="dropdown-item" href="{{ route('logout') }}"
-                onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                Изход
-                </a>
-                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                    @csrf
-                </form>
+        <li>
+            <div>
+                <a class="mi-btn-nav" href="{{route('profiles.creativities.create', ['profile' => auth()->id()])}}">Качи нова творба</a>
             </div>
-        </div>
-        
-        <div class="dropdown show mr-auto">
-            <a href="{{route('profiles.creativities.create', ['profile' => auth()->id()])}}" class="btn btn-primary">Качи нова творба</a>
-        </div>
+        </li>
 
 
         @else
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-link"><a href="{{ route('login') }}" class="btn btn-primary  active" role="button"
-                  aria-pressed="true"><i class="fas fa-sign-in-alt mr-3"></i>Влезте
-                  в акаунта си</a></li>
 
-            <li class="nav-link"><a href="{{ route('register') }}" class="btn btn-primary  active" role="button"
-                  aria-pressed="true"><i class="fas fa-user-plus mr-3"></i>Регистрирайте се</a></li>
-        </ul>
+        <li>
+            <a class="mi-btn-nav" href="{{ route('login') }}" role="button"><i class="fas fa-sign-in-alt"></i>
+            Вход</a>
+        </li>
+
+        <li>
+            <a class="mi-btn-nav" href="{{ route('register') }}" role="button"><i class="fas fa-user-plus"></i>
+            Регистрация</a>
+        </li>
         @endauth
 
-    </div>
-    <form class="form-inline row">
-        <input class="form-control ml-4 ml-md-auto mt-2 mb-2 mr-md-2 col-8" type="search" placeholder="Търсене..." aria-label="Search" name="search">
-        <button id="searchButton" class="btn btn-secondary ml-2 ml-md-0 mr-md-4" type="submit">
-            <i class="fa fa-search"></i>
-        </button>
-    </form>
+        <li>
+            <form>
+                <input class="mi-search-input-nav" type="search" placeholder="Търсене..." name="search">
+                <button class="mi-search-button-nav" type="submit">
+                    <span>&#x2315;</span>
+                </button>
+            </form>
+        </li>
+    </ul>
 </nav>

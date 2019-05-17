@@ -1,7 +1,5 @@
 <?php
 
-use App\User;
-use App\Creativity;
 use Illuminate\Http\Request;
 
 /*
@@ -15,20 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function () {
-    $lastCreativities = Creativity::latest()->limit(3)->get();
+Route::get('/', 'WelcomeController@welcome')->name('welcome')->name('welcome');
 
-    $topRatedCreativities = Creativity::orderByDesc('rate')->limit(3)->with('user')->get();
-
-    $randomCreativities = Creativity::inRandomOrder()->limit(12)->with('user')->get();
-
-    return view('welcome')->withTopRatedCreativities($topRatedCreativities)->withRandomCreativities($randomCreativities)->withLastCreativities($lastCreativities);
-})->name('welcome');
-
-Route::get('/conditions', function (Request $request) {
-    $registerButton = (app('router')->getRoutes()->match(app('request')->create(URL::previous()))->getName() == 'register');
-    return view('conditions')->withRegisterButton($registerButton);
-})->name('conditions');
+Route::get('/conditions', 'WelcomeController@conditions')->name('conditions');
 
 Route::get('/mission', function (Request $request) {
     return view('mission');
