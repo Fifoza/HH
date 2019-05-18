@@ -37,7 +37,7 @@ body #darkButterfy {
   width: 125px;
   height: 125px;
   position: absolute;
-  top: 69rem;
+  top: 73rem;
   left: 27rem;
 }
 
@@ -47,6 +47,11 @@ body #darkButterfy:hover {
   position: absolute;
   width: 130px;
   height: 130px;
+}
+
+body h3 {
+  font-size: 16px;
+  text-align: center;
 }
 
 @media (max-width: 1280px) {
@@ -71,8 +76,8 @@ body #darkButterfy:hover {
     width: 110px;
     height: 110px;
     position: absolute;
-    top: 67rem;
-    left: 12rem;
+    top: 71rem;
+    left: 15rem;
   }
   body #darkButterfy:hover {
     -webkit-transition: ease all 1.5s;
@@ -116,6 +121,11 @@ body #darkButterfy:hover {
     margin-top: 2rem;
     font-size: 15px;
   }
+  body #main #registerForm .form-check {
+    position: relative;
+    display: block;
+    padding-left: 7.25rem;
+  }
   body #main #registerForm #mailForm {
     margin: 0rem auto;
     padding: 2rem;
@@ -147,27 +157,59 @@ body #darkButterfy:hover {
   h3 {
     text-align: center;
   }
+  body #darkButterfy {
+    display: none;
+  }
+  body #main #registerForm #registerButton {
+    background: #6dbf1c;
+    color: white;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 575.98px) {
   body #main #registerForm {
-    width: 90%;
-    margin-top: 1rem;
+    width: 70%;
+    margin-top: 3rem;
   }
   body #main #registerForm #mailForm {
     margin: 0rem auto;
     padding: 1rem;
+  }
+  body #main #registerForm .form-check {
+    position: relative;
+    display: block;
+    padding-left: 4.25rem;
+  }
+  body #main #registerForm #registerButton {
+    background: #6dbf1c;
+    color: white;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 400px) {
   body #main #registerForm {
-    width: 90%;
-    margin-top: 1rem;
+    width: 77%;
+    margin-top: 3rem;
   }
   body #main #registerForm #mailForm {
     margin: 0rem auto;
     padding: 1rem;
+  }
+  body #main #registerForm .form-check {
+    position: relative;
+    display: block;
+    padding-left: 3.25rem;
+  }
+  body #main #registerForm #registerButton {
+    background: #6dbf1c;
+    color: white;
+    margin-left: 4rem;
   }
 }
 /*# sourceMappingURL=register.css.map */

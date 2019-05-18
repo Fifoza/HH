@@ -40,7 +40,7 @@ body {
         width: 125px;
         height: 125px;
         position: absolute;
-        top: 69rem;
+        top: 73rem;
         left: 27rem;
     }
 
@@ -49,11 +49,16 @@ body {
     #darkButterfy:hover {
         transition: ease all 1.5s;
         position: absolute;
-     width: 130px;
-     height: 130px;
+        width: 130px;
+        height: 130px;
     }
+}
 
-} 
+body h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
 
 
 
@@ -66,7 +71,7 @@ body {
 //=======================================================================
 
 // Medium-large devices (monitors, less than 1280px)
-@media (max-width: 1280px){
+@media (max-width: 1280px) {
 
     body #darkButterfy {
         width: 115px;
@@ -75,11 +80,12 @@ body {
         top: 69rem;
         left: 23rem;
     }
-   body #darkButterfy:hover {
+
+    body #darkButterfy:hover {
         transition: ease all 1.5s;
         position: absolute;
-     width: 120px;
-     height: 120px;
+        width: 120px;
+        height: 120px;
     }
 
 }
@@ -94,14 +100,15 @@ body {
         width: 110px;
         height: 110px;
         position: absolute;
-        top: 67rem;
-        left: 12rem;
+        top: 71rem;
+        left: 15rem;
     }
-   body #darkButterfy:hover {
+
+    body #darkButterfy:hover {
         transition: ease all 1.5s;
         position: absolute;
-     width: 115px;
-     height: 115px;
+        width: 115px;
+        height: 115px;
     }
 
 }
@@ -114,7 +121,7 @@ body {
 @media (max-width: 991.98px) {
     body #main #registerForm {
         width: 90%;
-      
+
         font-size: 15px;
         margin-bottom: 6rem;
         margin-top: 4rem;
@@ -126,6 +133,7 @@ body {
         margin: 0rem auto;
         padding: 2rem;
     }
+
     body #darkButterfy {
         width: 100px;
         height: 100px;
@@ -133,13 +141,14 @@ body {
         top: 60rem;
         left: 16rem;
     }
-   body #darkButterfy:hover {
+
+    body #darkButterfy:hover {
         transition: ease all 1.5s;
         position: absolute;
-     width: 110px;
-     height: 110px;
+        width: 110px;
+        height: 110px;
     }
-   
+
 
 
 }
@@ -154,8 +163,14 @@ body {
     body #main #registerForm {
         width: 90%;
         margin-top: 2rem;
-        
+
         font-size: 15px;
+
+        .form-check {
+            position: relative;
+            display: block;
+            padding-left: 7.25rem;
+        }
     }
 
 
@@ -163,21 +178,34 @@ body {
         margin: 0rem auto;
         padding: 2rem;
         font-size: 12px;
-     
+
     }
+
     .form-control::placeholder {
         color: #6c757d;
         opacity: 1;
         font-size: 13px;
     }
-    #inputEmail4{
-    font-size: 13px;
+
+    #inputEmail4 {
+        font-size: 13px;
     }
-    h3{
+
+    h3 {
         text-align: center;
     }
 
+    body #darkButterfy {
+        display: none;
+    }
 
+    body #main #registerForm #registerButton {
+        background: #6dbf1c;
+        color: white;
+        margin-left: 10rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
 //========================================================================
@@ -187,8 +215,8 @@ body {
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     body #main #registerForm {
-        width: 90%;
-        margin-top: 1rem;
+        width: 70%;
+        margin-top: 3rem;
     }
 
 
@@ -197,6 +225,19 @@ body {
         padding: 1rem;
     }
 
+    body #main #registerForm .form-check {
+        position: relative;
+        display: block;
+        padding-left: 4.25rem;
+    }
+
+    body #main #registerForm #registerButton {
+        background: #6dbf1c;
+        color: white;
+        margin-left: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
 //========================================================================
@@ -206,8 +247,8 @@ body {
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 400px) {
     body #main #registerForm {
-        width: 90%;
-        margin-top: 1rem;
+        width: 77%;
+        margin-top: 3rem;
     }
 
 
@@ -215,8 +256,14 @@ body {
         margin: 0rem auto;
         padding: 1rem;
     }
-
+    body #main #registerForm .form-check {
+        position: relative;
+        display: block;
+        padding-left: 3.25rem;
+    }
+    body #main #registerForm #registerButton {
+        background: #6dbf1c;
+        color: white;
+        margin-left: 4rem;
+    }
 }
-
-
-
