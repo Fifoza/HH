@@ -1,11 +1,4 @@
 /* рестартиране на правилата от браузъра */
-/*!
- * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
- */
 *,
 *::before,
 *::after {
@@ -1253,76 +1246,76 @@ fieldset:disabled a.mi-btn-footer {
   
 }
 
-.mi-gap-0-for-desktop {
+.mi-0-gap-for-desktop {
   grid-gap: 0;
 }
-.mi-gap-1-for-desktop {
+.mi-1-gap-for-desktop {
   grid-gap: 1rem;
 }
-.mi-gap-2-for-desktop {
+.mi-2-gap-for-desktop {
   grid-gap: 2rem;
 }
-.mi-gap-3-for-desktop {
+.mi-3-gap-for-desktop {
   grid-gap: 3rem;
 }
-.mi-gap-4-for-desktop {
+.mi-4-gap-for-desktop {
   grid-gap: 4rem;
 }
-.mi-gap-5-for-desktop {
+.mi-5-gap-for-desktop {
   grid-gap: 5rem;
 }
-.mi-gap-0-for-notebook {
+.mi-0-gap-for-notebook {
   grid-gap: 0;
 }
-.mi-gap-1-for-notebook {
+.mi-1-gap-for-notebook {
   grid-gap: .8rem;
 }
-.mi-gap-2-for-notebook {
+.mi-2-gap-for-notebook {
   grid-gap: 1.6rem;
 }
-.mi-gap-3-for-notebook {
+.mi-3-gap-for-notebook {
   grid-gap: 2.4rem;
 }
-.mi-gap-4-for-notebook {
+.mi-4-gap-for-notebook {
   grid-gap: 3.2rem;
 }
-.mi-gap-5-for-notebook {
+.mi-5-gap-for-notebook {
   grid-gap: 3.8rem;
 }
-.mi-gap-0-for-tablet {
+.mi-0-gap-for-tablet {
   grid-gap: 0;
 }
-.mi-gap-1-for-tablet {
+.mi-1-gap-for-tablet {
   grid-gap: .6rem;
 }
-.mi-gap-2-for-tablet {
+.mi-2-gap-for-tablet {
   grid-gap: 1.2rem;
 }
-.mi-gap-3-for-tablet {
+.mi-3-gap-for-tablet {
   grid-gap: 1.8rem;
 }
-.mi-gap-4-for-tablet {
+.mi-4-gap-for-tablet {
   grid-gap: 2.4rem;
 }
-.mi-gap-5-for-tablet {
+.mi-5-gap-for-tablet {
   grid-gap: 3rem;
 }
-.mi-gap-0-for-mobile {
+.mi-0-gap-for-mobile {
   grid-gap: 0;
 }
-.mi-gap-1-for-mobile {
+.mi-1-gap-for-mobile {
   grid-gap: .2rem;
 }
-.mi-gap-2-for-mobile {
+.mi-2-gap-for-mobile {
   grid-gap: .4rem;
 }
-.mi-gap-3-for-mobile {
+.mi-3-gap-for-mobile {
   grid-gap: .6rem;
 }
-.mi-gap-4-for-mobile {
+.mi-4-gap-for-mobile {
   grid-gap: .8rem;
 }
-.mi-gap-5-for-mobile {
+.mi-5-gap-for-mobile {
   grid-gap: 1rem;
 }
 
@@ -1337,380 +1330,384 @@ fieldset:disabled a.mi-btn-footer {
 }
 
 @media only screen and (min-width: 992px) {
+
   .mi-column-for-desktop,
-  .mi-columns-2-for-desktop,
-  .mi-columns-3-for-desktop,
-  .mi-columns-4-for-desktop,
-  .mi-columns-5-for-desktop,
-  .mi-columns-6-for-desktop,
-  .mi-columns-7-for-desktop,
-  .mi-columns-8-for-desktop,
-  .mi-columns-9-for-desktop,
-  .mi-columns-10-for-desktop,
-  .mi-columns-11-for-desktop,
-  .mi-columns-12-for-desktop,
+  .mi-2-columns-for-desktop,
+  .mi-3-columns-for-desktop,
+  .mi-4-columns-for-desktop,
+  .mi-5-columns-for-desktop,
+  .mi-6-columns-for-desktop,
+  .mi-7-columns-for-desktop,
+  .mi-8-columns-for-desktop,
+  .mi-9-columns-for-desktop,
+  .mi-10columns-for-desktop,
+  .mi-11-columns-for-desktop,
+  .mi-12-columns-for-desktop,
   .mi-row-for-desktop,
-  .mi-rows-2-for-desktop,
-  .mi-rows-3-for-desktop,
-  .mi-rows-4-for-desktop,
-  .mi-rows-5-for-desktop,
-  .mi-rows-6-for-desktop,
-  .mi-rows-7-for-desktop,
-  .mi-rows-8-for-desktop,
-  .mi-rows-9-for-desktop,
-  .mi-rows-10-for-desktop {
+  .mi-2-rows-for-desktop,
+  .mi-3-rows-for-desktop,
+  .mi-4-rows-for-desktop,
+  .mi-5-rows-for-desktop,
+  .mi-6-rows-for-desktop,
+  .mi-7-rows-for-desktop,
+  .mi-8-rows-for-desktop,
+  .mi-9-rows-for-desktop,
+  .mi-10-rows-for-desktop {
     display: grid;
   }
   .mi-column-for-desktop {
     grid-template-columns: 1fr;
   }
-  .mi-columns-2-for-desktop {
+  .mi-2-columns-for-desktop {
     grid-template-columns: repeat(2,1fr);
   }
-  .mi-columns-3-for-desktop {
+  .mi-3-columns-for-desktop {
     grid-template-columns: repeat(3,1fr);
   }
-  .mi-columns-4-for-desktop {
+  .mi-4-columns-for-desktop {
     grid-template-columns: repeat(4,1fr);
   }
-  .mi-columns-5-for-desktop {
+  .mi-5-columns-for-desktop {
     grid-template-columns: repeat(5,1fr);
   }
-  .mi-columns-6-for-desktop {
+  .mi-6-columns-for-desktop {
     grid-template-columns: repeat(6,1fr);
   }
-  .mi-columns-7-for-desktop {
+  .mi-7-columns-for-desktop {
     grid-template-columns: repeat(7,1fr);
   }
-  .mi-columns-8-for-desktop {
+  .mi-8-columns-for-desktop {
     grid-template-columns: repeat(8,1fr);
   }
-  .mi-columns-9-for-desktop {
+  .mi-9-columns-for-desktop {
     grid-template-columns: repeat(9,1fr);
   }
-  .mi-columns-10-for-desktop {
+  .mi-10-columns-for-desktop {
     grid-template-columns: repeat(10,1fr);
   }
-  .mi-columns-11-for-desktop {
+  .mi-11-columns-for-desktop {
     grid-template-columns: repeat(11,1fr);
   }
-  .mi-columns-12-for-desktop {
+  .mi-12-columns-for-desktop {
     grid-template-columns: repeat(12,1fr);
   }
 
   .mi-row-for-desktop {
     grid-template-rows: 1fr; 
   }
-  .mi-rows-2-for-desktop {
+  .mi-2-rows-for-desktop {
     grid-template-rows: repeat(2,1fr);
   }
-  .mi-rows-3-for-desktop {
+  .mi-3-rows-for-desktop {
     grid-template-rows: repeat(3,1fr);
   }
-  .mi-rows-4-for-desktop {
+  .mi-4-rows-for-desktop {
     grid-template-rows: repeat(4,1fr);
   }
-  .mi-rows-5-for-desktop {
+  .mi-5-rows-for-desktop {
     grid-template-rows: repeat(5,1fr);
   }
-  .mi-rows-6-for-desktop {
+  .mi-6-rows-for-desktop {
     grid-template-rows: repeat(6,1fr);
   }
-  .mi-rows-7-for-desktop {
+  .mi-7-rows-for-desktop {
     grid-template-rows: repeat(7,1fr);
   }
-  .mi-rows-8-for-desktop {
+  .mi-8-rows-for-desktop {
     grid-template-rows: repeat(8,1fr);
   }
-  .mi-rows-9-for-desktop {
+  .mi-9-rows-for-desktop {
     grid-template-rows: repeat(9,1fr);
   }
-  .mi-rows-10-for-desktop {
+  .mi-10-rows-for-desktop {
     grid-template-rows: repeat(10,1fr);
   }
 
 }
 
 @media only screen and (max-width: 991px) {
+  
   .mi-column-for-notebook,
-  .mi-columns-2-for-notebook,
-  .mi-columns-3-for-notebook,
-  .mi-columns-4-for-notebook,
-  .mi-columns-5-for-notebook,
-  .mi-columns-6-for-notebook,
-  .mi-columns-7-for-notebook,
-  .mi-columns-8-for-notebook,
-  .mi-columns-9-for-notebook,
-  .mi-columns-10-for-notebook,
-  .mi-columns-11-for-notebook,
-  .mi-columns-12-for-notebook,
+  .mi-2-columns-for-notebook,
+  .mi-3-columns-for-notebook,
+  .mi-4-columns-for-notebook,
+  .mi-5-columns-for-notebook,
+  .mi-6-columns-for-notebook,
+  .mi-7-columns-for-notebook,
+  .mi-8-columns-for-notebook,
+  .mi-9-columns-for-notebook,
+  .mi-10columns-for-notebook,
+  .mi-11-columns-for-notebook,
+  .mi-12-columns-for-notebook,
   .mi-row-for-notebook,
-  .mi-rows-2-for-notebook,
-  .mi-rows-3-for-notebook,
-  .mi-rows-4-for-notebook,
-  .mi-rows-5-for-notebook,
-  .mi-rows-6-for-notebook,
-  .mi-rows-7-for-notebook,
-  .mi-rows-8-for-notebook,
-  .mi-rows-9-for-notebook,
-  .mi-rows-10-for-notebook {
+  .mi-2-rows-for-notebook,
+  .mi-3-rows-for-notebook,
+  .mi-4-rows-for-notebook,
+  .mi-5-rows-for-notebook,
+  .mi-6-rows-for-notebook,
+  .mi-7-rows-for-notebook,
+  .mi-8-rows-for-notebook,
+  .mi-9-rows-for-notebook,
+  .mi-10-rows-for-notebook {
     display: grid;
   }
   .mi-column-for-notebook {
     grid-template-columns: 1fr;
   }
-  .mi-columns-2-for-notebook {
+  .mi-2-columns-for-notebook {
     grid-template-columns: repeat(2,1fr);
   }
-  .mi-columns-3-for-notebook {
+  .mi-3-columns-for-notebook {
     grid-template-columns: repeat(3,1fr);
   }
-  .mi-columns-4-for-notebook {
+  .mi-4-columns-for-notebook {
     grid-template-columns: repeat(4,1fr);
   }
-  .mi-columns-5-for-notebook {
+  .mi-5-columns-for-notebook {
     grid-template-columns: repeat(5,1fr);
   }
-  .mi-columns-6-for-notebook {
+  .mi-6-columns-for-notebook {
     grid-template-columns: repeat(6,1fr);
   }
-  .mi-columns-7-for-notebook {
+  .mi-7-columns-for-notebook {
     grid-template-columns: repeat(7,1fr);
   }
-  .mi-columns-8-for-notebook {
+  .mi-8-columns-for-notebook {
     grid-template-columns: repeat(8,1fr);
   }
-  .mi-columns-9-for-notebook {
+  .mi-9-columns-for-notebook {
     grid-template-columns: repeat(9,1fr);
   }
-  .mi-columns-10-for-notebook {
+  .mi-10-columns-for-notebook {
     grid-template-columns: repeat(10,1fr);
   }
-  .mi-columns-11-for-notebook {
+  .mi-11-columns-for-notebook {
     grid-template-columns: repeat(11,1fr);
   }
-  .mi-columns-12-for-notebook {
+  .mi-12-columns-for-notebook {
     grid-template-columns: repeat(12,1fr);
   }
 
   .mi-row-for-notebook {
     grid-template-rows: 1fr; 
   }
-  .mi-rows-2-for-notebook {
+  .mi-2-rows-for-notebook {
     grid-template-rows: repeat(2,1fr);
   }
-  .mi-rows-3-for-notebook {
+  .mi-3-rows-for-notebook {
     grid-template-rows: repeat(3,1fr);
   }
-  .mi-rows-4-for-notebook {
+  .mi-4-rows-for-notebook {
     grid-template-rows: repeat(4,1fr);
   }
-  .mi-rows-5-for-notebook {
+  .mi-5-rows-for-notebook {
     grid-template-rows: repeat(5,1fr);
   }
-  .mi-rows-6-for-notebook {
+  .mi-6-rows-for-notebook {
     grid-template-rows: repeat(6,1fr);
   }
-  .mi-rows-7-for-notebook {
+  .mi-7-rows-for-notebook {
     grid-template-rows: repeat(7,1fr);
   }
-  .mi-rows-8-for-notebook {
+  .mi-8-rows-for-notebook {
     grid-template-rows: repeat(8,1fr);
   }
-  .mi-rows-9-for-notebook {
+  .mi-9-rows-for-notebook {
     grid-template-rows: repeat(9,1fr);
   }
-  .mi-rows-10-for-notebook {
+  .mi-10-rows-for-notebook {
     grid-template-rows: repeat(10,1fr);
   }
 
 }
 
 @media only screen and (max-width: 768px) {
+  
   .mi-column-for-tablet,
-  .mi-columns-2-for-tablet,
-  .mi-columns-3-for-tablet,
-  .mi-columns-4-for-tablet,
-  .mi-columns-5-for-tablet,
-  .mi-columns-6-for-tablet,
-  .mi-columns-7-for-tablet,
-  .mi-columns-8-for-tablet,
-  .mi-columns-9-for-tablet,
-  .mi-columns-10-for-tablet,
-  .mi-columns-11-for-tablet,
-  .mi-columns-12-for-tablet,
+  .mi-2-columns-for-tablet,
+  .mi-3-columns-for-tablet,
+  .mi-4-columns-for-tablet,
+  .mi-5-columns-for-tablet,
+  .mi-6-columns-for-tablet,
+  .mi-7-columns-for-tablet,
+  .mi-8-columns-for-tablet,
+  .mi-9-columns-for-tablet,
+  .mi-10columns-for-tablet,
+  .mi-11-columns-for-tablet,
+  .mi-12-columns-for-tablet,
   .mi-row-for-tablet,
-  .mi-rows-2-for-tablet,
-  .mi-rows-3-for-tablet,
-  .mi-rows-4-for-tablet,
-  .mi-rows-5-for-tablet,
-  .mi-rows-6-for-tablet,
-  .mi-rows-7-for-tablet,
-  .mi-rows-8-for-tablet,
-  .mi-rows-9-for-tablet,
-  .mi-rows-10-for-tablet {
+  .mi-2-rows-for-tablet,
+  .mi-3-rows-for-tablet,
+  .mi-4-rows-for-tablet,
+  .mi-5-rows-for-tablet,
+  .mi-6-rows-for-tablet,
+  .mi-7-rows-for-tablet,
+  .mi-8-rows-for-tablet,
+  .mi-9-rows-for-tablet,
+  .mi-10-rows-for-tablet {
     display: grid;
   }
   .mi-column-for-tablet {
     grid-template-columns: 1fr;
   }
-  .mi-columns-2-for-tablet {
+  .mi-2-columns-for-tablet {
     grid-template-columns: repeat(2,1fr);
   }
-  .mi-columns-3-for-tablet {
+  .mi-3-columns-for-tablet {
     grid-template-columns: repeat(3,1fr);
   }
-  .mi-columns-4-for-tablet {
+  .mi-4-columns-for-tablet {
     grid-template-columns: repeat(4,1fr);
   }
-  .mi-columns-5-for-tablet {
+  .mi-5-columns-for-tablet {
     grid-template-columns: repeat(5,1fr);
   }
-  .mi-columns-6-for-tablet {
+  .mi-6-columns-for-tablet {
     grid-template-columns: repeat(6,1fr);
   }
-  .mi-columns-7-for-tablet {
+  .mi-7-columns-for-tablet {
     grid-template-columns: repeat(7,1fr);
   }
-  .mi-columns-8-for-tablet {
+  .mi-8-columns-for-tablet {
     grid-template-columns: repeat(8,1fr);
   }
-  .mi-columns-9-for-tablet {
+  .mi-9-columns-for-tablet {
     grid-template-columns: repeat(9,1fr);
   }
-  .mi-columns-10-for-tablet {
+  .mi-10-columns-for-tablet {
     grid-template-columns: repeat(10,1fr);
   }
-  .mi-columns-11-for-tablet {
+  .mi-11-columns-for-tablet {
     grid-template-columns: repeat(11,1fr);
   }
-  .mi-columns-12-for-tablet {
+  .mi-12-columns-for-tablet {
     grid-template-columns: repeat(12,1fr);
   }
 
   .mi-row-for-tablet {
     grid-template-rows: 1fr; 
   }
-  .mi-rows-2-for-tablet {
+  .mi-2-rows-for-tablet {
     grid-template-rows: repeat(2,1fr);
   }
-  .mi-rows-3-for-tablet {
+  .mi-3-rows-for-tablet {
     grid-template-rows: repeat(3,1fr);
   }
-  .mi-rows-4-for-tablet {
+  .mi-4-rows-for-tablet {
     grid-template-rows: repeat(4,1fr);
   }
-  .mi-rows-5-for-tablet {
+  .mi-5-rows-for-tablet {
     grid-template-rows: repeat(5,1fr);
   }
-  .mi-rows-6-for-tablet {
+  .mi-6-rows-for-tablet {
     grid-template-rows: repeat(6,1fr);
   }
-  .mi-rows-7-for-tablet {
+  .mi-7-rows-for-tablet {
     grid-template-rows: repeat(7,1fr);
   }
-  .mi-rows-8-for-tablet {
+  .mi-8-rows-for-tablet {
     grid-template-rows: repeat(8,1fr);
   }
-  .mi-rows-9-for-tablet {
+  .mi-9-rows-for-tablet {
     grid-template-rows: repeat(9,1fr);
   }
-  .mi-rows-10-for-tablet {
+  .mi-10-rows-for-tablet {
     grid-template-rows: repeat(10,1fr);
   }
   
 }
 
 @media only screen and (max-width: 575px) {
+  
   .mi-column-for-mobile,
-  .mi-columns-2-for-mobile,
-  .mi-columns-3-for-mobile,
-  .mi-columns-4-for-mobile,
-  .mi-columns-5-for-mobile,
-  .mi-columns-6-for-mobile,
-  .mi-columns-7-for-mobile,
-  .mi-columns-8-for-mobile,
-  .mi-columns-9-for-mobile,
-  .mi-columns-10-for-mobile,
-  .mi-columns-11-for-mobile,
-  .mi-columns-12-for-mobile,
+  .mi-2-columns-for-mobile,
+  .mi-3-columns-for-mobile,
+  .mi-4-columns-for-mobile,
+  .mi-5-columns-for-mobile,
+  .mi-6-columns-for-mobile,
+  .mi-7-columns-for-mobile,
+  .mi-8-columns-for-mobile,
+  .mi-9-columns-for-mobile,
+  .mi-10columns-for-mobile,
+  .mi-11-columns-for-mobile,
+  .mi-12-columns-for-mobile,
   .mi-row-for-mobile,
-  .mi-rows-2-for-mobile,
-  .mi-rows-3-for-mobile,
-  .mi-rows-4-for-mobile,
-  .mi-rows-5-for-mobile,
-  .mi-rows-6-for-mobile,
-  .mi-rows-7-for-mobile,
-  .mi-rows-8-for-mobile,
-  .mi-rows-9-for-mobile,
-  .mi-rows-10-for-mobile {
+  .mi-2-rows-for-mobile,
+  .mi-3-rows-for-mobile,
+  .mi-4-rows-for-mobile,
+  .mi-5-rows-for-mobile,
+  .mi-6-rows-for-mobile,
+  .mi-7-rows-for-mobile,
+  .mi-8-rows-for-mobile,
+  .mi-9-rows-for-mobile,
+  .mi-10-rows-for-mobile {
     display: grid;
   }
   .mi-column-for-mobile {
     grid-template-columns: 1fr;
   }
-  .mi-columns-2-for-mobile {
+  .mi-2-columns-for-mobile {
     grid-template-columns: repeat(2,1fr);
   }
-  .mi-columns-3-for-mobile {
+  .mi-3-columns-for-mobile {
     grid-template-columns: repeat(3,1fr);
   }
-  .mi-columns-4-for-mobile {
+  .mi-4-columns-for-mobile {
     grid-template-columns: repeat(4,1fr);
   }
-  .mi-columns-5-for-mobile {
+  .mi-5-columns-for-mobile {
     grid-template-columns: repeat(5,1fr);
   }
-  .mi-columns-6-for-mobile {
+  .mi-6-columns-for-mobile {
     grid-template-columns: repeat(6,1fr);
   }
-  .mi-columns-7-for-mobile {
+  .mi-7-columns-for-mobile {
     grid-template-columns: repeat(7,1fr);
   }
-  .mi-columns-8-for-mobile {
+  .mi-8-columns-for-mobile {
     grid-template-columns: repeat(8,1fr);
   }
-  .mi-columns-9-for-mobile {
+  .mi-9-columns-for-mobile {
     grid-template-columns: repeat(9,1fr);
   }
-  .mi-columns-10-for-mobile {
+  .mi-10-columns-for-mobile {
     grid-template-columns: repeat(10,1fr);
   }
-  .mi-columns-11-for-mobile {
+  .mi-11-columns-for-mobile {
     grid-template-columns: repeat(11,1fr);
   }
-  .mi-columns-12-for-mobile {
+  .mi-12-columns-for-mobile {
     grid-template-columns: repeat(12,1fr);
   }
 
   .mi-row-for-mobile {
     grid-template-rows: 1fr; 
   }
-  .mi-rows-2-for-mobile {
+  .mi-2-rows-for-mobile {
     grid-template-rows: repeat(2,1fr);
   }
-  .mi-rows-3-for-mobile {
+  .mi-3-rows-for-mobile {
     grid-template-rows: repeat(3,1fr);
   }
-  .mi-rows-4-for-mobile {
+  .mi-4-rows-for-mobile {
     grid-template-rows: repeat(4,1fr);
   }
-  .mi-rows-5-for-mobile {
+  .mi-5-rows-for-mobile {
     grid-template-rows: repeat(5,1fr);
   }
-  .mi-rows-6-for-mobile {
+  .mi-6-rows-for-mobile {
     grid-template-rows: repeat(6,1fr);
   }
-  .mi-rows-7-for-mobile {
+  .mi-7-rows-for-mobile {
     grid-template-rows: repeat(7,1fr);
   }
-  .mi-rows-8-for-mobile {
+  .mi-8-rows-for-mobile {
     grid-template-rows: repeat(8,1fr);
   }
-  .mi-rows-9-for-mobile {
+  .mi-9-rows-for-mobile {
     grid-template-rows: repeat(9,1fr);
   }
-  .mi-rows-10-for-mobile {
+  .mi-10-rows-for-mobile {
     grid-template-rows: repeat(10,1fr);
   }
   

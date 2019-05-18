@@ -1,77 +1,62 @@
 .mi-header {
   color: var(--success-color);
-  background-image: var(--header-background-image);
+  background-image: var(--header-desktop-background-image);
   background-repeat: no-repeat;
-  background-size: auto 118.5%;
-  background-position: center top;
-  min-height: 31.85vw;
+  background-size: 100% auto;
+  background-position: center bottom;
   margin: 0;
   padding-top: 5.85vw;
+  min-height: 36.5vw;
+}
+
+.mi-header h1, .mi-header h2 {
+  font-weight: 500;
+  padding: 0;
 }
 
 .mi-header h1 {
-  font-size: 2.9vw;
-  font-weight: 500;
+  margin: 0;
+  font-size: 5vw;
 }
 
 .mi-header h2 {
-  font-size: 1.3vw;
-  font-weight: 400;
-}
-
-.mi-header h3 {
-  font-size: 1.2vw;
-  margin-top: .05rem;
-  font-weight: 400;
+  margin: .3rem 0 0 0;
+  font-size: 2vw;
 }
 
 @media only screen and (max-width: 991px) {
 
-  .mi-header h1 {
-    font-size: 3.2vw;
-  }
-
-  .mi-header h2 {
-    font-size: 1.5vw;
-  }
-
-  .mi-header h3 {
-    font-size: 1.3vw;
+  .mi-header {
+    background-image: var(--header-notebook-background-image);
   }
 
 }
 
 @media only screen and (max-width: 768px) {
+
+  .mi-header {
+    background-image: var(--header-tablet-background-image);
+  }
+
 }
 
 @media only screen and (max-width: 575px) {
-  .mi-header {
-    background-color: #FBF5F5;
-    background-image: var(--header-mobile-background-image);
-    background-size: auto 17vw;
-    background-position: 76vw 14vw;
-    min-height: 39vw;
-    padding-top: 10.85vw;
-    align-items: start;
-    border-bottom: 1px solid var(--gray-color);
-  }
 
-  .mi-header h1, .mi-header h2, .mi-header h3 {
-    padding: .1rem 1.2rem;
-    margin-left: .4rem;
+  .mi-header {
+    background-image: var(--header-mobile-background-image);
+    background-color: #f8f3f5;
+    min-height: 60vw;
   }
 
   .mi-header h1 {
-    margin-top: 1rem;
-    font-size: 3.2vw;
+    margin-top: 12vw;
+    font-size: 7vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
   }
 
   .mi-header h2 {
-    font-size: 2.8vw;
-  }
-
-  .mi-header h3 {
-    font-size: 2.6vw;
+    font-size: 2.5vw;
   }
 
 }

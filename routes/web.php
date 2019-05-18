@@ -17,9 +17,7 @@ Route::get('/', 'WelcomeController@welcome')->name('welcome')->name('welcome');
 
 Route::get('/conditions', 'WelcomeController@conditions')->name('conditions');
 
-Route::get('/mission', function (Request $request) {
-    return view('mission');
-})->name('mission');
+Route::get('/mission', 'MissionController@index')->name('mission');
 
 Auth::routes();
 

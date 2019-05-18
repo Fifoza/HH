@@ -1,4 +1,4 @@
-<footer class="mi-footer mi-columns-4-for-desktop mi-columns-2-for-notebook mi-columns-2-for-tablet mi-column-for-mobile mi-gap-1-for-desktop mi-gap-2-for-tablet mi-gap-0-for-mobile">
+<footer class="mi-footer mi-4-columns-for-desktop mi-2-columns-for-notebook mi-2-columns-for-tablet mi-column-for-mobile mi-1-gap-for-desktop mi-2-gap-for-tablet mi-0-gap-for-mobile">
 
     <ul>
         <h3>Контакти</h3>

@@ -1,25 +1,3 @@
-:root {
-  --primary-color: #092514;
-  --primary-hover-color: #004E1F;
-  --success-color: #6dbf1c;
-  --success-hover-color: #A2F352;
-  --warning-color: #FF8607;
-  --warning-hover-color: #FEB22E;
-  --danger-color: #FF0048;
-  --danger-hover-color: #D11159;
-  --info-color: #00D6C7;
-  --info-hover-color: #7AEFE7;
-  --white-color: #ffffff;
-  --gray-color: #ccc;
-  --rem: 16px;
-  --nav-height: 3.25rem;
-  --header-background-image: url(../../images/Creativni-1520.jpg);
-  --header-mobile-background-image: url(../../images/Butterfly-DarkGreen.png);
-  --main-background-image: url(../../images/Background-new6.jpg);
-  --btn-nav-max-height: 3.2vw;
-  --footer-gap: 3rem;
-}
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
 
 * {
