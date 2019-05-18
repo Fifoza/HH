@@ -26,6 +26,7 @@ body {
 
     h5 {
         font-size: 1rem;
+        text-align: center;
     }
 
     a {
@@ -869,13 +870,14 @@ body #main #footer #thirthCol li a:hover {
         margin-top: 2rem;
         width: 515px;
         margin-left: 3.5rem;
+        height: 300px;
     }
 
     #leftGreenButterfy {
         width: 130px;
         height: 130px;
         position: absolute;
-        top: 164rem;
+        top: 171rem;
     }
 
     body #main #adsContainer {
@@ -947,6 +949,11 @@ body #main #footer #thirthCol li a:hover {
 
     body #main #mainContainer .col-sm-4 {
         margin-bottom: 0rem;
+    }
+    body h5 {
+        font-size: 1rem;
+        text-align: center;
+
     }
 }
 
@@ -1676,6 +1683,14 @@ body #main #footer #thirthCol li a:hover {
     #greenButterfy {
         display: none;
     }
+
+    body h5{
+        text-align: center;
+    }
+    body #main #mainContainer #leftSide h2 {
+       text-align: center;
+    }
+    
 }
 
 
@@ -1794,6 +1809,7 @@ body #main #footer #thirthCol li a:hover {
 
     #mainContainer {
         display: block;
+       
     }
 
     body #mobilContainer {
@@ -1911,6 +1927,32 @@ body #main #footer #thirthCol li a:hover {
     body h5 {
         font-size: 14px;
         text-align: center;
+    }
+    body #main #mainContainer #leftSide h2:nth-child(2){
+        margin-right: 0rem;
+    }
+    body #main #mainContainer #leftSide a.btn {
+        margin-top: 0rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    body #main #gallery #stayPicture {
+        width: 335px;
+        margin-left: 2.5rem;
+        margin-bottom: 3rem;
+        height: 220px;
+    }
+    body .hovereffect img {
+        display: block;
+        position: relative;
+        -webkit-transition: all 0.4s ease-in;
+        transition: all 0.4s ease-in;
+        width: 125px;
+        height: 150px;
+    }
+    body #main #mainContainer {
+        padding-bottom: 0rem;
+        margin-bottom: rem;
     }
 }
 
