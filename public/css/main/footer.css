@@ -73,6 +73,10 @@
   .mi-footer input[type='email'] {
     font-size: 1rem;
   }
+  
+  .mi-footer > ul:nth-last-child(-n+2) {
+    border-bottom: 0;
+  }
 
 }
 @media only screen and (max-width: 768px) {
@@ -89,9 +93,11 @@
   .mi-footer > ul:first-child {
     margin-top: calc(var(--footer-gap,.2rem) / 3 * 1.5);
   }
+  .mi-footer > ul:nth-last-child(2){
+    border-bottom: 1px solid rgba(255, 255, 255, .1) !important;
+  }
   .mi-footer > ul:last-child {
     margin-right: calc(var(--footer-gap,.2rem) / 2);
     margin-left: calc(var(--footer-gap,.2rem) / 2);
-    border-bottom: 0;
   }
 }
