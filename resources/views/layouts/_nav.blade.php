@@ -88,7 +88,7 @@
             <form>
                 <input class="mi-search-input-nav" type="search" placeholder="Търсене..." name="search">
                 <button class="mi-search-button-nav" type="submit">
-                    <span>&#x2315;</span>
+                    <span><i class="fa fa-search"></i></span>
                 </button>
             </form>
         </li>
