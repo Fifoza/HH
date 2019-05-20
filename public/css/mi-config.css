@@ -13,10 +13,10 @@
   --gray-color: #ccc;
   --rem: 16px;
   --nav-height: 3.25rem;
-  --header-desktop-background-image: url(../../images/Creativni1280.jpg);
-  --header-notebook-background-image: url(../../images/Creativni990.jpg);
-  --header-tablet-background-image: url(../../images/Creativni767.jpg);
-  --header-mobile-background-image: url(../../images/Creativni575.jpg);
+  --header-desktop-background-image: url(../../images/DarkGreenHeader1280.jpg);
+  --header-notebook-background-image: url(../../images/DarkGreenHeader990.jpg);
+  --header-tablet-background-image: url(../../images/DarkGreenHeader760.jpg);
+  --header-mobile-background-image: url(../../images/DarkGreenHeader575.jpg);
   --main-background-image: url(../../images/Background-new6.jpg);
   --btn-nav-max-height: 3.2vw;
   --footer-gap: 3rem;

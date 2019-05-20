@@ -1,11 +1,12 @@
 .mi-header {
+  background-color: #f8f3f5;
   color: var(--success-color);
   background-image: var(--header-desktop-background-image);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center bottom;
   margin: 0;
-  padding-top: 5.85vw;
+  padding-top: 9.85vw;
   min-height: 36.5vw;
 }
 
@@ -44,7 +45,6 @@
 
   .mi-header {
     background-image: var(--header-mobile-background-image);
-    background-color: #f8f3f5;
     min-height: 60vw;
   }
 
