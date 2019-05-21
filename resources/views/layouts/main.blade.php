@@ -16,9 +16,9 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{{ URL::asset('css/main/index.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/mi-config.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/mi.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/main/index.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/main/nav.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/main/header.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/main/footer.css') }}">
